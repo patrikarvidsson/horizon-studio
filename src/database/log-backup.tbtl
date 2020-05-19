@@ -1,0 +1,1624 @@
+export const raw = `
+DATE        CODE  TERM                  DETAILS
+2020-02-12  -341  Grace                 Summarizing interview data      
+2020-02-12  -364  TF2Mixup      		Building website with Zola
+2020-02-11  -343  Grace	                Summarizing interview data
+2020-02-10  -262  TF2Mixup              Redesign
+2020-02-10  -344  Grace	                Summarizing interview data
+2020-02-09  -322  Horizon               Exploring Zola and Rust
+2020-02-09  -352  Horizon               Refactor stats page
+2020-02-09  -363  Caroline Jonasén      Refactor website
+2020-02-08  -342  Grace                 Interviews
+2020-02-07  -343  Grace                 Interviews
+2020-02-06  -344  Grace                 Interviews
+2020-02-05  -331  Horizon               Maintenance
+2020-02-05  -343  Grace                 Interviews
+2020-02-04  -342  Grace                 Summarizing remote interviews
+2020-02-03  -348  Grace                 Performing interviews in Gothenburg
+2020-02-02  -342  Grace                 Preparing interviews
+2020-02-01  -341  Grace                 Preparing interviews
+2020-01-31  -342  Grace                 Preparing interviews
+2020-01-30  -342  Grace                 Preparing interviews
+2020-01-29  -343  Grace                 Preparing interviews
+2020-01-28  -345  Grace                 Preparing interviews
+2020-01-27  -342  Grace                 Preparing interviews
+2020-01-26  -301  HealthWorks           Adjusting SPF records for mail delivery
+2020-01-26  -322  Horizon               Creating shop pages
+2020-01-25  -321  Horizon               Creating shop pages
+2020-01-24  -301  Horizon               Adding missing hours
+2020-01-23  -341  Grace                 Preparing interviews
+2020-01-22  -343  Grace                 Preparing interviews and typeform
+2020-01-21  -344  Grace                 Preparing interviews, browsing for inspiration
+2020-01-20  -342  Grace                 Backend onboarding and planning UX research of alpha
+2020-01-20  -302  Horizon               Adding some hours from Toggl
+2020-01-19  -352  Horizon               Adding graphs to stats page
+2020-01-19  -301  BeautyRelax           Reviewing texts for website
+2020-01-19  -331  Horizon               Meeting about new stats page, adding cases, changing copy
+2020-01-18  -321  Horizon               Investigating static html possibilities and removing service worker
+2020-01-16  -201  Grace                 Meeting and planning for 2020 
+2020-01-15  -343  Horizon               Outlining SVG graphs with Christoffer
+2020-01-15  -331  Horizon               Updating copy on projects
+2020-01-14  -352  Horizon               Refactoring stats page
+2020-01-13  -331  Horizon               Updating copy on wiki
+2020-01-12  -331  Horizon               Cleaning code on Stats-page
+2020-01-12  -371  Horizon
+2020-01-10  -331  Horizon
+2020-01-10  -331  Aktieutdelningar
+2020-01-09  -365  Horizon
+2020-01-08  -361  Horizon
+2020-01-08  -262  Horizon
+2020-01-08  -331  BeautyRelax
+2020-01-07  -331  Horizon
+2020-01-07  -332  Aktieutdelningar
+2020-01-07  -331  New Media
+2020-01-07  -331  BeautyRelax
+2019-12-30  -268  Eve Adam
+2019-12-29  -265  Eve Adam
+2019-12-29  -331  Aktieutdelningar
+2019-12-28  -269  Eve Adam
+2019-12-27  -252  Eve Adam
+2019-12-26  -252  Eve Adam
+2019-12-26  -224  Eve Adam     
+2019-12-25  -366  Horizon
+2019-12-25  -332  Horizon
+2019-12-24  -355  Horizon
+2019-12-23  -242  Eve Adam
+2019-12-23  -262  Eve Adam
+2019-12-18  -262  Eve Adam
+2019-12-18  -352  HealthWorks
+2019-12-17  -263  Eve Adam
+2019-12-16  -263  Eve Adam
+2019-12-15  -362  Caroline Jonasén
+2019-12-14  -363  Caroline Jonasén
+2019-12-14  -261  Eve Adam
+2019-12-13  -361  Horizon
+2019-12-13  -223  Eve Adam
+2019-12-12  -301  Study                 React
+2019-12-12  -362  Horizon
+2019-12-12  -222  Eve Adam
+2019-12-11  -362  Horizon
+2019-12-11  -222  Eve Adam
+2019-12-10  -363  Horizon
+2019-12-10  -222  Eve Adam
+2019-12-09  -362  Horizon
+2019-12-09  -222  Eve Adam
+2019-12-08  -362  Horizon
+2019-12-07  -361  Horizon
+2019-12-07  -223  Eve Adam
+2019-12-06  -361  Horizon               Building new site on clean Gatsby
+2019-12-05  -362  Horizon               Building new site on clean Gatsby
+2019-12-04  -362  Horizon               Building new site on clean Gatsby
+2019-12-04  -222  Eve Adam              New startpage
+2019-12-03  -222  Eve Adam              New startpage
+2019-12-02  -224  Eve Adam              New startpage
+2019-12-01  -264  Grace                 
+2019-12-01  -341  Aktieutdelningar
+2019-11-30  -265  Eve Adam              Initial user journey
+2019-11-29  -341  Aktieutdelningar
+2019-11-29  -262  Eve Adam              Initial user journey
+2019-11-28  -261  Eve Adam              Initial user journey
+2019-11-27  -263  Eve Adam              Initial user journey
+2019-11-26  -265  Eve Adam              Initial user journey
+2019-11-25  -263  Eve Adam              Initial user journey
+2019-11-23  -354  Elin Kero             Building shop pages
+2019-11-21  -221  Eve Adam              New startpage
+2019-11-20  -262  Eve Adam              Medical questionnaire USA, onboarding
+2019-11-19  -265  Eve Adam              Medical questionnaire USA, onboarding
+2019-11-18  -263  Eve Adam              Medical questionnaire Usa, onboarding
+2019-11-17  -269  Eve Adam              Medical questionnaire USA, onboarding
+2019-11-16  -266  Eve Adam              Medical questionnaire USA, onboarding
+2019-11-14  -262  Eve Adam              Medical questionnaire USA, onboarding
+2019-11-13  -262  Eve Adam              Medical questionnaire USA, payment options, create password             
+2019-11-12  -263  Eve Adam              Medical questionnaire USA, onboarding, log in, sign up, create password
+2019-11-08  -261  Eve Adam              Medical questionnaire USA
+2019-11-07  -262  Eve Adam              Medical questionnaire USA
+2019-11-06  -263  Eve Adam              Medical questionnaire USA
+2019-11-05  -265  Eve Adam              Medical questionnaire USA
+2019-11-04  -262  Eve Adam              Medical questionnaire USA
+2019-11-03  -265  Eve Adam              Onboarding screens
+2019-11-02  -265  Eve Adam              Log in and sign up screens
+2019-11-01  -261  Eve Adam              Log in and sign up screens
+2019-10-31  -262  Eve Adam              Onboarding screens, header and footer
+2019-10-30  -261  Eve Adam              Medical questionnaire USA
+2019-10-29  -262  Grace
+2019-10-28  -261  Grace
+2019-10-27  -261  Grace
+2019-10-27  -353  Elin Kero             Fix note from meeting 2019-10-19
+2019-10-27  -353  Elin Kero             Building shop pages
+2019-10-25  -261  Grace
+2019-10-20  -261  Grace
+2019-10-15  -323  Horizon
+2019-10-14  -324  Horizon
+2019-10-14  -262  Grace
+2019-10-13  -262  Grace
+2019-10-12  -263  Grace
+2019-10-12  -303  Study                 Javascript
+2019-10-11  -313  Horizon
+2019-10-11  -343  HealthWorks
+2019-10-11  -262  Grace
+2019-10-10  -261  Grace
+2019-10-09  -263  Grace
+2019-10-08  -344  Design                User Experience
+2019-10-07  -262  Grace
+2019-10-07  -352  Elin Kero
+2019-10-07  !344  Design                User Experience
+2019-10-07  -371  Routine               Documentation
+2019-10-06  -352  Elin Kero
+2019-10-06  -261  Horizon               Tailwind            
+2019-10-06  -371  Horizon               Documentation
+2019-10-06  -372  Projects              Documentation
+2019-10-05  -323  Horizon
+2019-10-05  -335  Horizon
+2019-10-05  -242  Grace
+2019-10-04  -262  Grace
+2019-10-03  +391  Events                Subscribed by Zuora
+2019-10-03  -352  Elin Kero
+2019-10-02  -263  Grace
+2019-10-01  -223  Grace
+2019-09-30  -363  Elin Kero
+2019-09-29  -337  Horizon
+2019-09-28  -336  Horizon
+2019-09-27  -364  Cidien
+2019-09-26  -341  Grace
+2019-09-25  -342  Grace
+2019-09-20  -341  Ebeco
+2019-09-14  -365  Charlotte Beijer
+2019-09-13  -363  Charlotte Beijer
+2019-09-12  -361  Charlotte Beijer
+2019-09-11  -366  Charlotte Beijer
+2019-09-03  -341  HealthWorks
+2019-09-02  +000  Switzerland           Travel to Zurich
+2019-08-31  -331  Aktieutdelningar
+2019-08-31  -354  Cookie Tempura
+2019-08-30  -333  Aktieutdelningar
+2019-08-30  -353  Cookie Tempura
+2019-08-29  -354  Cookie Tempura
+2019-08-28  -351  Cookie Tempura
+2019-08-27  -253  Eve Adam
+2019-08-26  -252  Eve Adam
+2019-08-25  -251  Eve Adam
+2019-08-23  +000  Spain                 Travel to Alicante
+2019-08-21  -258  Eve Adam
+2019-08-20  -256  Eve Adam
+2019-08-19  -256  Eve Adam
+2019-08-18  -264  Eve Adam
+2019-08-17  -266  Eve Adam
+2019-08-16  -261  Eve Adam
+2019-08-15  -261  Eve Adam
+2019-08-13  -262  Eve Adam
+2019-08-12  -264  Eve Adam
+2019-08-11  -267  Eve Adam
+2019-08-10  -269  Eve Adam
+2019-08-09  -263  Eve Adam
+2019-08-07  -241  Eve Adam
+2019-08-07  -262  Eve Adam
+2019-08-06  -264  Eve Adam
+2019-08-04  -251  Eve Adam
+2019-08-02  -265  Eve Adam
+2019-08-01  -255  Eve Adam
+2019-07-31  -267  Eve Adam
+2019-07-30  -263  Eve Adam
+2019-07-20  -264  Eve Adam
+2019-07-19  -263  Eve Adam
+2019-07-18  -262  Eve Adam
+2019-07-17  -262  Eve Adam
+2019-07-15  -261  Eve Adam
+2019-07-15  -263  SSRS
+2019-07-09  -261  Eve Adam
+2019-07-08  -266  Eve Adam
+2019-07-07  -265  Eve Adam
+2019-07-06  -263  Eve Adam
+2019-07-05  -262  Eve Adam
+2019-07-04  -261  Eve Adam
+2019-06-16  -266  Eve Adam
+2019-05-27  -323  HealthWorks           Website
+2019-05-27  +000  Spain                 Travel to Alicante
+2019-05-26  -325  HealthWorks           Website
+2019-05-25  -325  Horizon               Tailwind
+2019-05-22  -341  BeautyRelax
+2019-05-21  -342  HealthWorks
+2019-05-14  -262  Eve Adam              Eden
+2019-05-08  -263  Eve Adam
+2019-05-07  -265  Eve Adam              Eden
+2019-05-06  -263  Eve Adam              Eden
+2019-05-05  -258  Eve Adam
+2019-05-04  -256  Eve Adam
+2019-05-03  +398  Events                From Business to Buttons
+2019-05-02  -261  Eve Adam              Eden
+2019-05-01  -343  By Lang
+2019-04-30  -324  TF2Mixup
+2019-04-29  -261  Eve Adam              Eden
+2019-04-28  -263  Eve Adam              Eden
+2019-04-28  -263  Eve Adam
+2019-04-27  -343  HealthWorks
+2019-04-26  -322  TF2Mixup
+2019-04-25  -324  TF2Mixup
+2019-04-24  -334  HealthWorks           Compliance
+2019-04-23  -312  TF2Mixup
+2019-04-22  -367  Horizon               Tailwind
+2019-04-21  -324  Horizon               Tailwind
+2019-04-20  -325  Horizon               Tailwind
+2019-04-19  -267  Eve Adam
+2019-04-17  -311  Study                 React
+2019-04-16  -314  Study                 React
+2019-04-15  -264  Eve Adam
+2019-04-14  -336  Horizon               Maintenance
+2019-04-13  -337  Horizon               Maintenance
+2019-04-12  -264  Mockup Generator
+2019-04-11  +356  Horaire               Started Journaling
+2019-04-07  -263  Eve Adam
+2019-04-06  -262  Eve Adam
+2019-04-04  -265  Eve Adam
+2019-04-02  -262  Eve Adam
+2019-03-29  -266  HealthWorks           Design
+2019-03-29  -267  HealthWorks
+2019-03-29  -262  Eve Adam
+2019-03-28  -262  Eve Adam
+2019-03-25  -264  Eve Adam
+2019-03-24  -222  Eve Adam
+2019-03-18  -341  HealthWorks
+2019-01-02  -342  HealthWorks
+2018-12-30  -266  Bit.Shop
+2018-12-29  -265  Bit.Shop
+2018-12-20  -255  Bit.Shop
+2018-12-19  -255  Bit.Shop
+2018-11-18  -267  Bit.Shop
+2018-11-17  -344  HealthWorks
+2018-11-14  -342  HealthWorks
+2018-11-12  -343  HealthWorks
+2018-11-12  -211  Bit.Shop     
+2018-11-11  -264  Bit.Shop
+2018-11-09  -261  Bit.Shop
+2018-11-07  -241  Bit.Shop
+2018-11-06  -373  HealthWorks
+2018-11-05  -373  HealthWorks
+2018-11-02  -375  HealthWorks
+2018-11-01  -262  Bit.Shop
+2018-10-31  -261  Bit.Shop
+2018-10-30  -263  Bit.Shop
+2018-10-29  -241  Bit.Shop
+2018-10-18  -244  Bit.Shop
+2018-10-17  -262  Bit.Shop
+2018-10-30  -374  HealthWorks
+2018-10-28  -364  New Media
+2018-10-22  -342  HealthWorks
+2018-10-19  -343  HealthWorks
+2018-10-13  -316  Scuba                 Cape Town
+2018-10-11  -261  Bit.Shop
+2018-10-10  -261  Bit.Shop
+2018-10-09  -278  Cape Town
+2018-10-09  -263  Bit.Shop
+2018-10-04  -262  Bit.Shop
+2018-10-02  !278  South Africa          Marloth Park
+2018-09-30  -341  Bit.Shop
+2018-09-28  +000  South Africa          Travel to Pretoria
+2018-09-28  -261  Bit.Shop
+2018-09-27  -263  Bit.Shop
+2018-09-26  -263  Bit.Shop
+2018-09-25  -261  Bit.Shop
+2018-09-21  -316  Scuba                 Malta
+2018-09-20  -316  Scuba                 Malta
+2018-09-19  -316  Scuba                 Malta
+2018-09-18  -316  Scuba                 Malta
+2018-09-17  -316  Scuba                 Malta
+2018-09-15  +000  Malta                 Travel to Malta
+2018-08-30  +000  Work                  Started working at Benify
+2018-08-12  -371  Jotex                 Campaign Generator
+2018-08-11  -261  Jotex                 Campaign Generator
+2018-08-10  -313  Horizon               Tailwind
+2018-08-09  -315  Wint
+2018-08-08  -313  Wint
+2018-08-07  -351  Whiteport
+2018-08-02  -371  Ecolyx
+2018-07-28  -261  Ecolyx
+2018-07-24  -341  HealthWorks
+2018-07-20  -361  New Media
+2018-07-15  -354  BeautyRelax
+2018-06-14  -317  Scuba                 Skopelos, Greece
+2018-06-12  -316  Scuba                 Skopelos, Greece
+2018-06-11  -316  Scuba                 Skopelos, Greece
+2018-06-10  -275  Northern Sporades     Skopelos
+2018-06-08  -261  Indoor Energy
+2018-06-05  -275  Greek mainland        Meteora
+2018-06-05  -261  Indoor Energy
+2018-06-02  -275  Greek mainland        Parga
+2018-06-01  -331  Ecolyx
+2018-05-31  -334  Ecolyx
+2018-05-30  -275  Greek mainland        Corfu
+2018-05-29  -333  Ecolyx
+2018-05-29  -251  Indoor Energy
+2018-05-28  -234  Indoor Energy
+2018-05-27  -333  Ecolyx
+2018-05-26  -255  Greek mainland        Athens
+2018-05-25  +275  Greece                Travel to Athens
+2018-05-23  -341  HealthWorks
+2018-05-07  -315  Horizon               Tailwind
+2018-05-06  -313  Horizon               Tailwind
+2018-05-05  -312  Horizon               Tailwind
+2018-05-02  -352  Destination
+2018-04-28  -352  Ecolyx
+2018-04-27  -211  Indoor Energy
+2018-04-26  -353  Ecolyx
+2018-04-25  -354  Ecolyx
+2018-04-24  -355  Ecolyx
+2018-04-23  -354  Ecolyx
+2018-04-22  -263  HealthWorks
+2018-04-21  -253  HealthWorks
+2018-04-21  -265  HealthWorks
+2018-04-20  -261  Treated
+2018-04-19  -261  Indoor Energy
+2018-04-19  -234  Treated
+2018-04-18  -351  Ecolyx
+2018-04-17  -351  Ecolyx
+2018-04-15  -262  HealthWorks
+2018-04-11  -211  Indoor Energy
+2018-04-10  -211  Indoor Energy
+2018-04-09  -251  Indoor Energy
+2018-03-29  -264  Treated
+2018-03-28  -263  Treated
+2018-03-26  -253  Treated
+2018-03-20  -231  Indoor Energy
+2018-03-22  -263  Treated
+2018-03-21  -263  Treated
+2018-03-19  -212  Indoor Energy
+2018-03-16  -266  Treated
+2018-03-16  -261  Indoor Energy
+2018-03-15  -251  Treated
+2018-03-15  -211  Indoor Energy
+2018-03-14  -265  Treated
+2018-03-14  -261  Indoor Energy
+2018-03-13  -262  Treated
+2018-03-13  -211  Indoor Energy
+2018-03-09  -211  Indoor Energy
+2018-03-08  -263  Treated
+2018-03-07  -265  HealthWorks
+2018-03-06  -352  Destination
+2018-03-06  -251  Treated
+2018-03-05  -267  Treated
+2018-03-03  -262  Elin Kero
+2018-03-02  -268  Elin Kero
+2018-03-01  -211  Indoor Energy
+2018-02-28  -252  Indoor Energy
+2018-02-27  -265  Indoor Energy
+2018-02-22  -252  Indoor Energy
+2018-02-20  -263  HealthWorks
+2018-02-20  -211  Indoor Energy
+2018-02-19  -251  Treated
+2018-02-19  -265  Indoor Energy
+2018-02-19  -251  Ubermeds
+2018-02-18  -356  Destination
+2018-02-16  -211  Ubermeds
+2018-02-15  -251  Treated
+2018-02-15  -253  Ubermeds
+2018-02-14  -211  Ubermeds
+2018-02-14  -211  Ubermeds
+2018-02-13  -354  Destination
+2018-02-12  -261  Treated
+2018-02-09  -262  Treated
+2018-02-08  -263  Treated
+2018-02-08  -252  Treated
+2018-02-07  -262  Ubermeds
+2018-01-31  -261  Treated
+2018-01-27  -212  Ubermeds
+2018-01-26  -265  Jotex
+2018-01-25  -265  Jotex
+2018-01-24  -265  Jotex
+2018-01-23  -265  Jotex
+2018-01-22  -263  Treated
+2018-01-22  -265  Jotex
+2018-01-19  -265  Jotex
+2018-01-18  -265  Jotex
+2018-01-17  -251  Treated
+2018-01-17  -265  Jotex
+2018-01-16  -265  Jotex
+2018-01-15  -265  Jotex
+2018-01-14  -266  Treated
+2018-01-13  -253  Treated
+2018-01-12  -261  Indoor Energy
+2018-01-12  -265  Jotex
+2018-01-11  -265  Jotex
+2018-01-10  -265  Jotex
+2018-01-09  -251  Ubermeds
+2018-01-09  -265  Jotex
+2018-01-08  -262  Ubermeds
+2018-01-08  -265  Jotex
+2018-01-06  -262  Ubermeds
+2018-01-05  -265  Ubermeds
+2018-01-05  -211  Ubermeds
+2018-01-04  -212  Ubermeds
+2017-12-27  -262  Indoor Energy
+2017-12-22  -261  Ubermeds
+2017-12-22  -212  Ubermeds
+2017-12-20  -211  Ubermeds
+2017-12-18  -211  Indoor Energy
+2017-12-15  -265  Jotex
+2017-12-14  -264  Jotex
+2017-12-14  -211  Ubermeds
+2017-12-13  -265  Jotex
+2017-12-12  -265  Jotex
+2017-12-11  -265  Jotex
+2017-12-10  -263  Treated
+2017-12-08  -269  Indoor Energy
+2017-12-06  -261  Indoor Energy
+2017-12-04  -269  Indoor Energy
+2017-12-01  -212  Ubermeds
+2017-11-27  -212  Indoor Energy
+2017-11-26  -252  Indoor Energy
+2017-11-22  -254  Ubermeds
+2017-11-22  -241  Treated
+2017-11-16  -211  Indoor Energy
+2017-11-15  -262  Indoor Energy
+2017-11-11  -263  Indoor Energy
+2017-11-08  -263  Ubermeds
+2017-11-07  -262  Ubermeds
+2017-11-07  -252  Ubermeds
+2017-11-05  -261  Ubermeds
+2017-11-04  -262  Ubermeds
+2017-11-02  -263  Ubermeds
+2017-11-01  -254  Ubermeds
+2017-11-01  -263  Ubermeds
+2017-10-31  -261  Ubermeds
+2017-10-26  -251  Ubermeds
+2017-10-25  -211  Indoor Energy
+2017-10-24  -266  Ubermeds
+2017-10-23  -241  Ubermeds
+2017-10-20  -263  Indoor Energy
+2017-10-20  -263  Ubermeds
+2017-10-17  -252  Indoor Energy
+2017-10-13  -241  Ubermeds
+2017-10-13  -231  Indoor Energy
+2017-10-12  -263  Indoor Energy
+2017-10-11  -263  Indoor Energy
+2017-09-25  -323  Ubermeds
+2017-09-21  +000  Sweden                Moved to Gothenburg
+2017-09-19  -261  MoveM
+2017-09-18  -261  MoveM
+2017-09-17  -262  MoveM
+2017-09-16  -262  MoveM
+2017-07-14  -265  Jotex
+2017-07-13  -265  Jotex
+2017-07-12  -265  Jotex
+2017-07-11  -265  Jotex
+2017-07-10  -265  Jotex
+2017-07-07  -265  Jotex
+2017-07-06  -265  Jotex
+2017-07-05  -265  Jotex
+2017-07-04  -265  Jotex
+2017-07-03  -265  Jotex
+2017-06-30  -265  Jotex
+2017-06-29  -265  Jotex
+2017-06-28  -265  Jotex
+2017-06-27  -265  Jotex
+2017-06-26  -265  Jotex
+2017-06-16  -265  Jotex
+2017-06-15  -265  Jotex
+2017-06-14  -265  Jotex
+2017-06-13  -265  Jotex
+2017-06-12  -265  Jotex
+2017-06-09  -265  Jotex
+2017-06-08  -265  Jotex
+2017-06-07  -266  Jotex
+2017-05-12  -265  Jotex
+2017-05-11  -265  Jotex
+2017-05-10  -265  Jotex
+2017-05-09  -265  Jotex
+2017-05-08  -265  Jotex
+2017-05-05  -265  Jotex
+2017-05-04  -265  Jotex
+2017-05-03  -265  Jotex
+2017-05-02  -265  Jotex
+2017-04-28  -265  Jotex
+2017-04-27  -265  Jotex
+2017-04-26  -265  Jotex
+2017-04-25  -265  Jotex
+2017-04-24  -265  Jotex
+2017-04-21  -265  Jotex
+2017-04-20  -265  Jotex
+2017-04-19  -265  Jotex
+2017-04-18  -265  Jotex
+2017-04-03  -251  The Academy
+2017-03-31  -268  Jotex
+2017-03-30  -261  The Academy
+2017-03-30  -265  Jotex
+2017-03-29  -263  The Academy
+2017-03-29  -251  The Academy
+2017-03-29  -265  Jotex
+2017-03-28  -262  The Academy
+2017-03-28  -265  Jotex
+2017-03-27  -265  Jotex
+2017-03-24  -265  Jotex
+2017-03-23  -265  Jotex
+2017-03-22  -265  Jotex
+2017-03-21  -242  Renthia
+2017-03-21  -268  Jotex
+2017-03-20  -242  Renthia
+2017-03-20  -265  Jotex
+2017-03-17  -265  Jotex
+2017-03-16  -265  Jotex
+2017-03-15  -265  Jotex
+2017-03-14  -266  Jotex
+2017-03-13  -265  Jotex
+2017-03-13  -242  Renthia
+2017-03-10  -265  Jotex
+2017-03-09  -265  Jotex
+2017-03-08  -265  Jotex
+2017-03-07  -265  Jotex
+2017-03-06  -265  Jotex
+2017-03-05  -243  Renthia
+2017-03-04  -242  Renthia
+2017-03-03  -265  Jotex
+2017-03-02  -242  Renthia
+2017-03-02  -265  Jotex
+2017-03-01  -243  Renthia
+2017-03-01  -265  Jotex
+2017-02-27  -245  Renthia
+2017-02-27  -265  Jotex
+2017-02-24  -265  Jotex
+2017-02-23  -254  Renthia
+2017-02-23  -265  Jotex
+2017-02-22  -251  Renthia
+2017-02-22  -265  Jotex
+2017-02-21  -253  Renthia
+2017-02-21  -265  Jotex
+2017-02-17  -265  Jotex
+2017-02-15  -265  Jotex
+2017-02-14  -265  Jotex
+2017-02-13  -265  Jotex
+2017-02-12  -252  Pyret och Snäckan
+2017-02-10  -265  Jotex
+2017-02-08  -265  Jotex
+2017-02-07  -265  Jotex
+2017-02-06  -265  Jotex
+2017-02-03  -265  Jotex
+2017-02-02  -265  Jotex
+2017-02-01  -268  Jotex
+2017-01-31  -265  Jotex
+2017-01-30  -265  Jotex
+2017-01-27  -265  Jotex
+2017-01-26  -265  Jotex
+2017-01-25  -265  Jotex
+2017-01-24  -265  Jotex
+2017-01-23  -265  Jotex
+2017-01-21  -241  Axkid
+2017-01-21  -262  Jotex
+2017-01-20  -265  Jotex
+2017-01-19  -262  Jotex
+2017-01-18  -262  Axkid
+2017-01-18  -266  Jotex
+2017-01-17  -252  Axkid
+2017-01-17  -265  Jotex
+2017-01-16  -265  Jotex
+2017-01-15  -261  Jotex
+2017-01-14  -264  Jotex
+2017-01-13  -266  Jotex
+2017-01-12  -261  Jotex
+2017-01-11  -266  Jotex
+2017-01-10  -266  Jotex
+2017-01-09  -265  Jotex
+2017-01-05  -265  Jotex
+2017-01-04  -265  Jotex
+2017-01-03  -252  Axkid
+2017-01-03  -265  Jotex
+2016-12-10  -263  Axkid
+2016-12-09  -261  Axkid
+2016-12-08  -261  Axkid
+2016-12-08  -253  Axkid
+2016-12-01  -261  Axkid
+2016-11-28  -253  Axkid
+2016-11-27  -266  Axkid
+2016-11-26  -266  Axkid
+2016-11-17  -241  Renthia
+2016-11-16  -244  Renthia
+2016-11-15  -242  Renthia
+2016-11-07  -268  Billmate
+2016-09-26  -255  Birdie Golf Tours
+2016-09-25  -254  Birdie Golf Tours
+2016-09-22  -262  Birdie Golf Tours
+2016-09-22  -252  Birdie Golf Tours
+2016-09-21  -263  Birdie Golf Tours
+2016-09-21  -253  Birdie Golf Tours
+2016-09-20  -265  Birdie Golf Tours
+2016-09-20  -251  Birdie Golf Tours
+2016-09-19  -243  Birdie Golf Tours
+2016-09-15  -251  Birdie Golf Tours
+2016-09-15  -262  Birdie Golf Tours
+2016-09-14  -263  Birdie Golf Tours
+2016-09-14  -251  Birdie Golf Tours
+2016-09-06  -261  Axkid
+2016-09-05  -243  Birdie Golf Tours
+2016-09-04  -261  Birdie Golf Tours
+2016-08-31  -262  Axkid
+2016-08-30  -252  Birdie Golf Tours
+2016-08-24  -251  Mecenat
+2016-08-24  -263  Axkid
+2016-08-23  -263  Axkid
+2016-08-22  -262  Axkid
+2016-08-17  -242  Birdie Golf Tours
+2016-08-16  -244  Mecenat
+2016-08-16  -242  Birdie Golf Tours
+2016-08-15  -245  Mecenat
+2016-08-13  -247  Mecenat
+2016-08-12  -242  Mecenat
+2016-08-12  -248  Birdie Golf Tours
+2016-08-09  -243  Mecenat
+2016-08-09  -246  Birdie Golf Tours
+2016-08-08  -247  Mecenat
+2016-08-08  -242  Birdie Golf Tours
+2016-08-05  -241  Birdie Golf Tours
+2016-08-04  -248  Mecenat
+2016-08-03  -261  Axkid
+2016-08-01  -243  Mecenat
+2016-07-31  -243  Birdie Golf Tours
+2016-07-30  -243  Birdie Golf Tours
+2016-07-29  -241  Mecenat
+2016-07-29  -231  Birdie Golf Tours
+2016-07-27  -246  Mecenat
+2016-07-26  -245  Mecenat
+2016-07-26  -234  Birdie Golf Tours
+2016-07-21  -248  Mecenat
+2016-07-20  -242  Mecenat
+2016-07-18  -245  Mecenat
+2016-07-17  -242  Mecenat
+2016-07-17  -252  Axkid
+2016-07-16  -249  Mecenat
+2016-07-16  -262  Axkid
+2016-07-15  -247  Mecenat
+2016-07-13  -248  Mecenat
+2016-07-12  -263  Photowall
+2016-07-12  -244  Mecenat
+2016-07-11  -262  Photowall
+2016-07-08  -244  Mecenat
+2016-07-06  -245  Mecenat
+2016-07-05  -249  Mecenat
+2016-07-04  -243  Mecenat
+2016-07-03  -252  Axkid
+2016-07-01  -244  Mecenat
+2016-05-03  -251  HBI Paintball
+2016-05-03  -264  HBI Paintball
+2016-05-02  -265  HBI Paintball
+2016-05-01  -265  HBI Paintball
+2016-06-30  -243  Mecenat
+2016-06-29  -244  Mecenat
+2016-06-28  -242  Mecenat
+2016-06-28  -261  HBI Paintball
+2016-06-27  -243  Mecenat
+2016-06-25  -251  Axkid
+2016-06-24  -243  Mecenat
+2016-06-24  -251  Axkid
+2016-06-23  -244  Mecenat
+2016-06-23  -263  Axkid
+2016-06-22  -251  Photowall
+2016-06-20  -262  Axkid
+2016-06-15  -251  HBI Paintball
+2016-06-13  -261  HBI Paintball
+2016-06-11  -252  Photowall
+2016-06-11  -266  HBI Paintball
+2016-06-09  -261  Photowall
+2016-06-09  -262  Mecenat
+2016-06-09  -261  HBI Paintball
+2016-06-08  -261  HBI Paintball
+2016-06-07  -263  Photowall
+2016-06-02  -251  Photowall
+2016-05-06  -263  Träningspartner
+2016-05-05  -264  Träningspartner
+2016-05-04  -261  Träningspartner
+2016-04-29  -262  Träningspartner
+2016-04-26  +000  America               Travel to Los Angeles
+2016-04-21  -261  Träningspartner
+2016-04-19  -254  HBI Paintball
+2016-04-19  -265  Träningspartner
+2016-05-19  -242  Träningspartner
+2016-04-18  -263  Träningspartner
+2016-04-17  -261  HBI Paintball
+2016-04-17  -261  Träningspartner
+2016-04-16  -261  HBI Paintball
+2016-04-14  -261  HBI Paintball
+2016-04-13  -262  HBI Paintball
+2016-04-13  -261  Träningspartner
+2016-04-12  -261  HBI Paintball
+2016-04-12  -262  Träningspartner
+2016-04-09  -261  Träningspartner
+2016-04-08  -269  Träningspartner
+2016-04-07  -251  HBI Paintball
+2016-04-07  -262  Träningspartner
+2016-04-06  -265  HBI Paintball
+2019-04-06  -264  Träningspartner
+2019-04-06  -261  HBI Paintball
+2016-04-04  -262  HBI Paintball
+2016-04-04  -262  Träningspartner
+2016-04-01  -251  HBI Paintball
+2016-04-01  -242  HBI Paintball
+2016-03-31  -268  Träningspartner
+2016-03-30  -265  Träningspartner
+2016-03-29  -263  Träningspartner
+2016-03-28  -261  Träningspartner
+2016-03-25  -261  Träningspartner
+2016-03-12  -266  Photowall
+2016-03-11  -252  Photowall
+2016-03-11  -266  NowWhere
+2016-03-09  -261  NowWhere
+2016-03-08  +000  Cuba                  Travel to Varadero
+2016-03-03  -263  NowWhere
+2016-03-01  +000  Cuba                  Travel to Havana
+2016-02-28  -263  NowWhere
+2016-02-25  -261  Träningspartner
+2016-02-24  -261  Träningspartner
+2016-02-24  -243  Träningspartner
+2016-02-23  -268  Träningspartner
+2016-02-22  -251  Photowall
+2016-02-22  -263  Träningspartner
+2016-02-21  -253  Bythjul
+2016-02-18  -253  HBI Paintball
+2016-02-15  -263  Träningspartner
+2016-02-13  -242  Träningspartner
+2016-02-12  -262  NowWhere
+2016-02-12  -261  Träningspartner
+2016-02-11  -242  Träningspartner
+2016-02-10  -251  Photowall
+2016-02-10  -243  Träningspartner
+2016-02-10  -262  Träningspartner
+2016-02-09  -251  Photowall
+2016-02-09  -241  Träningspartner
+2016-02-09  -262  Träningspartner
+2016-02-08  -251  Photowall
+2016-02-07  -253  NowWhere
+2016-02-05  -231  Träningspartner
+2016-02-04  -263  NowWhere
+2016-02-04  -231  NowWhere
+2016-02-03  -261  Photowall
+2016-01-26  -262  Photowall
+2016-01-26  -244  Träningspartner
+2016-01-25  -261  Photowall
+2016-01-24  -251  Västtrafik Business
+2016-01-22  -251  Paylevo
+2016-01-20  -245  Paylevo
+2016-01-19  -231  NowWhere
+2016-01-18  -261  Västtrafik Business
+2016-01-14  -251  Västtrafik Business
+2016-01-14  -251  Photowall
+2016-01-14  -263  Paylevo
+2016-01-13  -233  Photowall
+2016-01-13  -261  Paylevo
+2016-01-12  -241  Paylevo
+2016-01-12  -261  Photowall
+2016-01-12  -263  Paylevo
+2016-01-11  -261  Photowall
+2016-01-11  -253  Photowall
+2016-01-11  -241  Paylevo
+2016-01-11  -261  Paylevo
+2016-01-08  -261  Västtrafik Business
+2016-01-08  -261  SweetPay
+2016-01-08  -244  Paylevo
+2016-01-06  -263  Paylevo
+2016-01-04  -251  Photowall
+2015-12-31  -261  SweetPay
+2015-12-26  -252  Paylevo
+2015-12-18  -243  Paylevo
+2015-12-17  -252  Paylevo
+2015-12-15  -251  SweetPay
+2015-12-14  -252  SweetPay
+2015-12-14  -252  Photowall
+2015-12-14  -261  Paylevo
+2015-12-12  -251  SweetPay
+2015-12-11  -251  Photowall
+2015-12-11  -263  Photowall
+2015-12-10  -261  Photowall
+2015-12-09  -242  Paylevo
+2015-12-09  -261  HBI Paintball
+2015-12-09  -251  Bythjul
+2015-12-08  -242  Paylevo
+2015-12-08  -261  HBI Paintball
+2015-12-08  -253  Bythjul
+2015-12-08  -261  Bythjul
+2015-12-08  -262  Paylevo
+2015-12-08  -241  Paylevo
+2015-12-07  -251  Photowall
+2015-12-07  -244  Paylevo
+2015-12-06  -251  Bythjul
+2015-12-06  -251  Paylevo
+2015-12-05  -252  Paylevo
+2015-12-04  -262  Paylevo
+2015-12-03  -264  Paylevo
+2015-12-02  -261  Bythjul
+2015-12-02  -261  Paylevo
+2015-11-27  -243  SweetPay
+2015-11-27  -263  Paylevo
+2015-11-25  -251  Bythjul
+2015-11-25  -265  Bythjul
+2015-11-23  -251  HBI Paintball
+2015-11-23  -265  Paylevo
+2015-11-22  -264  Paylevo
+2015-11-22  -252  NowWhere
+2015-11-20  -252  Photowall
+2015-11-19  -263  Paylevo
+2015-11-18  -264  Photowall
+2015-11-18  -262  Paylevo
+2015-11-16  -263  Photowall
+2015-11-16  -251  Photowall
+2015-11-16  -261  HBI Paintball
+2015-11-16  -251  HBI Paintball
+2015-11-14  -251  HBI Paintball
+2015-11-14  -261  HBI Paintball
+2015-11-10  -261  Photowall
+2015-11-11  -261  HBI Paintball
+2015-11-09  -262  HBI Paintball
+2015-11-08  -252  HBI Paintball
+2015-11-08  -242  Ellos
+2015-11-05  -261  Bythjul
+2015-11-04  -251  HBI Paintball
+2015-11-04  -263  HBI Paintball
+2015-11-04  -263  Photowall
+2015-11-04  -242  Bythjul
+2015-11-03  -263  HBI Paintball
+2015-11-03  -254  HBI Paintball
+2015-11-03  -261  Bythjul
+2015-11-02  -263  HBI Paintball
+2015-11-02  -241  Bythjul
+2015-10-30  -261  HBI Paintball
+2015-10-30  -263  Ellos
+2015-10-29  -241  Ellos
+2015-10-28  -241  Ellos
+2015-10-27  -263  Photowall
+2015-10-22  -267  Photowall
+2015-10-22  -261  Ellos
+2015-10-21  -263  Photowall
+2015-10-20  -261  Photowall
+2015-10-20  -263  Ellos
+2015-10-19  -251  Photowall
+2015-10-19  -262  Photowall
+2015-10-19  -262  Ellos
+2015-10-17  -264  Ellos
+2015-10-16  -261  Treated
+2015-10-16  -264  Ellos
+2015-10-16  -242  Ellos
+2015-10-15  -266  Ellos
+2015-10-14  -262  Ellos
+2015-10-13  -265  Ellos
+2015-10-13  -242  Ellos
+2015-10-12  -265  Ellos
+2015-10-11  -268  Ellos
+2015-10-10  -264  Ellos
+2015-10-09  -262  Photowall
+2015-10-09  -266  Ellos
+2015-10-08  -264  Ellos
+2015-10-07  -263  Ellos
+2015-10-07  -241  Ellos
+2015-10-06  -267  Ellos
+2015-10-05  -265  Ellos
+2015-10-05  -231  Ellos
+2015-10-05  -252  Paylevo
+2015-10-05  -261  Paylevo
+2015-10-04  -263  Ellos
+2015-10-03  -261  Bythjul
+2015-10-02  -264  Ellos
+2015-10-02  -264  Bythjul
+2015-10-01  -261  Bythjul
+2015-09-30  -262  Ellos
+2015-09-30  -264  Paylevo
+2015-09-29  -266  Ellos
+2015-09-29  -251  Bythjul
+2015-09-28  -251  Photowall
+2015-09-28  -262  Ellos
+2015-09-27  -263  Ellos
+2015-09-25  -251  Photowall
+2015-09-25  -261  Ellos
+2015-09-24  -261  Fyndswipen
+2015-09-24  -264  Ellos
+2015-09-23  -262  Photowall
+2015-09-23  -263  Ellos
+2015-09-23  -261  Bythjul
+2015-09-22  -251  Photowall
+2015-09-22  -264  Photowall
+2015-09-22  -241  Ellos
+2015-09-22  -262  Bythjul
+2015-09-21  -253  Photowall
+2015-09-20  -263  Ellos
+2015-09-19  -251  Photowall
+2015-09-19  -263  Photowall
+2015-09-19  -263  Ellos
+2015-09-18  -265  Ellos
+2015-09-18  -263  Photowall
+2015-09-17  -261  Photowall
+2015-09-17  -252  Photowall
+2015-09-17  -262  Ellos
+2015-09-16  -261  Photowall
+2015-09-16  -264  Ellos
+2015-09-16  -241  Ellos
+2015-09-15  -263  Ellos
+2015-09-13  -242  Treated
+2015-09-15  -263  Photowall
+2015-09-15  -251  Photowall
+2015-09-14  -267  Bythjul
+2015-09-13  -252  Paylevo
+2015-09-13  -264  Paylevo
+2015-09-13  -261  Bythjul
+2015-09-12  -262  Paylevo
+2015-09-12  -264  Bythjul
+2015-09-11  -263  Bythjul
+2015-09-10  -264  Bythjul
+2015-09-09  -251  Photowall
+2015-09-09  -262  Photowall
+2015-09-09  -254  Bythjul
+2015-09-08  -241  Treated
+2015-09-08  -261  Photowall
+2015-09-08  -251  Photowall
+2015-09-08  -269  Bythjul
+2015-09-07  -242  Treated AS
+2015-09-07  -266  Photowall
+2015-09-07  -265  Bythjul
+2015-09-04  -262  Bythjul
+2015-09-04  -264  Photowall
+2015-09-03  -267  Bythjul
+2015-09-02  -262  Bythjul
+2015-09-01  -252  Västtrafik Business
+2015-09-01  -262  Bythjul
+2015-08-31  -262  Västtrafik Calculator
+2015-08-31  -252  Bythjul
+2015-08-30  -261  Västtrafik Calculator
+2015-08-30  -261  Västtrafik Business
+2015-08-30  -253  Bythjul
+2015-08-29  -241  Västtrafik Calculator
+2015-08-29  -251  Bythjul
+2015-08-28  -261  Västtrafik Calculator
+2015-08-28  -263  Bythjul
+2015-08-27  -261  Västtrafik Calculator
+2015-08-27  -264  Bythjul
+2015-08-26  -263  Bythjul
+2015-08-25  -262  Bythjul
+2015-08-24  -243  Treated AS
+2015-08-24  -261  Bythjul
+2015-08-23  -241  Treated AS
+2015-08-23  -265  Bythjul
+2015-08-22  -262  Bythjul
+2015-08-21  -265  Bythjul
+2015-08-20  -263  Bythjul
+2015-08-19  -262  Bythjul
+2015-08-18  -266  Bythjul
+2015-08-18  -251  Bythjul
+2015-08-18  -261  Photowall
+2015-08-18  -262  Västtrafik Calculator
+2015-08-17  -267  Bythjul
+2015-08-16  -261  Västtrafik Business
+2015-08-16  -263  Fyndswipen
+2015-08-15  -261  Bythjul
+2015-08-15  -252  Photowall
+2015-08-15  -264  Fyndswipen
+2015-08-10  -252  Fyndswipen
+2015-08-09  -251  Västtrafik Business
+2015-08-09  -262  Västtrafik Calculator
+2015-08-08  -243  Treated AS
+2015-08-07  -264  Bythjul
+2015-08-06  -263  Bythjul
+2015-08-05  -262  Bythjul
+2015-08-04  -251  Västtrafik Business
+2015-08-04  -251  Fyndswipen
+2015-08-04  -264  Bythjul
+2015-08-03  -262  Bythjul
+2015-07-28  -251  Västtrafik Calculator
+2015-07-27  -252  Photowall
+2015-07-26  -251  Photowall
+2015-07-25  -252  Photowall
+2015-07-25  -262  Västtrafik Calculator
+2015-07-23  -251  Fyndswipen
+2015-07-23  -262  Fyndswipen
+2015-07-20  -252  Västtrafik Calculator
+2015-07-20  -262  Västtrafik Calculator
+2015-07-20  -261  Fyndswipen
+2015-07-19  -252  Västtrafik Business
+2015-07-18  -254  Västtrafik Business
+2015-07-17  -251  Fyndswipen
+2015-07-17  -254  Västtrafik Business
+2015-07-16  -261  Fyndswipen
+2015-07-16  -262  Photowall
+2015-07-16  -253  Västtrafik Business
+2015-07-13  -243  Västtrafik Calculator
+2015-07-13  -231  Bythjul
+2015-07-09  -251  Västtrafik
+2015-07-09  -241  Västtrafik Calculator
+2015-07-09  -231  Bythjul
+2015-07-08  -261  Fyndswipen
+2015-07-08  -243  Västtrafik Calculator
+2015-07-08  -264  Bythjul
+2015-07-07  -253  Fyndswipen
+2015-07-07  -262  Bythjul
+2015-07-06  -263  Bythjul
+2015-07-01  -243  Västtrafik Calculator
+2015-06-30  -251  Photowall
+2015-06-30  -269  Photowall
+2015-06-30  -252  Fyndswipen
+2015-06-29  -252  Fyndswipen
+2015-06-29  -251  Photowall
+2015-06-29  -262  Photowall
+2015-06-28  -243  Photowall
+2015-06-26  -242  Photowall
+2015-06-26  -252  Fyndswipen
+2015-06-24  -261  Fyndswipen
+2015-06-24  -251  Fyndswipen
+2015-06-24  -244  Västtrafik Business
+2015-06-23  -251  Photowall
+2015-06-23  -262  Fyndswipen
+2015-06-23  -256  Västtrafik Business
+2015-06-22  -251  Photowall
+2015-06-22  -261  Fyndswipen
+2015-06-21  -251  Västtrafik Business
+2015-06-21  -266  Photowall
+2015-06-18  -252  Fyndswipen
+2015-06-17  -251  Fyndswipen
+2015-06-16  -252  Fyndswipen
+2015-06-16  -263  Fyndswipen
+2015-06-15  -261  Fyndswipen
+2015-06-15  -251  Fyndswipen
+2015-06-12  -251  Fyndswipen
+2015-06-12  -261  Fyndswipen
+2015-06-11  -263  Västtrafik Business
+2015-06-11  -251  Västtrafik Business
+2015-06-11  -252  Photowall
+2015-06-11  -263  Photowall
+2015-06-11  -261  Fyndswipen
+2015-06-10  -241  Photowall
+2015-06-10  -261  Fyndswipen
+2015-06-10  -265  Bythjul
+2015-06-09  -257  Fyndswipen
+2015-06-09  -268  Bythjul
+2015-06-05  -255  Västtrafik Business
+2015-06-05  -231  Bythjul
+2015-06-03  -217  Västtrafik Calculator
+2015-05-31  -261  Västtrafik Business
+2015-05-30  -243  Photowall
+2015-05-29  -253  Photowall
+2015-05-28  -252  Västtrafik Business
+2015-05-28  -241  Västtrafik Business
+2015-05-28  -254  Photowall
+2015-05-27  -252  Västtrafik Business
+2015-05-27  -263  Photowall
+2015-05-26  -266  Photowall
+2015-05-25  -263  Photowall
+2015-05-20  -251  Västtrafik Calculator
+2015-05-19  -244  Västtrafik Calculator
+2015-05-18  -241  Västtrafik Calculator
+2015-05-17  -241  Västtrafik Calculator
+2015-05-12  -242  Västtrafik SDN
+2015-05-12  -256  Västtrafik Business
+2015-05-11  -246  Västtrafik SDN
+2015-05-08  -262  Photowall
+2015-05-07  -231  Västtrafik SDN
+2015-05-06  -261  Västtrafik Business
+2015-05-06  -244  Västtrafik SDN
+2015-05-05  -266  Västtrafik Business
+2015-05-05  -242  Västtrafik SDN
+2015-05-04  -244  Västtrafik SDN
+2015-05-03  -232  Västtrafik SDN
+2015-04-30  -267  Photowall
+2015-04-30  -252  Photowall
+2015-04-29  -261  Photowall
+2015-04-29  -235  Västtrafik SDN        User journeys
+2015-04-21  -261  Västtrafik Business
+2015-04-15  -261  Photowall
+2015-04-14  -333  Axkid
+2015-04-10  -251  Photowall
+2015-04-10  -261  Träningspartner
+2015-04-09  -243  Träningspartner
+2015-04-08  -263  Träningspartner
+2015-04-07  -251  Photowall
+2015-04-07  -243  Träningspartner
+2015-04-01  -253  Lysman
+2015-04-01  -251  Photowall
+2015-03-31  -264  Photowall
+2015-03-31  -252  Lysman
+2015-03-30  -255  Photowall
+2015-03-19  -252  Photowall
+2015-03-12  -253  Photowall
+2015-03-10  -263  Västtrafik Business
+2015-03-10  -262  Photowall
+2015-03-09  -253  Västtrafik Business
+2015-03-09  -251  Photowall
+2015-03-06  -341  Träningspartner       Impact mapping
+2015-03-06  -251  Västtrafik Calculator
+2015-03-06  -261  Photowall
+2015-03-05  -342  New Media
+2015-03-05  -244  Träningspartner       Conceptual design
+2015-03-04  -262  Västtrafik Business
+2015-03-03  -341  Träningspartner       Impact mapping
+2015-03-03  -257  Västtrafik Business
+2015-03-03  -262  Photowall
+2015-03-03  -343  Träningspartner       Impact mapping
+2015-02-27  -269  Västtrafik Business
+2015-02-27  -252  Photowall
+2015-02-26  -241  Västtrafik Business
+2015-02-26  -258  Photowall
+2015-02-25  -266  Photowall
+2015-02-24  -251  Västtrafik Business
+2015-02-22  -263  Lysman
+2015-02-21  -267  Lysman
+2015-02-20  -251  Västtrafik Business
+2015-02-20  -255  Lysman
+2015-02-19  -254  Västtrafik Business
+2015-02-18  -252  Västtrafik Calculator
+2015-02-17  -265  Västtrafik Business
+2015-02-16  -251  Coopers
+2015-02-16  -261  Västtrafik Business
+2015-02-16  -257  Photowall
+2015-02-12  -253  Coopers
+2015-02-11  -264  Coopers
+2015-02-09  +000  France                Travel to Paris
+2015-02-06  -252  Coopers
+2015-02-06  -244  Lysman
+2015-02-06  -251  Photowall
+2015-02-04  -253  Photowall
+2015-02-04  -253  Västtrafik Business
+2015-02-04  -251  Västtrafik Calculator
+2015-02-03  -262  Coopers
+2015-02-02  -225  Västtrafik Business
+2015-02-02  -266  Photowall
+2015-01-31  -269  Photowall
+2015-01-30  -254  Photowall
+2015-01-29  -266  Photowall
+2015-01-28  -253  Coopers
+2015-01-28  -222  Västtrafik Calculator
+2015-01-27  -254  Coopers
+2015-01-27  -243  Lysman
+2015-01-27  -266  Västtrafik Business
+2015-01-26  -263  Coopers
+2015-01-26  -255  Västtrafik Business
+2015-01-22  -265  Västtrafik Business
+2015-01-21  -343  Västtrafik Business
+2015-01-20  -235  Västtrafik Business
+2015-01-19  -251  Lysman
+2015-01-19  -264  Västtrafik Business
+2015-01-19  -262  Västtrafik Calculator
+2015-01-16  -254  Västtrafik Calculator
+2015-01-15  -255  Västtrafik Calculator
+2015-01-14  -242  Lysman
+2015-01-13  -242  Lysman
+2015-01-13  -261  Lysman
+2015-01-12  -252  Västtrafik Business
+2015-01-12  -252  Västtrafik Calculator
+2015-01-11  -265  Västtrafik Calculator
+2015-01-09  -261  Västtrafik Calculator
+2015-01-08  -254  Västtrafik Calculator
+2015-01-05  -251  Västtrafik Business
+2015-01-03  -263  Västtrafik Business
+2014-12-27  -261  Lysman
+2014-12-26  -262  Lysman
+2014-12-21  -241  Lysman
+2014-12-21  -253  Lysman
+2014-12-19  -255  Photowall
+2014-12-18  -265  Västtrafik Business
+2014-12-18  -242  Lysman
+2014-12-17  -267  Photowall
+2014-12-17  -262  Lysman
+2014-12-16  -268  Västtrafik Calculator
+2014-12-16  -262  Lysman
+2014-12-14  -251  Angner
+2014-12-13  -251  Angner
+2014-12-13  -241  Lysman
+2014-12-11  -252  Västtrafik Business
+2014-12-11  -261  Västtrafik Business
+2014-12-11  -251  Photowall
+2014-12-10  -251  Photowall
+2014-12-10  -264  Västtrafik Business
+2014-12-10  -251  Angner
+2014-12-09  -334  Angner
+2014-12-06  -253  Västtrafik Business
+2014-12-05  -251  Photowall
+2014-12-04  -253  Photowall 
+2014-12-03  -251  Västtrafik Business
+2014-12-02  -255  Photowall
+2014-12-01  -252  Photowall
+2014-12-01  -261  Västtrafik Business
+2014-11-30  -251  Västtrafik Business
+2014-11-28  -232  Västtrafik Business
+2014-11-27  -255  Photowall 
+2014-11-26  -265  Photowall
+2014-11-26  -252  Västtrafik Business
+2014-11-25  -251  Västtrafik Business
+2014-11-25  -265  Photowall 
+2014-11-24  -257  Västtrafik Business
+2014-11-21  -242  Västtrafik Business
+2014-11-20  -269  Västtrafik Business
+2014-11-19  -266  Västtrafik Business
+2014-11-18  -261  Västtrafik Business
+2014-11-18  -252  Angner
+2014-11-17  -253  Angner
+2014-11-17  -251  Västtrafik Business
+2014-11-16  -256  Angner
+2014-11-15  -268  Angner
+2014-11-14  -265  Angner
+2014-11-13  -265  Angner
+2014-11-12  -252  Angner
+2014-11-12  -251  Västtrafik Business
+2014-11-10  -251  Photowall
+2014-11-10  -255  Västtrafik Business
+2014-11-09  -342  Angner
+2014-11-07  -253  Västtrafik Business
+2014-11-06  -251  Västtrafik Business
+2014-11-03  -255  Treated
+2014-11-02  -263  Treated
+2014-10-31  -256  Västtrafik Business
+2014-10-31  -267  Angner
+2014-10-30  -265  Västtrafik Business
+2014-10-29  -263  Västtrafik Business
+2014-10-29  -264  Photowall
+2014-10-28  -253  Photowall 
+2014-10-27  -262  Treated
+2014-10-27  -231  Västtrafik Business
+2014-10-26  -263  Treated
+2014-10-23  -266  Photowall
+2014-10-23  -252  Photowall
+2014-10-22  -269  Photowall 
+2014-10-21  -251  Treated
+2014-10-21  -264  Photowall
+2014-10-20  -252  Treated
+2014-10-17  -254  Angner
+2014-10-16  -252  Treated
+2014-10-15  -251  Angner
+2014-10-15  -262  Angner
+2014-10-15  -264  Treated
+2014-10-14  -254  Treated
+2014-10-13  -253  Angner
+2014-10-10  -331  Angner
+2014-10-09  -254  Treated
+2014-10-08  -254  Treated
+2014-10-07  -255  Treated
+2014-10-06  -263  Photowall
+2014-10-03  -254  Photowall
+2014-10-03  -332  Treated
+2014-10-02  -265  Treated
+2014-10-01  -316  Treated
+2014-09-30  -254  Photowall
+2014-09-29  -252  Photowall 
+2014-09-28  -257  Angner
+2014-09-27  -266  Photowall 
+2014-09-26  -261  Treated
+2014-09-25  -251  Photowall
+2014-09-25  -258  Treated
+2014-09-24  -254  Photowall 
+2014-09-23  -258  Treated
+2014-09-23  -252  Photowall
+2014-09-22  -233  Photowall
+2014-09-22  -252  Treated
+2014-09-19  -264  Treated
+2014-09-18  -264  Treated
+2014-09-17  -262  Treated
+2014-09-16  -254  Treated
+2014-09-15  -264  Treated
+2014-09-15  -251  Photowall
+2014-09-14  -266  Treated
+2014-09-13  -265  Treated
+2014-09-11  -251  Angner
+2014-09-09  -362  Treated
+2014-09-08  -331  Angner
+2014-09-05  -341  Angner
+2014-09-05  -254  Treated
+2014-09-04  -331  Angner
+2014-09-04  -253  Treated
+2014-09-03  -346  Angner
+2014-09-02  -345  Angner
+2014-09-02  -266  Treated
+2014-08-29  -252  Treated
+2014-08-28  -251  Treated
+2014-08-27  -269  Treated
+2014-08-26  -259  Angner
+2014-08-26  -251  Ojega
+2014-08-25  -253  Photowall
+2014-08-24  -264  Angner
+2014-08-23  -265  Angner
+2014-08-22  -248  Angner
+2014-08-21  -252  Angner
+2014-08-20  -266  Angner
+2014-08-19  -243  Angner
+2014-08-18  -255  Angner
+2014-08-17  -246  Angner
+2014-08-16  -248  Angner
+2014-08-15  -249  Angner
+2014-08-13  -233  Angner
+2014-08-12  -242  Angner
+2014-08-11  -243  Angner
+2014-08-10  -253  Treated
+2014-08-09  -264  Treated
+2014-08-07  -252  Treated
+2014-08-06  -253  Treated
+2014-08-04  -258  Treated
+2014-08-03  -252  Treated
+2014-08-02  -254  Treated
+2014-08-01  -251  Treated
+2014-07-31  -253  Treated
+2014-07-30  -267  Treated
+2014-07-28  -267  Treated
+2014-07-25  -263  Treated
+2014-07-23  -263  Treated
+2014-07-22  -262  Treated
+2014-07-20  -253  Treated
+2014-07-18  -262  Ojega
+2014-07-15  -262  Ojega
+2014-07-14  -263  Treated
+2014-07-13  -267  Ojega
+2014-07-12  -263  Ojega
+2014-07-11  -262  Ojega
+2014-07-10  -252  Treated
+2014-07-09  -252  Treated
+2014-07-08  -263  Treated
+2014-07-07  -266  Treated
+2014-07-06  -252  Treated
+2014-07-03  -253  Treated
+2014-06-30  -254  Ojega
+2014-06-29  -255  Ojega
+2014-06-29  -265  Treated
+2014-06-29  -242  Treated
+2014-06-28  -242  Ojega
+2014-06-28  -254  Photowall 
+2014-06-27  -244  Photowall 
+2014-06-26  -242  Treated
+2014-06-25  -254  Treated
+2014-06-19  -242  Ojega
+2014-06-18  -264  Treated
+2014-06-17  -266  Photowall
+2014-06-17  -264  Ojega
+2014-06-17  -252  Ojega
+2014-06-16  -262  Treated
+2014-06-16  -262  Ojega
+2014-06-15  -252  Treated
+2014-06-15  -261  Treated
+2014-06-14  -252  Photowall
+2014-06-14  -264  Treated
+2014-06-14  -251  Treated
+2014-06-11  -252  Photowall
+2014-06-11  -252  Ojega
+2014-06-10  -262  Photowall 
+2014-06-09  -261  Photowall 
+2014-06-08  -252  Treated
+2014-06-08  -251  Photowall
+2014-06-05  -264  Photowall 
+2014-06-04  -253  Photowall 
+2014-06-03  -262  Photowall 
+2014-06-02  -263  Treated
+2014-06-02  -251  Ojega
+2014-06-01  -261  Treated
+2014-05-31  -252  Ojega
+2014-05-28  -251  Treated
+2014-05-27  -262  Treated
+2014-05-26  -256  Photowall 
+2014-05-23  -231  Photowall 
+2014-05-22  -251  Photowall
+2014-05-21  -263  Photowall 
+2014-05-20  -264  Photowall 
+2014-05-18  -263  Photowall 
+2014-05-17  -251  Photowall
+2014-05-17  -252  Ojega
+2014-05-16  -252  Photowall 
+2014-05-09  -263  Photowall
+2014-05-09  -252  Treated
+2014-05-04  -254  Treated
+2014-04-30  +000  America               Travel to Los Angeles
+2014-04-29  -264  Treated
+2014-04-28  -263  Treated
+2014-04-26  -267  Treated
+2014-04-25  -266  Treated
+2014-04-21  -253  Ojega
+2014-04-17  -263  Ojega
+2014-04-16  -262  Ojega
+2014-04-15  -252  Photowall 
+2014-04-14  -252  Photowall 
+2014-04-13  -254  Photowall 
+2014-04-11  -267  Photowall
+2014-04-11  -263  Treated
+2014-04-10  -261  Treated
+2014-04-10  -251  Photowall
+2014-04-09  -253  Treated
+2014-04-07  -256  Photowall 
+2014-04-03  -252  Photowall 
+2014-04-02  -253  Photowall 
+2014-04-01  -262  Photowall 
+2014-03-31  -264  Ojega
+2014-03-28  -256  Photowall 
+2014-03-27  -265  Photowall 
+2014-03-26  -268  Photowall
+2014-03-25  -262  Treated
+2014-03-24  -266  Treated
+2014-03-24  -251  Photowall
+2014-03-24  -262  Photowall
+2014-03-21  -341  Treated
+2014-03-21  -261  Ojega
+2014-03-19  -253  Treated
+2014-03-19  -261  Photowall
+2014-03-18  -263  Photowall
+2014-03-17  -264  Ojega
+2014-03-17  -263  Treated
+2014-03-17  -262  Ojega
+2014-03-15  -262  Treated
+2014-03-14  -263  Treated
+2014-03-13  -264  Treated
+2014-03-12  -261  Treated
+2014-03-11  -263  Treated
+2014-03-10  -267  Photowall 
+2014-03-07  -263  Treated
+2014-03-06  -252  Treated
+2014-03-06  -251  Ojega
+2014-03-05  -252  Treated
+2014-03-04  -264  Treated
+2014-03-03  -245  Ojega
+2014-02-28  -269  Treated
+2014-02-27  -262  Treated
+2014-02-26  -252  Treated
+2014-02-25  -256  Treated
+2014-02-24  -264  Treated
+2014-02-22  -262  Photowall
+2014-02-22  -261  Treated
+2014-02-22  -251  Ojega
+2014-02-21  -251  Photowall
+2014-02-21  -251  Ojega
+2014-02-20  -252  Photowall
+2014-02-20  -251  Ojega
+2014-02-19  -252  Photowall
+2014-02-19  -251  Ojega
+2014-02-18  -264  Photowall 
+2014-02-17  -252  Photowall 
+2014-02-14  -251  Photowall 
+2014-02-12  -254  Photowall
+2014-02-12  -262  Treated
+2014-02-12  -251  Treated
+2014-02-11  -252  Photowall 
+2014-02-08  -263  Treated
+2014-02-07  -261  Photowall
+2014-02-06  -253  Treated
+2014-02-05  -263  Treated
+2014-02-05  -263  Photowall
+2014-02-04  -267  Treated
+2014-02-04  -263  Photowall
+2014-02-04  -251  Photowall
+2014-02-03  -265  Treated
+2014-02-03  -253  Photowall
+2014-02-02  -266  Treated
+2014-02-01  -268  Treated
+2014-01-31  -268  Photowall 
+2014-01-30  -255  Photowall
+2014-01-30  -265  Treated
+2014-01-29  -256  Photowall 
+2014-01-28  -269  Photowall 
+2014-01-27  -263  Photowall
+2014-01-26  -265  Whiteport
+2014-01-25  -251  Whiteport
+2014-01-24  -251  Ojega
+2014-01-23  -256  Ojega
+2014-01-22  -268  Ojega
+2014-01-21  -267  Ojega
+2014-01-20  -252  Whiteport
+2014-01-19  -241  Treated
+2014-01-17  -253  Ojega
+2014-01-15  -243  Ojega
+2014-01-14  -241  Ojega
+2014-01-13  -242  Ojega
+2014-01-12  -263  Whiteport
+2014-01-11  -265  Whiteport
+2014-01-10  -253  Whiteport
+2014-01-09  -251  Photowall 
+2014-01-08  -252  Photowall 
+2014-01-06  -251  Ojega
+2014-01-06  -254  Photowall
+2014-01-04  -262  Ojega
+2014-01-04  -262  Photowall
+2014-01-02  -251  Ojega
+2014-01-02  -262  Photowall
+2013-12-24  -254  Photowall 
+2013-12-23  -261  Photowall 
+2013-12-22  -253  Photowall 
+2013-12-20  -264  Photowall 
+2013-12-19  -264  Photowall 
+2013-12-18  -262  Photowall 
+2013-12-17  -256  Photowall
+2013-12-17  -261  Ojega
+2013-12-16  -263  Photowall
+2013-12-16  -261  Ojega
+2013-12-15  -264  Photowall
+2013-12-15  -262  Ojega
+2013-12-14  -264  Photowall
+2013-12-14  -263  Ojega
+2013-12-13  -263  Photowall 
+2013-12-12  -263  Photowall 
+2013-12-11  -254  Photowall
+2013-12-11  -252  Ojega
+2013-12-08  -251  Photowall 
+2013-12-07  -252  Photowall 
+2013-12-06  -264  Photowall 
+2013-12-05  -253  Photowall 
+2013-12-04  -263  Photowall 
+2013-12-03  -267  Photowall 
+2013-12-02  -267  Photowall
+2013-11-29  -264  Photowall 
+2013-11-28  -266  Whiteport
+2013-11-25  -267  Photowall 
+2013-11-24  -253  Photowall 
+2013-11-21  -264  Photowall 
+2013-11-20  -264  Photowall 
+2013-11-19  -264  SBF
+2013-11-18  -266  Photowall 
+2013-11-15  -261  Photowall 
+2013-11-14  -269  Photowall 
+2013-11-13  -266  Photowall 
+2013-11-12  -265  Photowall 
+2013-11-11  -266  Photowall 
+2013-11-10  -269  Photowall 
+2013-11-08  -264  Photowall 
+2013-11-07  -268  Photowall
+2013-11-06  -264  Photowall 
+2013-11-05  -262  SBF
+2013-11-03  -262  SBF
+2013-11-02  -211  SBF
+2013-11-01  -212  SBF
+2013-10-31  -355  SBF
+2013-10-30  -335  SBF
+2013-10-29  -254  SBF
+2013-10-28  -256  SBF
+2013-10-25  -254  SBF
+2013-10-24  -357  SBF
+2013-10-23  -252  SBF
+2013-10-22  -262  Ojega
+2013-10-21  -266  SBF
+2013-10-19  -251  Ojega
+2013-10-18  -262  SBF
+2013-10-17  -267  SBF
+2013-10-16  -266  SBF
+2013-10-15  -264  SBF
+2013-10-14  -253  SBF
+2013-10-13  -253  Ojega
+2013-10-11  -255  Ojega
+2013-10-10  -253  Ojega
+2013-10-08  -243  Ojega
+2013-10-05  -262  Ojega
+2013-10-04  -252  Ojega
+2013-10-03  -252  Ojega
+2013-10-01  -264  Ojega
+2013-09-30  -264  Ojega
+2013-09-04  -372  Klarna
+2013-09-03  -376  Klarna
+2013-09-02  -375  Klarna
+2013-08-30  -376  Klarna
+2013-08-28  -352  Klarna
+2013-08-27  -332  Klarna
+2013-08-26  -356  Klarna
+2013-08-23  -354  Klarna
+2013-08-22  -253  Klarna
+2013-08-20  -332  Klarna
+2013-08-19  -255  Klarna
+2013-08-16  -366  Klarna
+2013-08-14  -354  Klarna
+2013-08-08  -358  Klarna
+2013-08-07  -331  Klarna
+2013-08-06  -353  Klarna
+2013-08-05  -354  Klarna
+2013-07-29  -356  Klarna
+2013-07-26  -354  Klarna
+2013-07-24  -263  Klarna
+2013-07-23  -253  Ojega
+2013-07-19  -252  Ojega
+2013-07-18  -253  Ojega
+2013-07-16  -254  SBF
+2013-07-15  -255  Ojega
+2013-07-10  -266  Ojega
+2013-07-09  -331  SBF
+2013-07-07  -354  Klarna
+2013-07-04  -253  Klarna
+2013-07-03  -211  Klarna
+2013-07-02  -266  SBF
+2013-07-01  -264  SBF
+2013-06-28  -252  SBF
+2013-06-27  -252  SBF
+2013-06-26  -354  Klarna
+2013-06-25  -357  Klarna
+2013-06-21  -253  Klarna
+2013-06-20  -253  Klarna
+2013-06-19  -253  Klarna
+2013-06-18  -253  Klarna
+2013-06-17  -263  Klarna
+2013-06-14  -261  Klarna
+2013-06-12  +000  Work                  Joined Whiteport
+2013-06-12  -262  Klarna
+2013-06-11  -261  Klarna
+2013-06-10  -341  Klarna
+2013-01-06  -242  Salus Ansvar
+2013-01-05  -243  Salus Ansvar
+2012-12-21  -251  Salus Ansvar
+2012-12-13  -244  Salus Ansvar
+2012-12-10  -231  Salus Ansvar
+2009-11-04  +000  Work                  Started working at Telia 
+`

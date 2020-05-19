@@ -1,0 +1,1844 @@
+export const raw = `
+DATE        TIME  PICT  PROJECT                 TASK              DIVISION       DETAILS
+2020-05-19  0.5         Elin Kero               Design            Abstract       Planning consolidation of services under new umbrella.
+2020-05-18  2.0         Grace                   Graphic           Visual         Design for app and marketing campaigns.
+2020-05-18  3.0         Grace                   Development       Code           Fixes for app.
+2020-05-18  1.0         Eve Adam                Design            Abstract       Estimating job.
+2020-05-16  4.0         Grace                   Development       Code           Getting started with app development.
+2020-05-15  1.5         Sports                  Health            Personal       Walk
+2020-05-15  6.0         Grace                   Development       Code           Website.
+2020-05-15  0.5         Eve Adam                Design            Abstract       Brief changes to Adrian's work.
+2020-05-14  4.0         Grace                   Development       Code           Website.
+2020-05-12  6.0         Grace                   Development       Code           Website.
+2020-05-12  1.0         Sports                  Health            Personal       Walk
+2020-05-11  3.0         Grace                   Design            Abstract       Planning.
+2020-05-11  4.0         Grace                   Development       Code           Website.
+2020-05-09  2.0         Grace                   Development       Code           Website.
+2020-05-09  2.0         Grace                   Concept           Abstract
+2020-05-09  2.5         Sports                  Health            Personal       Walk
+2020-05-08  4.0         Grace                   Development       Code           Website.
+2020-05-07  6.0         Grace                   Development       Code           Website.
+2020-05-06  2.5         Grace                   Development       Code           Fixes to header, footer and responsive design.
+2020-05-06  1.5         Grace                   Design            Abstract       Website project planning.
+2020-05-05  1.5         Grace                   Design            Abstract       Website project planning.
+2020-05-05  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-29  0.5         Sports                  Health            Personal       Outdoor walking.
+2020-04-29  4.5         Grace                   Development       Code           Refactor website.
+2020-04-28  2.0         Charlotte Beijer        Development       Code           Refactor website to Timber.
+2020-04-28  1.5         PHP                     Research          Code           Researching frameworks for Wordpress.
+2020-04-28  1.5         React                   Research          Code           Researching front end design for Wordpress sites.
+2020-04-27  2.0         Grace                   Graphic           Visual         Insight design.
+2020-04-27  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-27  4.5         Grace                   Development       Code           Refactor website.
+2020-04-26  2.0         Photography             Maintenance       Personal       Organization of photos.
+2020-04-26  1.0         Photography             Research          Abstract       Organization principles.
+2020-04-26  1.0         Felicia                 Photography       Visual         Photo session.
+2020-04-24  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-24  1.5         Grace                   Design            Abstract       Feedback document.
+2020-04-24  2.5         Grace                   Graphic           Visual         States for terminating account.
+2020-04-23  3.0         Grace                   Design            Abstract       Preparing feedback document.
+2020-04-22  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-22  2.5         Grace                   Design            Code           Refactoring code before repo upload.
+2020-04-21  2.0         Elcenter i Skövde       Graphic           Visual         Adjusting design concept.
+2020-04-21  0.5         Sports                  Health            Personal       Outdoor walking.
+2020-04-21  1.0         Grace                   Graphic           Visual         More intuitive onboarding flow.
+2020-04-20  6.0         Grace                   Development       Code           Refactor website.
+2020-04-20  1.0         Grace                   Design            Abstract       Strategy website and marketing funnel.
+2020-04-19  8.5         Grace                   Development       Code           Refactor website.
+2020-04-18  0.5         Sports                  Health            Personal       Outdoor walking.
+2020-04-18  5.5         Grace                   Development       Code           Refactoring website.
+2020-04-17  3.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-17  4.5         Grace                   Development       Code           Adding blog.
+2020-04-17  0.5         Grace                   Reserach          Abstract       Meeting regarding Zlantar.
+2020-04-16  1.0         Grace                   Graphic           Visual         Marketing graphics.
+2020-04-16  6.0         Grace                   Development       Code           Refactoring website.
+2020-04-15  1.5         Sports                  Health            Personal       Outdoor walking.
+2020-04-15  1.0         Fiction                 Reading           Abstract       1984, George Orwell
+2020-04-15  2.0         Javascript              Research          Code
+2020-04-14  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-14  1.5         Grace                   Graphic           Visual         Marketing material and app screens.
+2020-04-14  2.0         Grace                   Design            Abstract       Planning.
+2020-04-13  1.0         Fiction                 Reading           Abstract       1984, George Orwell
+2020-04-13  1.5         Sports                  Health            Personal       Outdoor walking.
+2020-04-13  1.0         Grace                   Design            Abstract       Mapping out missing screens.
+2020-04-13  2.0         Grace                   Graphic           Visual         Creating marketing material.
+2020-04-13  2.5         Horizon                 Development       Code           Refactoring journal row script.
+2020-04-12  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-12  0.5         Workstation             Writing           Abstract       Writing details.
+2020-04-12  1.0         Horizon                 Maintenance       Abstract       Reorganizing log file.
+2020-04-11  0.5         Jotex                   Writing           Abstract       Rewriting entry.
+2020-04-11  2.5         Horizon                 Development       Code           Refactor to minimal site.
+2020-04-10  1.0         Sports                  Healt             Personal       Outdoor walking.
+2020-04-10  1.0         Elcenter i Skövde       Design            Abstract       Project planning with Alexander.
+2020-04-10  1.5         Horizon                 Writing           Abstract       Updating entry texts.
+2020-04-10  4.0         Horizon                 Development       Code           Refactor to minimal site.
+2020-04-09  2.5         Horizon                 Development       Code           Refactor to minimal site.
+2020-04-09  4.0         Grace                   Graphic           Visual         Design of missing screens.
+2020-04-08  2.5         Horizon                 Development       Code           Refactor to minimal site.
+2020-04-08  2.5         Caroline Jonasen        Development       Code           Creating support for collections on website.
+2020-04-07  0.5         Sports                  Health            Personal       Walk
+2020-04-07  1.0         Grace                   Graphic           Visual         Design of missing screens.
+2020-04-07  2.0         Aktieutdelningar        Design            Abstract       Planning architecture of application.
+2020-04-06  1.0         Grace                   Graphic           Visual         Design of missing screens.
+2020-04-06  1.5         Grace                   Design            Abstract       Planning of missing screens in beta.
+2020-04-06  1.5         Aktieutdelningar        Writing           Abstract       Adding content to FAQ, Privacy Policy and Support.
+2020-04-06  4.0         Aktieutdelningar        Development       Code           Refactor Overview and Stocks. Adding additional screens.
+2020-04-05  1.0         Charlotte Beijer        Research          Abstract       Investingating blog posts to Contentful.
+2020-04-05  1.0         Sports                  Research          Personal       Outdoor walking.
+2020-04-05  5.0         Aktieutdelningar        Development       Code           Refactor stock overview and stocks page.
+2020-04-04  2.0         Sports                  Research          Personal       Outdoor walking.
+2020-04-04  7.5         Aktieutdelningar        Development       Code           Building stock overview and stocks page, adding Recharts.
+2020-04-03  0.5         Sports                  Research          Personal       Outdoor walking.
+2020-04-03  2.5         Grace                   Development       Code           Refactor website code.
+2020-04-03  1.5         Aktieutdelningar        Development       Code           Building basic structure.
+2020-04-03  1.5         Aktieutdelningar        Graphic           Visual         Designing basic structure.
+2020-04-02  2.0         Aktieutdelningar        Design            Abstract       Initializing NextJS project.
+2020-04-02  0.5         Sports                  Research          Personal       Outdoor walking.
+2020-04-02  1.0         Grace                   Concept           Abstract       Design of updated transaction detail screens.
+2020-04-02  4.0         Grace                   Development       Code           Adding tailwind again.
+2020-04-02  3.5         React                   Research          Code           React
+2020-04-01  3.0         Grace                   Development       Code           Refactor website code.
+2020-04-01  1.5         Grace                   Design            Abstract       Meetings.
+2020-04-01  1.0         HealthWorks             Design            Abstract       Meeting regarding company shutdown.
+2020-04-01  1.0         Sports                  Research          Personal       Outdoor walking.
+2020-04-01  6.0         React                   Research          Code           React
+2020-03-31  0.5         Sports                  Research          Personal       Outdoor walking.
+2020-03-31  3.0         Grace                   Development       Code           Refactor website code.
+2020-03-31  4.0         React                   Research          Code           React
+2020-03-31  2.0         Mixup Match             Development       Code           Further development on site.
+2020-03-30  1.5         User Research           Research          Abstract       Learning about User Research methodology.
+2020-03-30  5.0         Grace                   Development       Code           Creating new next.js site.
+2020-03-30  1.0         Grace                   Graphic           Visual         Creating marketing campaign.
+2020-03-30  0.5         Sports                  Research          Personal       Outdoor walking.
+2020-03-29  0.5         Sports                  Research          Personal       Outdoor walking.
+2020-03-29  1.5         Grace                   Graphic           Visual         Design of withdrawal.
+2020-03-29  2.0         Budgeting               Research          Abstract       Researching budgeting with YNAB.
+2020-03-28  2.5         Grace                   Graphic           Visual         Design of withdrawal.
+2020-03-28  1.0         Sports                  Research          Personal       Outdoor walking.
+2020-03-27  2.0         Sports                  Research          Personal       Outdoor walking.
+2020-03-27  3.5         Grace                   Graphic           Visual         Design of withdrawal.
+2020-03-27  1.5         Grace                   Design            Abstract       Meeting with Birkir regarding withdrawal.
+2020-03-27  1.5         Remente                 Design            Abstract       Meeting with Andreas regarding Remente 2020.
+2020-03-27  1.5         Sports                  Research          Personal       Outdoor walking.
+2020-03-26  1.0         Sports                  Research          Personal       Outdoor walking.
+2020-03-26  4.5         Grace                   Graphic           Visual         Design of saving and onboarding.
+2020-03-26  3.0         Remente                 Graphic           Visual         Design of Remente 2020.
+2020-03-25  3.0         Grace                   Graphic           Visual         Design of profile.
+2020-03-25  0.5         Grace                   Design            Abstract       Scrum meeting.
+2020-03-24  2.0         Sports                  Research          Personal       Outdoor walking.
+2020-03-24  5.5         Grace                   Graphic           Visual         Design of PFM.
+2020-03-23  4.0         Grace                   Graphic           Visual         Design of PFM.
+2020-03-23  1.0         Remente                 Design            Abstract       Meeting with Andreas.
+2020-03-23  0.5         Grace                   Design            Abstract       Project planning.
+2020-03-23  1.0         SSRS                    Design            Abstract       Project planning.
+2020-03-23  0.5         Health                  Health            Personal       Outdoor walking.
+2020-03-22  1.5         Horizon                 Development       Code           Adding function to log daily average.
+2020-03-22  0.5         User Research           Research          Abstract       Learning about User Research.
+2020-03-22  1.0         Sports                  Research          Personal       Outdoor walking.
+2020-03-22  6.5         Grace                   Graphic           Visual         Design of PFM and profile.
+2020-03-20  3.5         Horizon                 Development       Code           Refactor wiki engine to mdx.
+2020-03-20  4.0         Grace                   Graphic           Visual         Design of PFM.
+2020-03-19  3.0         Horizon                 Development       Code           Experimentation with Indental.
+2020-03-19  2.0         Grace                   Design            Abstract       Planning.
+2020-03-18  4.0         Grace                   Graphic           Visual         Design of PFM.
+2020-03-18  1.0         Horizon                 Maintenance       Code           Migrating log entries.
+2020-03-17  4.5         Grace                   Graphic           Visual         Design of PFM.
+2020-03-16  1.0         Horizon                 Maintenance       Code           Migrating log entries.
+2020-03-16  1.0         Grace                   Design            Abstract       Weekly planning.
+2020-03-16  4.5         Horizon                 Development       Code           Creating minimalistic design.
+2020-03-15  5.0         Horizon                 Development       Code           Design of start page.
+2020-03-13  0.5         Grace                   Design            Abstract       -
+2020-03-13  6.0         Grace                   Graphic           Visual         Design of new PFM screens.
+2020-03-12  4.0         Grace                   Graphic           Visual         Design of new PFM screens.
+2020-03-11  0.5         Grace                   Development       Code           -
+2020-03-11  0.5         Grace                   Design            Abstract       Planning.
+2020-03-11  5.0         Grace                   Graphic           Visual         Design of new PFM screens.
+2020-03-10  1.0         Grace                   Design            Abstract       Planning of PFM functionality.
+2020-03-10  6.0         Grace                   Graphic           Visual         Design new PFM screens.
+2020-03-08  1.0         HealthWorks             Maintenance       Code           Fixing deployment issues.
+2020-03-06  1.0         Grace                   Development       Code           Work on new team tailor site.
+2020-03-06  1.0         Grace                   Design            Abstract       Planning PFM screens.
+2020-03-05  5.0         Grace                   Graphic           Visual         Design new PFM screens.
+2020-03-04  4.0         Grace                   Design            Abstract       Meeting and planning with team.
+2020-03-04  3.0         Grace                   Research          Abstract       -
+2020-03-03  4.0         Grace                   Design            Abstract       Meeting and planning with team.
+2020-03-03  1.5         Grace                   Graphic           Visual         -
+2020-03-02  2.0         Grace                   Research          Abstract       -
+2020-03-02  4.0         Grace                   Development       Code           Development of new website.
+2020-03-01  1.0         Grace                   Research          Abstract       -
+2020-02-29  1.5         User Research           Research          Abstract       Learning about User Research.
+2020-02-27  1.0         Caroline Jonasen        Development       Code           Launching new theme.
+2020-02-27  3.0         Grace                   Graphic           Visual         -
+2020-02-26  3.0         Grace                   Graphic           Visual         Designing withdrawal service interface.
+2020-02-25  4.0         Grace                   Graphic           Visual         Designing app interface.
+2020-02-25  1.0         Health                  Health            Personal       Kickboxing and stretching.
+2020-02-24  5.0         Grace                   Graphic           Visual         Designing app interface.
+2020-02-22  4.0         Grace                   Graphic           Visual         Designing PFM interface.
+2020-02-21  3.0         Grace                   Concept           Abstract       Creating concepts for beta app.
+2020-02-21  1.5         Horizon                 Writing           Abstract       Updating documentation for entries.
+2020-02-20  1.5         Grace                   Concept           Abstract       Exploring beta app concepts.
+2020-02-20  1.5         Grace                   Research          Abstract       Creating digital version of user stories.
+2020-02-20  0.5         Aktieutdelningar        Maintenance       Code           Updating stocklist.
+2020-02-19  2.5         Horizon                 Development       Code           Refactoring code.
+2020-02-19  0.5         User Research           Research          Abstract       Learning about User Research.
+2020-02-19  2.0         Grace                   Research          Abstract       Establishing user stories.
+2020-02-19  2.0         Horizon                 Writing           Abstract       Updating documentation for entries.
+2020-02-18  2.0         User Research           Research          Abstract       Learning about User Research.
+2020-02-18  2.0         Horizon                 Development       Code           Rebuilding tracker.
+2020-02-18  1.5         Grace                   Research          Abstract       Exploring user stories.
+2020-02-18  0.5         SSRS                    Writing           Abstract       Updating case files.
+2020-02-18  0.5         Eve Adam                Writing           Abstract       Updating case files.
+2020-02-17  2.5         Horizon                 Development       Code           Refactoring site to static Next.
+2020-02-17  2.5         Grace                   Research          Abstract       Writing User Personas.
+2020-02-17  2.0         Grace                   Development       Code           Fixes for website.
+2020-02-16  0.5         User Research           Research          Abstract       Learning about User Research.
+2020-02-16  5.5         Horizon                 Development       Code           Refactoring site to static Next.
+2020-02-15  5.0         Horizon                 Development       Code           Refactoring site to static Next.
+2020-02-14  2.0         Horizon                 Development       Code           Refactoring site to static Next.
+2020-02-14  3.0         Grace                   Research          Abstract       Summarizing interview data.
+2020-02-13  5.0         Grace                   Research          Abstract       Summarizing interview data.
+2020-02-12  1.0         Grace                   Research          Abstract       Summarizing interview data.
+2020-02-12  4.0         Mixup Match             Development       Code           Refactoring website.
+2020-02-11  2.0         Workstation             Maintenance       Nothing        Installing Elementary OS.
+2020-02-11  1.0         Rust                    Research          Code           Rust
+2020-02-11  3.0         Grace                   Research          Abstract       Summarizing interview data.
+2020-02-10  2.0         Mixup Match             Design            Visual         Redesigning website.
+2020-02-10  4.0         Grace                   Research          Abstract       Summarizing interview data.
+2020-02-09  2.0         Horizon                 Research          Code           Exploring Zola and Rust.
+2020-02-09  2.0         Horizon                 Development       Code           Refactoring stats page.
+2020-02-09  3.0         Caroline Jonasen        Development       Code           Refactoring shop.
+2020-02-08  1.5         User Research           Research          Abstract       Learning about User Research.
+2020-02-08  2.0         Grace                   Research          Abstract       Interviews.
+2020-02-07  3.0         Grace                   Research          Abstract       Interviews.
+2020-02-06  4.0         Grace                   Research          Abstract       Interviews.
+2020-02-05  1.0         Horizon                 Writing           Abstract       Adjusting content.
+2020-02-05  3.0         Grace                   Research          Abstract       Interviews.
+2020-02-04  2.0         Grace                   Research          Abstract       Interviews.
+2020-02-03  8.0         Grace                   Research          Abstract       Summarizing remote interviews.
+2020-02-02  2.0         Grace                   Research          Abstract       Preparing interviews.
+2020-02-01  1.0         Grace                   Research          Abstract       Preparing interviews.
+2020-01-31  2.0         Grace                   Research          Abstract       Preparing interviews.
+2020-01-30  2.0         Grace                   Research          Abstract       Preparing interviews.
+2020-01-29  3.0         Grace                   Research          Abstract       Preparing interviews.
+2020-01-28  0.5         Health                  Health            Personal       Indoor running.
+2020-01-28  5.0         Grace                   Research          Abstract       Preparing interviews.
+2020-01-28  1.0         User Research           Research          Abstract       Learning about User Research.
+2020-01-27  2.0         Grace                   Research          Abstract       Preparing interviews.
+2020-01-26  2.0         React                   Research          Code           React
+2020-01-26  0.5         HealthWorks             Maintenance       Code           Updating SPF records for mail delivery.
+2020-01-26  2.0         Horizon                 Development       Code           Creating shop.
+2020-01-25  1.0         Horizon                 Development       Code           Creating shop.
+2020-01-24  0.5         Horizon                 Maintenance       Personal       Adding missing hours.
+2020-01-23  1.0         Grace                   Research          Abstract       Preparing interviews.
+2020-01-22  3.0         Grace                   Research          Abstract       Preparing interviews.
+2020-01-21  1.0         User Research           Research          Abstract       Learning about User Research.
+2020-01-20  2.0         Grace                   Research          Abstract       Preparing interviews.
+2020-01-20  2.0         Horizon                 Maintenance       Personal       Adding hours from Toggl.
+2020-01-19  1.5         Health                  Health            Personal       Outdoor walking.
+2020-01-19  2.0         Horizon                 Development       Code           Adding graph to stats page.
+2020-01-19  1.0         BeautyRelax             Writing           Abstract       Reviewing content for website.
+2020-01-19  1.0         Horizon                 Development       Code           Meeting new stats page.
+2020-01-18  1.5         User Research           Research          Abstract       User Research
+2020-01-18  1.0         Horizon                 Research          Code           Exploring static HTML with Gatsby.
+2020-01-17  2.5         User Research           Research          Abstract       User Research
+2020-01-16  0.5         User Research           Research          Abstract       User Research
+2020-01-16  2.5         User Experience         Research          Abstract       User Experience
+2020-01-16  0.5         Grace                   Design            Abstract       Planning for 2020.
+2020-01-15  1.5         User Experience         Research          Abstract       User Experience
+2020-01-15  0.17        Meditation              Health            Personal       Waking up.
+2020-01-15  1.0         Health                  Health            Personal       Workout legs at gym.
+2020-01-15  3.0         Horizon                 Development       Code           Meeting new stats page.
+2020-01-15  1.0         Horizon                 Maintenance       Personal       Updating content.
+2020-01-14  2.0         Horizon                 Development       Code           Refactoring stats page.
+2020-01-13  3.0         Rust                    Research          Code           Rust
+2020-01-13  1.0         Health                  Health            Personal       Workout chest at gym.
+2020-01-13  1.0         Horizon                 Maintenance       Personal       Updating content.
+2020-01-12  1.0         Horizon                 Development       Code           Refactoring stats page.
+2020-01-12  1.0         Horizon                 Maintenance       Code
+2020-01-11  2.0         React                   Research          Code           React
+2020-01-10  1.0         Health                  Health            Personal       Workout back at gym.
+2020-01-10  1.0         Horizon                 Maintenance       Personal
+2020-01-10  1.0         Aktieutdelningar        Maintenance       Personal       Updating stocklist.
+2020-01-10  4.0         React                   Research          Code           React
+2020-01-09  5.0         Horizon                 Development       Code
+2020-01-08  1.0         Horizon                 Development       Code
+2020-01-08  1.0         Horizon                 Graphic           Visual
+2020-01-08  1.0         BeautyRelax             Maintenance       Abstract
+2020-01-07  1.0         Horizon                 Maintenance       Code
+2020-01-07  2.0         Aktieutdelningar        Maintenance       Code
+2020-01-07  1.0         New Media               Maintenance       Code
+2020-01-07  1.0         BeautyRelax             Maintenance       Code
+2020-01-03  0           About                   Event             Personal       Moved to Stockholm, Sweden
+2020-01-01  0           Felicia                 Event             Personal       Had a baby.
+2019-12-30  8.0         Eve Adam                Graphic           Visual
+2019-12-29  5.0         Eve Adam                Graphic           Visual
+2019-12-29  0.5         Aktieutdelningar        Maintenance       Code
+2019-12-28  9.0         Eve Adam                Graphic           Visual
+2019-12-27  2.0         Eve Adam                Graphic           Visual
+2019-12-26  2.0         Eve Adam                Graphic           Visual
+2019-12-26  2.0         Eve Adam                Graphic           Visual
+2019-12-25  6.0         Horizon                 Graphic           Visual
+2019-12-25  2.0         Horizon                 Maintenance       Code
+2019-12-24  5.0         Horizon                 Development       Code
+2019-12-23  2.0         Eve Adam                Concept           Abstract
+2019-12-23  2.0         Eve Adam                Graphic           Visual
+2019-12-18  2.0         Eve Adam                Graphic           Visual
+2019-12-18  2.0         HealthWorks             Development       Code
+2019-12-17  3.0         Eve Adam                Graphic           Visual
+2019-12-16  3.0         Eve Adam                Graphic           Visual
+2019-12-15  2.0         Caroline Jonasen        Development       Code
+2019-12-14  3.0         Caroline Jonasen        Development       Code
+2019-12-14  1.0         Eve Adam                Graphic           Visual
+2019-12-13  1.0         Horizon                 Development       Code
+2019-12-13  3.0         Eve Adam                Graphic           Visual
+2019-12-12  1.0         React                   Research          Code           React
+2019-12-12  2.0         Horizon                 Development       Code
+2019-12-12  2.0         Eve Adam                Graphic           Visual
+2019-12-11  2.0         Horizon                 Development       Code
+2019-12-11  2.0         Eve Adam                Graphic           Visual
+2019-12-10  3.0         Horizon                 Development       Code
+2019-12-10  2.0         Eve Adam                Graphic           Visual
+2019-12-09  2.0         Horizon                 Development       Code
+2019-12-09  2.0         Eve Adam                Graphic           Visual
+2019-12-08  2.0         Horizon                 Development       Code
+2019-12-07  1.0         Horizon                 Development       Code
+2019-12-07  3.0         Eve Adam                Concept           Visual
+2019-12-06  1.0         Horizon                 Development       Code           Refactor site on Gatsby.
+2019-12-05  2.0         Horizon                 Development       Code           Refactor site on Gatsby.
+2019-12-04  2.0         Horizon                 Development       Code           Refactor site on Gatsby.
+2019-12-04  2.0         Eve Adam                Graphic           Visual         Startpage design.
+2019-12-03  2.0         Eve Adam                Graphic           Visual         Startpage design.
+2019-12-02  4.0         Eve Adam                Graphic           Visual         Startpage design.
+2019-12-01  4.0         Grace                   Graphic           Visual
+2019-12-01  0.5         Aktieutdelningar        Maintenance       Code           Adding stocks.
+2019-11-30  5.0         Eve Adam                Graphic           Visual         Designing initial user journey.
+2019-11-29  1.0         Aktieutdelningar        Desing            Abstract
+2019-11-29  2.0         Eve Adam                Graphic           Visual         Designing initial user journey.
+2019-11-28  1.0         Eve Adam                Graphic           Visual         Designing initial user journey.
+2019-11-27  3.0         Eve Adam                Graphic           Visual         Designing initial user journey.
+2019-11-26  5.0         Eve Adam                Graphic           Visual         Designing initial user journey.
+2019-11-25  3.0         Eve Adam                Graphic           Visual         Designing initial user journey.
+2019-11-23  4.0         Elin Kero               Development       Code           Refactoring shop pages.
+2019-11-21  1.0         Eve Adam                Graphic           Abstract       Designing new startpage.
+2019-11-20  2.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
+2019-11-19  5.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
+2019-11-19  1.0         Health                  Health            Personal       Kickboxing at gym.
+2019-11-18  3.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
+2019-11-17  9.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
+2019-11-16  6.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
+2019-11-14  2.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
+2019-11-13  2.0         Eve Adam                Graphic           Visual         Designing medical questionnaire, payment options and create password.
+2019-11-12  3.0         Eve Adam                Graphic           Visual         Designing medical questionnaire, onboarding, login in, sign up and create password.
+2019-11-08  1.0         Eve Adam                Graphic           Visual         Designing medical questionnaire.
+2019-11-07  2.0         Eve Adam                Graphic           Visual         Designing medical questionnaire.
+2019-11-06  3.0         Eve Adam                Graphic           Visual         Designing medical questionnaire.
+2019-11-05  5.0         Eve Adam                Graphic           Visual         Designing medical questionnaire.
+2019-11-04  2.0         Eve Adam                Graphic           Visual         Designing medical questionnaire.
+2019-11-03  5.0         Eve Adam                Graphic           Visual         Designing onboarding.
+2019-11-02  5.0         Eve Adam                Graphic           Visual         Designing log in and sign up.
+2019-11-01  1.0         Eve Adam                Graphic           Visual         Designing log in and sign up.
+2019-10-31  2.0         Eve Adam                Graphic           Visual         Designing onboarding, header and footer.
+2019-10-30  1.0         Eve Adam                Graphic           Visual         Designing medical questionnaire.
+2019-10-29  2.0         Grace                   Graphic           Visual
+2019-10-28  1.0         Grace                   Graphic           Visual
+2019-10-27  1.0         Grace                   Graphic           Visual
+2019-10-27  3.0         Elin Kero               Development       Code           Refactor code from meeting 2019-10-19.
+2019-10-27  3.0         Elin Kero               Development       Code           Refactor shop pages.
+2019-10-25  1.0         Grace                   Graphic           Visual
+2019-10-23  1.0         Health                  Health            Personal       Kickboxing at gym.
+2019-10-20  1.0         Javascript              Research          Code           Javascript
+2019-10-20  1.0         Grace                   Graphic           Visual
+2019-10-15  3.0         Horizon                 Development       Code
+2019-10-14  4.0         Horizon                 Development       Code
+2019-10-14  2.0         Grace                   Graphic           Visual
+2019-10-13  2.0         Grace                   Graphic           Visual
+2019-10-12  3.0         Grace                   Graphic           Visual
+2019-10-12  3.0         Javascript              Research          Code           Javascript
+2019-10-11  3.0         Horizon                 Development       Code
+2019-10-11  3.0         HealthWorks             Design            Abstract
+2019-10-11  2.0         Grace                   Graphic           Visual
+2019-10-10  1.0         Grace                   Graphic           Visual
+2019-10-09  3.0         Grace                   Graphic           Visual
+2019-10-08  4.0         User Experience         Research          Abstract       User Experience
+2019-10-07  2.0         Grace                   Graphic           Visual
+2019-10-07  2.0         Elin Kero               Development       Code
+2019-10-07  1.0         Horizon                 Writing           Abstract
+2019-10-07  4.0         User Experience         Research          Abstract       User Experience
+2019-10-06  2.0         Elin Kero               Development       Code
+2019-10-06  1.0         Horizon                 Development       Code           Implementing Tailwind.
+2019-10-06  1.0         Horizon                 Writing           Abstract
+2019-10-06  2.0         Horizon                 Writing           Abstract
+2019-10-05  3.0         Horizon                 Development       Code
+2019-10-05  2.0         Grace                   Graphic           Visual
+2019-10-04  2.0         Grace                   Graphic           Visual
+2019-10-03  1.0         Zuora                   Event             Personal       Subscribed by Zuora
+2019-10-03  2.0         Elin Kero               Development       Code
+2019-10-02  3.0         Grace                   Graphic           Visual
+2019-10-01  3.0         Grace                   Graphic           Visual
+2019-09-30  3.0         Elin Kero               Development       Code
+2019-09-29  7.0         Horizon                 Development       Code
+2019-09-28  6.0         Horizon                 Development       Code
+2019-09-27  4.0         Cidien                  Development       Code
+2019-09-26  1.0         Grace                   Design            Abstract
+2019-09-25  2.0         Grace                   Design            Abstract
+2019-09-20  1.0         Ebeco                   Design            Abstract
+2019-09-14  5.0         Charlotte Beijer        Development       Code
+2019-09-13  3.0         Charlotte Beijer        Development       Code
+2019-09-12  1.0         Charlotte Beijer        Development       Code
+2019-09-11  6.0         Charlotte Beijer        Development       Code
+2019-09-02  0           Switzerland             Travel            Personal       Travel to Zurich
+2019-09-03  1.0         HealthWorks             Design            Abstract
+2019-08-31  1.0         Aktieutdelningar        Development       Code
+2019-08-31  4.0         Cookie Tempura          Development       Code
+2019-08-30  3.0         Aktieutdelningar        Maintenance       Code
+2019-08-30  3.0         Cookie Tempura          Development       Code
+2019-08-29  4.0         Cookie Tempura          Development       Code
+2019-08-28  1.0         Cookie Tempura          Development       Code
+2019-08-27  3.0         Eve Adam                Graphic           Visual
+2019-08-26  2.0         Eve Adam                Graphic           Visual
+2019-08-25  1.0         Eve Adam                Graphic           Visual
+2019-08-23  0           Spain                   Travel            Personal       Travel to Alicante
+2019-08-21  8.0         Eve Adam                Graphic           Visual
+2019-08-20  6.0         Eve Adam                Graphic           Visual
+2019-08-19  6.0         Eve Adam                Graphic           Visual
+2019-08-18  4.0         Eve Adam                Graphic           Visual
+2019-08-17  6.0         Eve Adam                Graphic           Visual
+2019-08-16  1.0         Eve Adam                Graphic           Visual
+2019-08-15  1.0         Eve Adam                Graphic           Visual
+2019-08-13  2.0         Eve Adam                Graphic           Visual
+2019-08-12  2.0         Eve Adam                Graphic           Visual
+2019-08-11  7.0         Eve Adam                Graphic           Visual
+2019-08-10  9.0         Eve Adam                Graphic           Visual
+2019-08-09  3.0         Eve Adam                Graphic           Visual
+2019-08-07  1.0         Eve Adam                Concept           Visual
+2019-08-07  2.0         Eve Adam                Graphic           Visual
+2019-08-06  4.0         Eve Adam                Graphic           Visual
+2019-08-04  1.0         Eve Adam                Graphic           Visual
+2019-08-02  5.0         Eve Adam                Graphic           Visual
+2019-08-01  5.0         Eve Adam                Graphic           Visual
+2019-07-31  7.0         Eve Adam                Graphic           Visual
+2019-07-30  3.0         Eve Adam                Graphic           Visual
+2019-07-20  4.0         Eve Adam                Graphic           Visual
+2019-07-19  3.0         Eve Adam                Graphic           Visual
+2019-07-18  2.0         Eve Adam                Graphic           Visual
+2019-07-17  2.0         Eve Adam                Graphic           Visual
+2019-07-15  1.0         Eve Adam                Graphic           Visual
+2019-07-15  3.0         SSRS                    Graphic           Visual
+2019-07-10  0.5         SSRS                    Graphic           Visual
+2019-07-09  1.0         Eve Adam                Graphic           Visual
+2019-07-08  1.5         SSRS                    Graphic           Visual
+2019-07-08  6.0         Eve Adam                Graphic           Visual
+2019-07-07  1.0         SSRS                    Graphic           Visual
+2019-07-07  5.0         Eve Adam                Graphic           Visual
+2019-07-06  3.0         Eve Adam                Graphic           Visual
+2019-07-05  2.0         Eve Adam                Graphic           Visual
+2019-07-04  1.0         Eve Adam                Graphic           Visual
+2019-07-03  0.5         SSRS                    Graphic           Visual
+2019-07-03  1.5         SSRS                    Concept           Abstract
+2019-07-02  0.5         SSRS                    Graphic           Visual
+2019-06-16  6.0         Eve Adam                Graphic           Visual
+2019-05-27  0           Spain                   Travel            Personal       Travel to Alicante
+2019-05-27  3.0         HealthWorks             Development       Code
+2019-05-26  5.0         HealthWorks             Development       Code
+2019-05-25  5.0         Horizon                 Development       Code           Tailwind
+2019-05-22  1.0         BeautyRelax             Design            Abstract
+2019-05-21  2.0         HealthWorks             Design            Abstract
+2019-05-14  2.0         Eve Adam                Development       Code           Eden
+2019-05-08  3.0         Eve Adam                Graphic           Visual
+2019-05-07  5.0         Eve Adam                Graphic           Visual         Eden
+2019-05-06  3.0         Eve Adam                Graphic           Visual         Eden
+2019-05-05  8.0         Eve Adam                Graphic           Visual
+2019-05-04  6.0         Eve Adam                Graphic           Visual
+2019-05-03  8.0         User Experience         Event             Personal       From Business to Buttons
+2019-05-02  1.0         Eve Adam                Graphic           Visual         Eden
+2019-05-01  3.0         By Lang                 Design            Abstract
+2019-04-30  4.0         Mixup Match             Development       Code
+2019-04-29  1.0         Eve Adam                Graphic           Visual         Eden
+2019-04-28  3.0         Eve Adam                Graphic           Visual         Eden
+2019-04-28  3.0         Eve Adam                Graphic           Visual
+2019-04-27  3.0         HealthWorks             Design            Abstract
+2019-04-26  2.0         Mixup Match             Development       Code
+2019-04-25  4.0         Mixup Match             Development       Code
+2019-04-24  4.0         HealthWorks             Writing           Abstract       Writing compliance documentation.
+2019-04-23  1.0         Mixup Match             Development       Code
+2019-04-22  7.0         Horizon                 Development       Code           Tailwind
+2019-04-21  4.0         Horizon                 Development       Code           Tailwind
+2019-04-20  5.0         Horizon                 Development       Code           Tailwind
+2019-04-19  7.0         Eve Adam                Graphic           Visual
+2019-04-17  1.0         React                   Research          Code           React
+2019-04-16  4.0         React                   Research          Code           React
+2019-04-15  4.0         Eve Adam                Graphic           Visual
+2019-04-14  6.0         Horizon                 Maintenance       Code
+2019-04-13  7.0         Horizon                 Maintenance       Code
+2019-04-12  4.0         Mockup Generator        Graphic           Visual
+2019-04-11  6.0         Horizon                 Development       Code           Started Journaling
+2019-04-07  3.0         Eve Adam                Graphic           Visual
+2019-04-06  2.0         Eve Adam                Graphic           Visual
+2019-04-04  5.0         Eve Adam                Graphic           Visual
+2019-04-02  2.0         Eve Adam                Graphic           Visual
+2019-03-29  6.0         HealthWorks             Graphic           Visual
+2019-03-29  7.0         HealthWorks             Graphic           Visual
+2019-03-29  2.0         Eve Adam                Graphic           Visual
+2019-03-28  2.0         Eve Adam                Graphic           Visual
+2019-03-25  4.0         Eve Adam                Graphic           Visual
+2019-03-24  2.0         Eve Adam                Graphic           Abstract
+2019-03-18  1.0         HealthWorks             Design            Abstract
+2019-01-02  2.0         HealthWorks             Design            Abstract
+2018-12-30  6.0         Bit.Shop                Graphic           Visual
+2018-12-29  5.0         Bit.Shop                Graphic           Visual
+2018-12-20  5.0         Bit.Shop                Graphic           Visual
+2018-12-19  5.0         Bit.Shop                Graphic           Visual
+2018-11-18  7.0         Bit.Shop                Graphic           Visual
+2018-11-17  4.0         HealthWorks             Design            Abstract
+2018-11-14  2.0         HealthWorks             Design            Abstract
+2018-11-12  3.0         HealthWorks             Design            Abstract
+2018-11-12  1.0         Bit.Shop                Design            Abstract
+2018-11-11  4.0         Bit.Shop                Graphic           Visual
+2018-11-09  1.0         Bit.Shop                Graphic           Visual
+2018-11-07  1.0         Bit.Shop                Design            Abstract
+2018-11-06  3.0         HealthWorks             Development       Code
+2018-11-05  3.0         HealthWorks             Development       Code
+2018-11-02  5.0         HealthWorks             Development       Code
+2018-11-01  2.0         Bit.Shop                Graphic           Visual
+2018-10-31  1.0         Bit.Shop                Graphic           Visual
+2018-10-30  3.0         Bit.Shop                Graphic           Visual
+2018-10-29  1.0         Bit.Shop                Concept           Abstract
+2018-10-18  4.0         Bit.Shop                Concept           Abstract
+2018-10-17  2.0         Bit.Shop                Graphic           Visual
+2018-10-30  4.0         HealthWorks             Development       Code
+2018-10-28  4.0         New Media               Development       Code
+2018-10-22  2.0         HealthWorks             Design            Abstract
+2018-10-19  3.0         HealthWorks             Design            Abstract
+2018-10-13  6.0         Scuba                   Health            Personal       Diving in Cape Town, South Africa
+2018-10-12  0           South Africa            Travel            Personal       Travel to Cape Town
+2018-10-11  1.0         Bit.Shop                Graphic           Visual
+2018-10-10  1.0         Bit.Shop                Graphic           Visual
+2018-10-09  3.0         Bit.Shop                Graphic           Visual
+2018-10-04  2.0         Bit.Shop                Graphic           Visual
+2018-10-02  0           South Africa            Travel            Personal       Travel to Marloth Park
+2018-09-30  1.0         Bit.Shop                Concent           Abstract
+2018-09-28  0           South Africa            Travel            Personal       Travel to Pretoria
+2018-09-28  1.0         Bit.Shop                Graphic           Visual
+2018-09-27  3.0         Bit.Shop                Graphic           Visual
+2018-09-26  3.0         Bit.Shop                Graphic           Visual
+2018-09-25  1.0         Bit.Shop                Graphic           Visual
+2018-09-21  0           Scuba                   Event             Personal       Advanced Open Water certification.
+2018-09-21  6.0         Scuba                   Health            Personal       Diving in Malta
+2018-09-20  6.0         Scuba                   Health            Personal       Diving in Malta
+2018-09-19  6.0         Scuba                   Health            Personal       Diving in Malta
+2018-09-18  6.0         Scuba                   Health            Personal       Diving in Malta
+2018-09-17  6.0         Scuba                   Health            Personal       Diving in Malta
+2018-09-15  0           Malta                   Travel            Personal       Travel to Malta
+2018-08-30  0           Work                    Event             Personal       Started working at Benify
+2018-08-12  1.0         Jotex                   Writing           Abstract       Updating campaign generator.
+2018-08-11  1.0         Jotex                   Graphic           Visual         Updating campaign generator.
+2018-08-10  3.0         Horizon                 Development       Abstract       Exploring tailwind integration.
+2018-08-09  5.0         Wint Accounting         Graphic           Visual
+2018-08-08  3.0         Wint Accounting         Graphic           Visual
+2018-08-07  1.0         Whiteport               Development       Code
+2018-08-02  1.0         Ecolyx                  Development       Abstract
+2018-07-28  1.0         Ecolyx                  Graphic           Visual
+2018-07-24  1.0         HealthWorks             Design            Abstract
+2018-07-20  1.0         New Media               Development       Code
+2018-07-15  4.0         BeautyRelax             Development       Code
+2018-06-14  0           Scuba                   Event             Personal       Open Water certification.
+2018-06-14  7.0         Scuba                   Health            Personal       Diving in Skopelos, Greece
+2018-06-12  6.0         Scuba                   Health            Personal       Diving in Skopelos, Greece
+2018-06-11  6.0         Scuba                   Health            Personal       Diving in Skopelos, Greece
+2018-06-10  0           Greece                  Travel            Personal       Travel to Skopelos
+2018-06-08  1.0         Indoor Energy           Graphic           Visual
+2018-06-05  0           Greece                  Travel            Personal       Travel to Meteora
+2018-06-05  1.0         Indoor Energy           Graphic           Visual
+2018-06-02  0           Greece                  Travel            Personal       Travel to Parga
+2018-06-01  1.0         Ecolyx                  Maintanence       Code
+2018-05-31  4.0         Ecolyx                  Maintenance       Code
+2018-05-30  0           Greece                  Travel            Personal       Travel to Corfu
+2018-05-29  3.0         Ecolyx                  Maintenance       Code
+2018-05-29  1.0         Indoor Energy           Graphic           Visual
+2018-05-28  4.0         Indoor Energy           Design            Abstract
+2018-05-27  3.0         Ecolyx                  Maintenance       Code
+2018-05-25  0           Greece                  Travel            Personal       Travel to Athens
+2018-05-23  1.0         HealthWorks             Design            Abstract
+2018-05-07  5.0         Horizon                 Design            Abstratc
+2018-05-06  3.0         Horizon                 Design            Abstract       Exploring tailwind.
+2018-05-05  2.0         Horizon                 Design            Abstract       Exploring tailwind.
+2018-05-02  2.0         Destination             Development       Code
+2018-04-28  2.0         Ecolyx                  Development       Code
+2018-04-27  1.0         Indoor Energy           Graphic           Visual
+2018-04-26  3.0         Ecolyx                  Development       Code
+2018-04-25  4.0         Ecolyx                  Development       Code
+2018-04-24  5.0         Ecolyx                  Development       Code
+2018-04-23  4.0         Ecolyx                  Development       Code
+2018-04-22  3.0         HealthWorks             Graphic           Visual
+2018-04-21  3.0         HealthWorks             Graphic           Visual
+2018-04-21  5.0         HealthWorks             Graphic           Visual
+2018-04-20  1.0         Treated                 Graphic           Visual
+2018-04-19  1.0         Indoor Energy           Graphic           Visual
+2018-04-19  4.0         Treated                 Concept           Abstract
+2018-04-18  1.0         Ecolyx                  Development       Code
+2018-04-17  1.0         Ecolyx                  Development       Code
+2018-04-15  2.0         HealthWorks             Graphic           Visual
+2018-04-11  1.0         Indoor Energy           Design            Abstract
+2018-04-10  1.0         Indoor Energy           Design            Abstract
+2018-04-09  1.0         Indoor Energy           Graphic           Visual
+2018-03-29  4.0         Treated                 Graphic           Visual
+2018-03-28  3.0         Treated                 Graphic           Visual
+2018-03-26  3.0         Treated                 Graphic           Visual
+2018-03-20  1.0         Indoor Energy           Maintenance       Visual
+2018-03-25  0           Denmark                 Travel            Personal           Travel to Copenhagen, Denmark
+2018-03-22  3.0         Treated                 Graphic           Visual
+2018-03-21  3.0         Treated                 Graphic           Visual
+2018-03-19  2.0         Indoor Energy           Graphic           Abstract
+2018-03-16  6.0         Treated                 Graphic           Visual
+2018-03-16  1.0         Indoor Energy           Graphic           Visual
+2018-03-15  1.0         Treated                 Graphic           Visual
+2018-03-15  1.0         Indoor Energy           Graphic           Visual
+2018-03-14  5.0         Treated                 Graphic           Visual
+2018-03-14  1.0         Indoor Energy           Graphic           Visual
+2018-03-13  2.0         Treated                 Graphic           Visual
+2018-03-13  1.0         Indoor Energy           Graphic           Abstract
+2018-03-09  1.0         Indoor Energy           Graphic           Abstract
+2018-03-08  3.0         Treated                 Graphic           Visual
+2018-03-07  5.0         HealthWorks             Graphic           Visual
+2018-03-06  2.0         Destination             Development       Code
+2018-03-06  1.0         Treated                 Graphic           Visual
+2018-03-05  7.0         Treated                 Graphic           Visual
+2018-03-03  2.0         Elin Kero               Graphic           Visual
+2018-03-02  8.0         Elin Kero               Graphic           Visual
+2018-03-01  1.0         Indoor Energy           Graphic           Abstract
+2018-02-28  2.0         Indoor Energy           Graphic           Visual
+2018-02-27  5.0         Indoor Energy           Graphic           Visual
+2018-02-22  2.0         Indoor Energy           Graphic           Visual
+2018-02-20  3.0         HealthWorks             Graphic           Visual
+2018-02-20  1.0         Indoor Energy           Graphic           Abstract
+2018-02-19  1.0         Treated                 Graphic           Visual
+2018-02-19  5.0         Indoor Energy           Graphic           Visual
+2018-02-19  1.0         Ubermeds                Graphic           Visual
+2018-02-18  6.0         Destination             Development       Code
+2018-02-16  1.0         Ubermeds                Design            Abstract
+2018-02-15  1.0         Treated                 Graphic           Visual
+2018-02-15  3.0         Ubermeds                Graphic           Visual
+2018-02-14  1.0         Ubermeds                Graphic           Abstract
+2018-02-13  4.0         Destination             Development       Code
+2018-02-12  1.0         Treated                 Graphic           Visual
+2018-02-09  2.0         Treated                 Graphic           Visual
+2018-02-08  3.0         Treated                 Graphic           Visual
+2018-02-08  2.0         Treated                 Graphic           Visual
+2018-02-07  2.0         Ubermeds                Graphic           Visual
+2018-01-31  1.0         Treated                 Graphic           Visual
+2018-01-27  2.0         Ubermeds                Graphic           Abstract
+2018-01-26  5.0         Jotex                   Graphic           Visual
+2018-01-25  5.0         Jotex                   Graphic           Visual
+2018-01-24  5.0         Jotex                   Graphic           Visual
+2018-01-23  5.0         Jotex                   Graphic           Visual
+2018-01-22  3.0         Treated                 Graphic           Visual
+2018-01-22  5.0         Jotex                   Graphic           Visual
+2018-01-19  5.0         Jotex                   Graphic           Visual
+2018-01-18  5.0         Jotex                   Graphic           Visual
+2018-01-17  1.0         Treated                 Graphic           Visual
+2018-01-17  5.0         Jotex                   Graphic           Visual
+2018-01-16  5.0         Jotex                   Graphic           Visual
+2018-01-15  5.0         Jotex                   Graphic           Visual
+2018-01-14  6.0         Treated                 Graphic           Visual
+2018-01-13  3.0         Treated                 Graphic           Visual
+2018-01-12  1.0         Indoor Energy           Graphic           Visual
+2018-01-12  5.0         Jotex                   Graphic           Visual
+2018-01-11  5.0         Jotex                   Graphic           Visual
+2018-01-10  5.0         Jotex                   Graphic           Visual
+2018-01-09  1.0         Ubermeds                Graphic           Visual
+2018-01-09  5.0         Jotex                   Graphic           Visual
+2018-01-08  2.0         Ubermeds                Graphic           Visual
+2018-01-08  5.0         Jotex                   Graphic           Visual
+2018-01-06  2.0         Ubermeds                Graphic           Visual
+2018-01-05  5.0         Ubermeds                Graphic           Visual
+2018-01-05  1.0         Ubermeds                Graphic           Abstract
+2018-01-04  2.0         Ubermeds                Graphic           Abstract
+2017-12-27  2.0         Indoor Energy           Graphic           Visual
+2017-12-22  1.0         Ubermeds                Graphic           Visual
+2017-12-22  2.0         Ubermeds                Graphic           Abstract
+2017-12-20  1.0         Ubermeds                Graphic           Abstract
+2017-12-18  1.0         Indoor Energy           Graphic           Abstract
+2017-12-15  5.0         Jotex                   Graphic           Visual
+2017-12-14  4.0         Jotex                   Graphic           Visual
+2017-12-14  1.0         Ubermeds                Graphic           Abstract
+2017-12-13  5.0         Jotex                   Graphic           Visual
+2017-12-12  5.0         Jotex                   Graphic           Visual
+2017-12-11  5.0         Jotex                   Graphic           Visual
+2017-12-10  3.0         Treated                 Graphic           Visual
+2017-12-08  9.0         Indoor Energy           Graphic           Visual
+2017-12-06  1.0         Indoor Energy           Graphic           Visual
+2017-12-04  9.0         Indoor Energy           Graphic           Visual
+2017-12-01  2.0         Ubermeds                Graphic           Abstract
+2017-11-27  2.0         Indoor Energy           Graphic           Absract
+2017-11-26  2.0         Indoor Energy           Graphic           Abstract
+2017-11-22  4.0         Ubermeds                Graphic           Visual
+2017-11-22  1.0         Treated                 Concept           Abstract
+2017-11-16  1.0         Indoor Energy           Graphic           Abstract
+2017-11-15  2.0         Indoor Energy           Graphic           Visual
+2017-11-11  3.0         Indoor Energy           Graphic           Visual
+2017-11-08  3.0         Ubermeds                Graphic           Visual
+2017-11-07  2.0         Ubermeds                Graphic           Visual
+2017-11-07  2.0         Ubermeds                Graphic           Visual
+2017-11-05  1.0         Ubermeds                Graphic           Visual
+2017-11-04  2.0         Ubermeds                Graphic           Visual
+2017-11-02  3.0         Ubermeds                Graphic           Visual
+2017-11-01  4.0         Ubermeds                Graphic           Visual
+2017-11-01  3.0         Ubermeds                Graphic           Visual
+2017-10-31  1.0         Ubermeds                Graphic           Visual
+2017-10-26  1.0         Ubermeds                Graphic           Visual
+2017-10-25  1.0         Indoor Energy           Graphic           Abstract
+2017-10-24  6.0         Ubermeds                Graphic           Visual
+2017-10-23  1.0         Ubermeds                Concept           Abstract
+2017-10-20  3.0         Indoor Energy           Graphic           Visual
+2017-10-20  3.0         Ubermeds                Graphic           Visual
+2017-10-17  2.0         Indoor Energy           Graphic           Visual
+2017-10-13  1.0         Ubermeds                Concept           Abstract
+2017-10-13  1.0         Indoor Energy           Research          Abstract
+2017-10-12  3.0         Indoor Energy           Graphic           Visual
+2017-10-11  3.0         Indoor Energy           Graphic           Visual
+2017-09-25  3.0         Ubermeds                Graphic           Abstract
+2017-09-21  0           About                   Event             Personal       Moved to Gothenburg, Sweden
+2017-09-19  1.0         MoveM                   Graphic           Visual
+2017-09-18  1.0         MoveM                   Graphic           Visual
+2017-09-17  2.0         MoveM                   Graphic           Visual
+2017-09-16  2.0         MoveM                   Graphic           Visual
+2017-07-14  5.0         Jotex                   Graphic           Visual
+2017-07-13  5.0         Jotex                   Graphic           Visual
+2017-07-12  5.0         Jotex                   Graphic           Visual
+2017-07-11  5.0         Jotex                   Graphic           Visual
+2017-07-10  5.0         Jotex                   Graphic           Visual
+2017-07-07  5.0         Jotex                   Graphic           Visual
+2017-07-06  5.0         Jotex                   Graphic           Visual
+2017-07-05  5.0         Jotex                   Graphic           Visual
+2017-07-04  5.0         Jotex                   Graphic           Visual
+2017-07-03  5.0         Jotex                   Graphic           Visual
+2017-06-30  5.0         Jotex                   Graphic           Visual
+2017-06-29  5.0         Jotex                   Graphic           Visual
+2017-06-28  5.0         Jotex                   Graphic           Visual
+2017-06-27  5.0         Jotex                   Graphic           Visual
+2017-06-26  5.0         Jotex                   Graphic           Visual
+2017-06-16  5.0         Jotex                   Graphic           Visual
+2017-06-15  5.0         Jotex                   Graphic           Visual
+2017-06-14  5.0         Jotex                   Graphic           Visual
+2017-06-13  5.0         Jotex                   Graphic           Visual
+2017-06-12  5.0         Jotex                   Graphic           Visual
+2017-06-09  5.0         Jotex                   Graphic           Visual
+2017-06-08  5.0         Jotex                   Graphic           Visual
+2017-06-07  6.0         Jotex                   Graphic           Visual
+2017-05-12  5.0         Jotex                   Graphic           Visual
+2017-05-11  5.0         Jotex                   Graphic           Visual
+2017-05-10  5.0         Jotex                   Graphic           Visual
+2017-05-09  5.0         Jotex                   Graphic           Visual
+2017-05-08  5.0         Jotex                   Graphic           Visual
+2017-05-05  5.0         Jotex                   Graphic           Visual
+2017-05-04  5.0         Jotex                   Graphic           Visual
+2017-05-03  5.0         Jotex                   Graphic           Visual
+2017-05-02  5.0         Jotex                   Graphic           Visual
+2017-04-28  5.0         Jotex                   Graphic           Visual
+2017-04-27  5.0         Jotex                   Graphic           Visual
+2017-04-26  5.0         Jotex                   Graphic           Visual
+2017-04-25  5.0         Jotex                   Graphic           Visual
+2017-04-24  5.0         Jotex                   Graphic           Visual
+2017-04-21  5.0         Jotex                   Graphic           Visual
+2017-04-20  5.0         Jotex                   Graphic           Visual
+2017-04-19  5.0         Jotex                   Graphic           Visual
+2017-04-18  5.0         Jotex                   Graphic           Visual
+2017-04-03  1.0         The Academy             Graphic           Visual
+2017-03-31  8.0         Jotex                   Graphic           Visual
+2017-03-30  1.0         The Academy             Graphic           Visual
+2017-03-30  5.0         Jotex                   Graphic           Visual
+2017-03-29  3.0         The Academy             Graphic           Visual
+2017-03-29  1.0         The Academy             Graphic           Visual
+2017-03-29  5.0         Jotex                   Graphic           Visual
+2017-03-28  2.0         The Academy             Graphic           Visual
+2017-03-28  5.0         Jotex                   Graphic           Visual
+2017-03-27  5.0         Jotex                   Graphic           Visual
+2017-03-24  5.0         Jotex                   Graphic           Visual
+2017-03-23  5.0         Jotex                   Graphic           Visual
+2017-03-22  5.0         Jotex                   Graphic           Visual
+2017-03-21  2.0         Renthia                 Concept           Abstract
+2017-03-21  8.0         Jotex                   Graphic           Visual
+2017-03-20  2.0         Renthia                 Concept           Abstract
+2017-03-20  5.0         Jotex                   Graphic           Visual
+2017-03-17  5.0         Jotex                   Graphic           Visual
+2017-03-16  5.0         Jotex                   Graphic           Visual
+2017-03-15  5.0         Jotex                   Graphic           Visual
+2017-03-14  6.0         Jotex                   Graphic           Visual
+2017-03-13  5.0         Jotex                   Graphic           Visual
+2017-03-13  2.0         Renthia                 Concept           Abstract
+2017-03-10  5.0         Jotex                   Graphic           Visual
+2017-03-09  5.0         Jotex                   Graphic           Visual
+2017-03-08  5.0         Jotex                   Graphic           Visual
+2017-03-07  5.0         Jotex                   Graphic           Visual
+2017-03-06  5.0         Jotex                   Graphic           Visual
+2017-03-05  3.0         Renthia                 Concept           Abstract
+2017-03-04  2.0         Renthia                 Concept           Abstract
+2017-03-03  5.0         Jotex                   Graphic           Visual
+2017-03-02  2.0         Renthia                 Concept           Abstract
+2017-03-02  5.0         Jotex                   Graphic           Visual
+2017-03-01  3.0         Renthia                 Concept           Abstract
+2017-03-01  5.0         Jotex                   Graphic           Visual
+2017-02-27  5.0         Renthia                 Concept           Abstract
+2017-02-27  5.0         Jotex                   Graphic           Visual
+2017-02-24  5.0         Jotex                   Graphic           Visual
+2017-02-23  4.0         Renthia                 Concept           Abstract
+2017-02-23  5.0         Jotex                   Graphic           Visual
+2017-02-22  1.0         Renthia                 Concept           Abstract
+2017-02-22  5.0         Jotex                   Graphic           Visual
+2017-02-21  3.0         Renthia                 Concept           Abstract
+2017-02-21  5.0         Jotex                   Graphic           Visual
+2017-02-17  5.0         Jotex                   Graphic           Visual
+2017-02-15  5.0         Jotex                   Graphic           Visual
+2017-02-14  5.0         Jotex                   Graphic           Visual
+2017-02-13  5.0         Jotex                   Graphic           Visual
+2017-02-12  2.0         Pyret och Snäckan       Graphic           Visual
+2017-02-10  5.0         Jotex                   Graphic           Visual
+2017-02-08  5.0         Jotex                   Graphic           Visual
+2017-02-07  5.0         Jotex                   Graphic           Visual
+2017-02-06  5.0         Jotex                   Graphic           Visual
+2017-02-03  5.0         Jotex                   Graphic           Visual
+2017-02-02  5.0         Jotex                   Graphic           Visual
+2017-02-01  8.0         Jotex                   Graphic           Visual
+2017-01-31  5.0         Jotex                   Graphic           Visual
+2017-01-30  5.0         Jotex                   Graphic           Visual
+2017-01-27  5.0         Jotex                   Graphic           Visual
+2017-01-26  5.0         Jotex                   Graphic           Visual
+2017-01-25  5.0         Jotex                   Graphic           Visual
+2017-01-24  5.0         Jotex                   Graphic           Visual
+2017-01-23  5.0         Jotex                   Graphic           Visual
+2017-01-21  1.0         Axkid                   Concept           Abstract
+2017-01-21  2.0         Jotex                   Graphic           Visual
+2017-01-20  5.0         Jotex                   Graphic           Visual
+2017-01-19  2.0         Jotex                   Graphic           Visual
+2017-01-18  2.0         Axkid                   Graphic           Visual
+2017-01-18  6.0         Jotex                   Graphic           Visual
+2017-01-17  2.0         Axkid                   Graphic           Visual
+2017-01-17  5.0         Jotex                   Graphic           Visual
+2017-01-16  5.0         Jotex                   Graphic           Visual
+2017-01-15  1.0         Jotex                   Graphic           Visual
+2017-01-14  4.0         Jotex                   Graphic           Visual
+2017-01-13  6.0         Jotex                   Graphic           Visual
+2017-01-12  1.0         Jotex                   Graphic           Visual
+2017-01-11  6.0         Jotex                   Graphic           Visual
+2017-01-10  6.0         Jotex                   Graphic           Visual
+2017-01-09  5.0         Jotex                   Graphic           Visual
+2017-01-05  5.0         Jotex                   Graphic           Visual
+2017-01-04  5.0         Jotex                   Graphic           Visual
+2017-01-03  2.0         Axkid                   Graphic           Visual
+2017-01-03  5.0         Jotex                   Graphic           Visual
+2016-12-10  3.0         Axkid                   Graphic           Visual
+2016-12-09  1.0         Axkid                   Graphic           Visual
+2016-12-08  1.0         Axkid                   Graphic           Visual
+2016-12-08  3.0         Axkid                   Graphic           Visual
+2016-12-01  1.0         Axkid                   Graphic           Visual
+2016-11-28  3.0         Axkid                   Graphic           Visual
+2016-11-27  6.0         Axkid                   Graphic           Visual
+2016-11-26  6.0         Axkid                   Graphic           Visual
+2016-11-17  1.0         Renthia                 Concept           Abstract
+2016-11-16  4.0         Renthia                 Concept           Abstract
+2016-11-15  2.0         Renthia                 Concept           Abstract
+2016-11-07  8.0         Billmate                Graphic           Visual
+2016-09-26  5.0         Birdie Golf Tours       Graphic           Visual
+2016-09-25  4.0         Birdie Golf Tours       Graphic           Visual
+2016-09-22  4.0         Birdie Golf Tours       Graphic           Visual
+2016-09-21  5.0         Birdie Golf Tours       Graphic           Visual
+2016-09-20  6.0         Birdie Golf Tours       Graphic           Visual
+2016-09-19  3.0         Birdie Golf Tours       Concept           Abstract
+2016-09-15  3.0         Birdie Golf Tours       Graphic           Visual
+2016-09-14  4.0         Birdie Golf Tours       Graphic           Visual
+2016-09-07  0           Turkey                  Travel            Personal           Travel to Istanbul, Turkey
+2016-09-06  1.0         Axkid                   Graphic           Visual
+2016-09-05  3.0         Birdie Golf Tours       Concept           Abstract
+2016-09-04  1.0         Birdie Golf Tours       Graphic           Visual
+2016-08-31  2.0         Axkid                   Graphic           Visual
+2016-08-30  2.0         Birdie Golf Tours       Graphic           Visual
+2016-08-24  1.0         Mecenat                 Concept           Abstract
+2016-08-24  3.0         Axkid                   Graphic           Visual
+2016-08-23  3.0         Axkid                   Graphic           Visual
+2016-08-22  2.0         Axkid                   Graphic           Visual
+2016-08-17  2.0         Birdie Golf Tours       Concept           Abstract
+2016-08-16  4.0         Mecenat                 Concept           Abstract
+2016-08-16  2.0         Birdie Golf Tours       Concept           Abstract
+2016-08-15  5.0         Mecenat                 Concept           Abstract
+2016-08-13  7.0         Mecenat                 Concept           Abstract
+2016-08-12  2.0         Mecenat                 Concept           Abstract
+2016-08-12  8.0         Birdie Golf Tours       Concept           Abstract
+2016-08-09  3.0         Mecenat                 Concept           Abstract
+2016-08-09  6.0         Birdie Golf Tours       Concept           Abstract
+2016-08-08  7.0         Mecenat                 Concept           Abstract
+2016-08-08  2.0         Birdie Golf Tours       Concept           Abstract
+2016-08-05  1.0         Birdie Golf Tours       Concept           Abstract
+2016-08-04  8.0         Mecenat                 Concept           Abstract
+2016-08-03  1.0         Axkid                   Graphic           Visual
+2016-08-01  3.0         Mecenat                 Concept           Abstract
+2016-07-31  3.0         Birdie Golf Tours       Concept           Abstract
+2016-07-30  3.0         Birdie Golf Tours       Concept           Abstract
+2016-07-29  1.0         Mecenat                 Concept           Abstract
+2016-07-29  1.0         Birdie Golf Tours       Research          Abstract
+2016-07-27  6.0         Mecenat                 Concept           Abstract
+2016-07-26  5.0         Mecenat                 Concept           Abstract
+2016-07-26  4.0         Birdie Golf Tours       Research          Abstract
+2016-07-21  8.0         Mecenat                 Concept           Abstract
+2016-07-20  2.0         Mecenat                 Concept           Abstract
+2016-07-18  5.0         Mecenat                 Concept           Abstract
+2016-07-17  2.0         Mecenat                 Concept           Abstract
+2016-07-17  2.0         Axkid                   Graphic           Visual
+2016-07-16  9.0         Mecenat                 Concept           Abstract
+2016-07-16  2.0         Axkid                   Graphic           Visual
+2016-07-15  7.0         Mecenat                 Concept           Abstract
+2016-07-13  8.0         Mecenat                 Concept           Abstract
+2016-07-12  3.0         Photowall               Graphic           Visual
+2016-07-12  4.0         Mecenat                 Concept           Abstract
+2016-07-11  2.0         Photowall               Graphic           Visual
+2016-07-08  4.0         Mecenat                 Concept           Abstract
+2016-07-06  5.0         Mecenat                 Concept           Abstract
+2016-07-05  9.0         Mecenat                 Concept           Abstract
+2016-07-04  3.0         Mecenat                 Concept           Abstract
+2016-07-03  2.0         Axkid                   Graphic           Visual
+2016-07-01  4.0         Mecenat                 Concept           Abstract
+2016-05-03  1.0         HBI Paintball           Graphic           Visual
+2016-05-03  4.0         HBI Paintball           Graphic           Visual
+2016-05-02  5.0         HBI Paintball           Graphic           Visual
+2016-05-01  5.0         HBI Paintball           Graphic           Visual
+2016-06-30  3.0         Mecenat                 Concept           Abstract
+2016-06-29  4.0         Mecenat                 Concept           Abstract
+2016-06-28  2.0         Mecenat                 Concept           Abstract
+2016-06-28  1.0         HBI Paintball           Graphic           Visual
+2016-06-27  3.0         Mecenat                 Concept           Abstract
+2016-06-25  1.0         Axkid                   Graphic           Visual
+2016-06-24  3.0         Mecenat                 Concept           Abstract
+2016-06-24  1.0         Axkid                   Graphic           Visual
+2016-06-23  4.0         Mecenat                 Concept           Abstract
+2016-06-23  3.0         Axkid                   Graphic           Visual
+2016-06-22  1.0         Photowall               Graphic           Visual
+2016-06-20  2.0         Axkid                   Graphic           Visual
+2016-06-15  1.0         HBI Paintball           Graphic           Visual
+2016-06-13  1.0         HBI Paintball           Graphic           Visual
+2016-06-11  2.0         Photowall               Graphic           Visual
+2016-06-11  6.0         HBI Paintball           Graphic           Visual
+2016-06-09  1.0         Photowall               Graphic           Visual
+2016-06-09  2.0         Mecenat                 Graphic           Visual
+2016-06-09  1.0         HBI Paintball           Graphic           Visual
+2016-06-08  1.0         HBI Paintball           Graphic           Visual
+2016-06-07  3.0         Photowall               Graphic           Visual
+2016-06-02  1.0         Photowall               Graphic           Visual
+2016-05-06  3.0         Träningspartner         Graphic           Visual
+2016-05-05  4.0         Träningspartner         Graphic           Visual
+2016-05-04  1.0         Träningspartner         Graphic           Visual
+2016-04-29  2.0         Träningspartner         Graphic           Visual
+2016-04-26  0           America                 Travel            Personal       Travel to Los Angeles
+2016-04-21  1.0         Träningspartner         Graphic           Visual
+2016-04-19  4.0         HBI Paintball           Graphic           Visual
+2016-04-19  5.0         Träningspartner         Graphic           Visual
+2016-05-19  2.0         Träningspartner         Concept           Abstract
+2016-04-18  3.0         Träningspartner         Graphic           Visual
+2016-04-17  1.0         HBI Paintball           Graphic           Visual
+2016-04-17  1.0         Träningspartner         Graphic           Visual
+2016-04-16  1.0         HBI Paintball           Graphic           Visual
+2016-04-14  1.0         HBI Paintball           Graphic           Visual
+2016-04-13  2.0         HBI Paintball           Graphic           Visual
+2016-04-13  1.0         Träningspartner         Graphic           Visual
+2016-04-12  1.0         HBI Paintball           Graphic           Visual
+2016-04-12  2.0         Träningspartner         Graphic           Visual
+2016-04-09  1.0         Träningspartner         Graphic           Visual
+2016-04-08  9.0         Träningspartner         Graphic           Visual
+2016-04-07  1.0         HBI Paintball           Graphic           Visual
+2016-04-07  2.0         Träningspartner         Graphic           Visual
+2016-04-06  5.0         HBI Paintball           Graphic           Visual
+2019-04-06  4.0         Träningspartner         Graphic           Visual
+2019-04-06  1.0         HBI Paintball           Graphic           Visual
+2016-04-04  2.0         HBI Paintball           Graphic           Visual
+2016-04-04  2.0         Träningspartner         Graphic           Visual
+2016-04-01  1.0         HBI Paintball           Graphic           Visual
+2016-04-01  2.0         HBI Paintball           Concept           Abstract
+2016-03-31  8.0         Träningspartner         Graphic           Visual
+2016-03-30  5.0         Träningspartner         Graphic           Visual
+2016-03-29  3.0         Träningspartner         Graphic           Visual
+2016-03-28  1.0         Träningspartner         Graphic           Visual
+2016-03-25  1.0         Träningspartner         Graphic           Visual
+2016-03-12  6.0         Photowall               Graphic           Visual
+2016-03-11  2.0         Photowall               Graphic           Visual
+2016-03-11  6.0         NowWhere                Graphic           Visual
+2016-03-09  1.0         NowWhere                Graphic           Visual
+2016-03-08  0           Cuba                    Travel            Personal       Travel to Varadero
+2016-03-03  3.0         NowWhere                Graphic           Visual
+2016-03-01  0           Cuba                    Travel            Personal       Travel to Havana
+2016-02-28  3.0         NowWhere                Graphic           Visual
+2016-02-25  1.0         Träningspartner         Graphic           Visual
+2016-02-24  1.0         Träningspartner         Graphic           Visual
+2016-02-24  3.0         Träningspartner         Concept           Abstract
+2016-02-23  8.0         Träningspartner         Graphic           Visual
+2016-02-22  1.0         Photowall               Graphic           Visual
+2016-02-22  3.0         Träningspartner         Graphic           Visual
+2016-02-21  3.0         Bythjul                 Graphic           Visual
+2016-02-18  3.0         HBI Paintball           Graphic           Visual
+2016-02-15  3.0         Träningspartner         Graphic           Visual
+2016-02-13  2.0         Träningspartner         Concept           Abstract
+2016-02-12  2.0         NowWhere                Graphic           Visual
+2016-02-12  1.0         Träningspartner         Graphic           Visual
+2016-02-11  2.0         Träningspartner         Concept           Abstract
+2016-02-10  1.0         Photowall               Graphic           Visual
+2016-02-10  3.0         Träningspartner         Concept           Abstract
+2016-02-10  2.0         Träningspartner         Graphic           Visual
+2016-02-09  1.0         Photowall               Graphic           Visual
+2016-02-09  3.0         Träningspartner         Graphic           Visual
+2016-02-08  1.0         Photowall               Graphic           Visual
+2016-02-07  3.0         NowWhere                Graphic           Visual
+2016-02-05  1.0         Träningspartner         Graphic           Visual
+2016-02-04  3.0         NowWhere                Graphic           Visual
+2016-02-04  1.0         NowWhere                Research          Abstract
+2016-02-03  1.0         Photowall               Graphic           Visual
+2016-01-26  2.0         Photowall               Graphic           Visual
+2016-01-26  4.0         Träningspartner         Concet            Abstract
+2016-01-25  1.0         Photowall               Graphic           Visual
+2016-01-24  1.0         Västtrafik Business     Graphic           Visual
+2016-01-22  1.0         Paylevo                 Graphic           Visual
+2016-01-20  5.0         Paylevo                 Concept           Abstract
+2016-01-19  1.0         NowWhere                Research          Abstract
+2016-01-18  1.0         Västtrafik Business     Graphic           Visual
+2016-01-14  1.0         Västtrafik Business     Graphic           Visual
+2016-01-14  1.0         Photowall               Graphic           Visual
+2016-01-14  3.0         Paylevo                 Graphic           Visual
+2016-01-13  3.0         Photowall               Research          Abstract
+2016-01-13  1.0         Paylevo                 Graphic           Visual
+2016-01-12  1.0         Paylevo                 Concept           Abstract
+2016-01-12  1.0         Photowall               Graphic           Visual
+2016-01-12  3.0         Paylevo                 Graphic           Visual
+2016-01-11  1.0         Photowall               Graphic           Visual
+2016-01-11  3.0         Photowall               Graphic           Visual
+2016-01-11  1.0         Paylevo                 Concept           Abstract
+2016-01-11  1.0         Paylevo                 Graphic           Visual
+2016-01-08  1.0         Västtrafik Business     Graphic           Visual
+2016-01-08  1.0         SweetPay                Graphic           Visual
+2016-01-08  4.0         Paylevo                 Concept           Abstract
+2016-01-06  3.0         Paylevo                 Graphic           Visual
+2016-01-04  1.0         Photowall               Graphic           Visual
+2015-12-31  1.0         SweetPay                Graphic           Visual
+2015-12-26  2.0         Paylevo                 Graphic           Visual
+2015-12-18  3.0         Paylevo                 Concept           Abstract
+2015-12-17  2.0         Paylevo                 Graphic           Visual
+2015-12-15  1.0         SweetPay                Graphic           Visual
+2015-12-14  2.0         SweetPay                Graphic           Visual
+2015-12-14  2.0         Photowall               Graphic           Visual
+2015-12-14  1.0         Paylevo                 Graphic           Visual
+2015-12-12  1.0         SweetPay                Graphic           Visual
+2015-12-11  1.0         Photowall               Graphic           Visual
+2015-12-11  3.0         Photowall               Graphic           Visual
+2015-12-10  1.0         Photowall               Graphic           Visual
+2015-12-09  2.0         Paylevo                 Concept           Abstract
+2015-12-09  1.0         HBI Paintball           Graphic           Visual
+2015-12-09  1.0         Bythjul                 Graphic           Visual
+2015-12-08  2.0         Paylevo                 Concept           Abstract
+2015-12-08  1.0         HBI Paintball           Graphic           Visual
+2015-12-08  3.0         Bythjul                 Graphic           Visual
+2015-12-08  1.0         Bythjul                 Graphic           Visual
+2015-12-08  2.0         Paylevo                 Graphic           Visual
+2015-12-08  1.0         Paylevo                 Concept           Abstract
+2015-12-07  1.0         Photowall               Graphic           Visual
+2015-12-07  4.0         Paylevo                 Concept           Abstract
+2015-12-06  1.0         Bythjul                 Graphic           Visual
+2015-12-06  1.0         Paylevo                 Graphic           Visual
+2015-12-05  2.0         Paylevo                 Graphic           Visual
+2015-12-04  2.0         Paylevo                 Graphic           Visual
+2015-12-03  4.0         Paylevo                 Graphic           Visual
+2015-12-02  1.0         Bythjul                 Graphic           Visual
+2015-12-02  1.0         Paylevo                 Graphic           Visual
+2015-11-27  3.0         SweetPay                Concept           Abstract
+2015-11-27  3.0         Paylevo                 Graphic           Visual
+2015-11-25  1.0         Bythjul                 Graphic           Visual
+2015-11-25  5.0         Bythjul                 Graphic           Visual
+2015-11-23  1.0         HBI Paintball           Graphic           Visual
+2015-11-23  5.0         Paylevo                 Graphic           Visual
+2015-11-22  4.0         Paylevo                 Graphic           Visual
+2015-11-22  2.0         NowWhere                Graphic           Visual
+2015-11-20  2.0         Photowall               Graphic           Visual
+2015-11-19  3.0         Paylevo                 Graphic           Visual
+2015-11-18  4.0         Photowall               Graphic           Visual
+2015-11-18  2.0         Paylevo                 Graphic           Visual
+2015-11-16  3.0         Photowall               Graphic           Visual
+2015-11-16  1.0         Photowall               Graphic           Visual
+2015-11-16  1.0         HBI Paintball           Graphic           Visual
+2015-11-16  1.0         HBI Paintball           Graphic           Visual
+2015-11-14  1.0         HBI Paintball           Graphic           Visual
+2015-11-14  1.0         HBI Paintball           Graphic           Visual
+2015-11-10  1.0         Photowall               Graphic           Visual
+2015-11-11  1.0         HBI Paintball           Graphic           Visual
+2015-11-09  2.0         HBI Paintball           Graphic           Visual
+2015-11-08  2.0         HBI Paintball           Graphic           Visual
+2015-11-08  2.0         Ellos                   Concept           Abstract
+2015-11-05  1.0         Bythjul                 Graphic           Visual
+2015-11-04  1.0         HBI Paintball           Graphic           Visual
+2015-11-04  3.0         HBI Paintball           Graphic           Visual
+2015-11-04  3.0         Photowall               Graphic           Visual
+2015-11-04  2.0         Bythjul                 Concept           Abstract
+2015-11-03  3.0         HBI Paintball           Graphic           Visual
+2015-11-03  4.0         HBI Paintball           Graphic           Visual
+2015-11-03  1.0         Bythjul                 Graphic           Visual
+2015-11-02  3.0         HBI Paintball           Graphic           Visual
+2015-11-02  1.0         Bythjul                 Concept           Abstract
+2015-10-30  1.0         HBI Paintball           Graphic           Visual
+2015-10-30  3.0         Ellos                   Graphic           Visual
+2015-10-29  1.0         Ellos                   Concept           Abstrat
+2015-10-28  1.0         Ellos                   Concept           Abstract
+2015-10-27  3.0         Photowall               Graphic           Visual
+2015-10-22  7.0         Photowall               Graphic           Visual
+2015-10-22  1.0         Ellos                   Graphic           Visual
+2015-10-21  3.0         Photowall               Graphic           Visual
+2015-10-20  1.0         Photowall               Graphic           Visual
+2015-10-20  3.0         Ellos                   Graphic           Visual
+2015-10-19  1.0         Photowall               Graphic           Visual
+2015-10-19  2.0         Photowall               Graphic           Visual
+2015-10-19  2.0         Ellos                   Graphic           Visual
+2015-10-17  4.0         Ellos                   Graphic           Visual
+2015-10-16  1.0         Treated                 Graphic           Visual
+2015-10-16  4.0         Ellos                   Graphic           Visual
+2015-10-16  2.0         Ellos                   Concept           Abstract
+2015-10-15  6.0         Ellos                   Graphic           Visual
+2015-10-14  2.0         Ellos                   Graphic           Visual
+2015-10-13  5.0         Ellos                   Graphic           Visual
+2015-10-13  4.0         Ellos                   Concept           Abstract
+2015-10-12  5.0         Ellos                   Graphic           Visual
+2015-10-11  8.0         Ellos                   Graphic           Visual
+2015-10-10  4.0         Ellos                   Graphic           Visual
+2015-10-09  2.0         Photowall               Graphic           Visual
+2015-10-09  6.0         Ellos                   Graphic           Visual
+2015-10-08  4.0         Ellos                   Graphic           Visual
+2015-10-07  3.0         Ellos                   Graphic           Visual
+2015-10-07  1.0         Ellos                   Concept           Abstract
+2015-10-06  7.0         Ellos                   Graphic           Visual
+2015-10-05  5.0         Ellos                   Graphic           Visual
+2015-10-05  1.0         Ellos                   Research          Abstract
+2015-10-05  2.0         Paylevo                 Graphic           Visual
+2015-10-05  1.0         Paylevo                 Graphic           Visual
+2015-10-04  3.0         Ellos                   Graphic           Visual
+2015-10-03  1.0         Bythjul                 Graphic           Visual
+2015-10-02  4.0         Ellos                   Graphic           Visual
+2015-10-02  4.0         Bythjul                 Graphic           Visual
+2015-10-01  1.0         Bythjul                 Graphic           Visual
+2015-09-30  2.0         Ellos                   Graphic           Visual
+2015-09-30  4.0         Paylevo                 Graphic           Visual
+2015-09-29  6.0         Ellos                   Graphic           Visual
+2015-09-29  1.0         Bythjul                 Graphic           Visual
+2015-09-28  1.0         Photowall               Graphic           Visual
+2015-09-28  2.0         Ellos                   Graphic           Visual
+2015-09-27  3.0         Ellos                   Graphic           Visual
+2015-09-25  1.0         Photowall               Graphic           Visual
+2015-09-25  1.0         Ellos                   Graphic           Visual
+2015-09-24  1.0         Fyndswipen              Graphic           Visual
+2015-09-24  4.0         Ellos                   Graphic           Visual
+2015-09-23  2.0         Photowall               Graphic           Visual
+2015-09-23  3.0         Ellos                   Graphic           Visual
+2015-09-23  1.0         Bythjul                 Graphic           Visual
+2015-09-22  1.0         Photowall               Graphic           Visual
+2015-09-22  4.0         Photowall               Graphic           Visual
+2015-09-22  1.0         Ellos                   Concept           Abstract
+2015-09-22  2.0         Bythjul                 Graphic           Visual
+2015-09-21  3.0         Photowall               Graphic           Visual
+2015-09-20  3.0         Ellos                   Graphic           Visual
+2015-09-19  1.0         Photowall               Graphic           Visual
+2015-09-19  3.0         Photowall               Graphic           Visual
+2015-09-19  3.0         Ellos                   Graphic           Visual
+2015-09-18  5.0         Ellos                   Graphic           Visual
+2015-09-18  3.0         Photowall               Graphic           Visual
+2015-09-17  1.0         Photowall               Graphic           Visual
+2015-09-17  2.0         Photowall               Graphic           Visual
+2015-09-17  2.0         Ellos                   Graphic           Visual
+2015-09-16  1.0         Photowall               Graphic           Visual
+2015-09-16  4.0         Ellos                   Graphic           Visual
+2015-09-16  1.0         Ellos                   Concept           Abstract
+2015-09-15  3.0         Ellos                   Graphic           Visual
+2015-09-13  2.0         Treated                 Concept           Abstract
+2015-09-15  3.0         Photowall               Graphic           Visual
+2015-09-15  1.0         Photowall               Graphic           Visual
+2015-09-14  7.0         Bythjul                 Graphic           Visual
+2015-09-13  2.0         Paylevo                 Graphic           Visual
+2015-09-13  4.0         Paylevo                 Graphic           Visual
+2015-09-13  1.0         Bythjul                 Graphic           Visual
+2015-09-12  2.0         Paylevo                 Graphic           Visual
+2015-09-12  4.0         Bythjul                 Graphic           Visual
+2015-09-11  3.0         Bythjul                 Graphic           Visual
+2015-09-10  4.0         Bythjul                 Graphic           Visual
+2015-09-09  1.0         Photowall               Graphic           Visual
+2015-09-09  2.0         Photowall               Graphic           Visual
+2015-09-09  4.0         Bythjul                 Graphic           Visual
+2015-09-08  1.0         Treated                 Concept           Abstract
+2015-09-08  1.0         Photowall               Graphic           Visual
+2015-09-08  1.0         Photowall               Graphic           Visual
+2015-09-08  9.0         Bythjul                 Graphic           Visual
+2015-09-07  2.0         Treated AS              Concept           Abstract
+2015-09-07  6.0         Photowall               Graphic           Visual
+2015-09-07  5.0         Bythjul                 Graphic           Visual
+2015-09-04  2.0         Bythjul                 Graphic           Visual
+2015-09-04  4.0         Photowall               Graphic           Visual
+2015-09-03  7.0         Bythjul                 Graphic           Visual
+2015-09-02  2.0         Bythjul                 Graphic           Visual
+2015-09-01  2.0         Västtrafik Business     Graphic           Visual
+2015-09-01  2.0         Bythjul                 Graphic           Visual
+2015-08-31  2.0         Västtrafik Calculator   Graphic           Visual
+2015-08-31  2.0         Bythjul                 Graphic           Visual
+2015-08-30  1.0         Västtrafik Calculator   Graphic           Visual
+2015-08-30  1.0         Västtrafik Business     Graphic           Visual
+2015-08-30  3.0         Bythjul                 Graphic           Visual
+2015-08-29  1.0         Västtrafik Calculator   Concept           Abstract
+2015-08-29  1.0         Bythjul                 Graphic           Visual
+2015-08-28  1.0         Västtrafik Calculator   Graphic           Visual
+2015-08-28  3.0         Bythjul                 Graphic           Visual
+2015-08-27  1.0         Västtrafik Calculator   Graphic           Visual
+2015-08-27  4.0         Bythjul                 Graphic           Visual
+2015-08-26  3.0         Bythjul                 Graphic           Visual
+2015-08-25  2.0         Bythjul                 Graphic           Visual
+2015-08-24  3.0         Treated AS              Concept           Abstract
+2015-08-24  1.0         Bythjul                 Graphic           Visual
+2015-08-23  1.0         Treated AS              Concept           Abstract
+2015-08-23  5.0         Bythjul                 Graphic           Visual
+2015-08-22  2.0         Bythjul                 Graphic           Visual
+2015-08-21  5.0         Bythjul                 Graphic           Visual
+2015-08-20  3.0         Bythjul                 Graphic           Visual
+2015-08-19  2.0         Bythjul                 Graphic           Visual
+2015-08-18  6.0         Bythjul                 Graphic           Visual
+2015-08-18  1.0         Bythjul                 Graphic           Visual
+2015-08-18  1.0         Photowall               Graphic           Visual
+2015-08-18  2.0         Västtrafik Calculator   Graphic           Visual
+2015-08-17  7.0         Bythjul                 Graphic           Visual
+2015-08-16  1.0         Västtrafik Business     Graphic           Visual
+2015-08-16  3.0         Fyndswipen              Graphic           Visual
+2015-08-15  1.0         Bythjul                 Graphic           Visual
+2015-08-15  2.0         Photowall               Graphic           Visual
+2015-08-15  4.0         Fyndswipen              Graphic           Visual
+2015-08-10  2.0         Fyndswipen              Graphic           Visual
+2015-08-09  1.0         Västtrafik Business     Graphic           Visual
+2015-08-09  2.0         Västtrafik Calculator   Graphic           Visual
+2015-08-08  3.0         Treated AS              Concept           Abstract
+2015-08-07  4.0         Bythjul                 Graphic           Visual
+2015-08-06  3.0         Bythjul                 Graphic           Visual
+2015-08-05  2.0         Bythjul                 Graphic           Visual
+2015-08-04  1.0         Västtrafik Business     Graphic           Visual
+2015-08-04  1.0         Fyndswipen              Graphic           Visual
+2015-08-04  4.0         Bythjul                 Graphic           Visual
+2015-08-03  2.0         Bythjul                 Graphic           Visual
+2015-07-28  1.0         Västtrafik Calculator   Graphic           Visual
+2015-07-27  2.0         Photowall               Graphic           Visual
+2015-07-26  1.0         Photowall               Graphic           Visual
+2015-07-25  2.0         Photowall               Graphic           Visual
+2015-07-25  2.0         Västtrafik Calculator   Graphic           Visual
+2015-07-23  1.0         Fyndswipen              Graphic           Visual
+2015-07-23  2.0         Fyndswipen              Graphic           Visual
+2015-07-20  2.0         Västtrafik Calculator   Graphic           Visual
+2015-07-20  2.0         Västtrafik Calculator   Graphic           Visual
+2015-07-20  1.0         Fyndswipen              Graphic           Visual
+2015-07-19  2.0         Västtrafik Business     Graphic           Visual
+2015-07-18  4.0         Västtrafik Business     Graphic           Visual
+2015-07-17  1.0         Fyndswipen              Graphic           Visual
+2015-07-17  4.0         Västtrafik Business     Graphic           Visual
+2015-07-16  1.0         Fyndswipen              Graphic           Visual
+2015-07-16  2.0         Photowall               Graphic           Visual
+2015-07-16  3.0         Västtrafik Business     Graphic           Visual
+2015-07-13  3.0         Västtrafik Calculator   Concept           Abstract
+2015-07-13  1.0         Bythjul                 Research          Abstract
+2015-07-09  1.0         Västtrafik              Graphic           Visual
+2015-07-09  1.0         Västtrafik Calculator   Concept           Abstract
+2015-07-09  1.0         Bythjul                 Research          Abstract
+2015-07-08  1.0         Fyndswipen              Graphic           Abstract
+2015-07-08  3.0         Västtrafik Calculator   Graphic           Visual
+2015-07-08  4.0         Bythjul                 Graphic           Visual
+2015-07-07  3.0         Fyndswipen              Graphic           Visual
+2015-07-07  2.0         Bythjul                 Graphic           Visual
+2015-07-06  3.0         Bythjul                 Graphic           Visual
+2015-07-01  3.0         Västtrafik Calculator   Concept           Abstract
+2015-06-30  1.0         Photowall               Graphic           Visual
+2015-06-30  9.0         Photowall               Graphic           Visual
+2015-06-30  2.0         Fyndswipen              Graphic           Visual
+2015-06-29  2.0         Fyndswipen              Graphic           Visual
+2015-06-29  1.0         Photowall               Graphic           Visual
+2015-06-29  2.0         Photowall               Graphic           Visual
+2015-06-28  3.0         Photowall               Concept           Abstract
+2015-06-26  2.0         Photowall               Graphic           Visual
+2015-06-26  2.0         Fyndswipen              Graphic           Visual
+2015-06-24  1.0         Fyndswipen              Graphic           Visual
+2015-06-24  1.0         Fyndswipen              Graphic           Visual
+2015-06-24  4.0         Västtrafik Business     Graphic           Visual
+2015-06-23  1.0         Photowall               Graphic           Visual
+2015-06-23  2.0         Fyndswipen              Graphic           Visual
+2015-06-23  6.0         Västtrafik Business     Graphic           Visual
+2015-06-22  1.0         Photowall               Graphic           Visual
+2015-06-22  1.0         Fyndswipen              Graphic           Visual
+2015-06-21  1.0         Västtrafik Business     Graphic           Visual
+2015-06-21  6.0         Photowall               Graphic           Visual
+2015-06-18  2.0         Fyndswipen              Graphic           Visual
+2015-06-17  1.0         Fyndswipen              Graphic           Visual
+2015-06-16  2.0         Fyndswipen              Graphic           Visual
+2015-06-16  3.0         Fyndswipen              Graphic           Visual
+2015-06-15  1.0         Fyndswipen              Graphic           Visual
+2015-06-15  1.0         Fyndswipen              Graphic           Visual
+2015-06-12  1.0         Fyndswipen              Graphic           Visual
+2015-06-12  1.0         Fyndswipen              Graphic           Visual
+2015-06-11  3.0         Västtrafik Business     Graphic           Visual
+2015-06-11  1.0         Västtrafik Business     Graphic           Visual
+2015-06-11  2.0         Photowall               Graphic           Visual
+2015-06-11  3.0         Photowall               Graphic           Visual
+2015-06-11  1.0         Fyndswipen              Graphic           Visual
+2015-06-10  1.0         Photowall               Concept           Abstract
+2015-06-10  1.0         Fyndswipen              Graphic           Visual
+2015-06-10  5.0         Bythjul                 Graphic           Visual
+2015-06-09  7.0         Fyndswipen              Graphic           Visual
+2015-06-09  8.0         Bythjul                 Graphic           Visual
+2015-06-05  5.0         Västtrafik Business     Graphic           Visual
+2015-06-05  1.0         Bythjul                 Research          Abstract
+2015-06-03  7.0         Västtrafik Calculator   Design            Abstract
+2015-05-31  1.0         Västtrafik Business     Graphic           Visual
+2015-05-30  3.0         Photowall               Concept           Abstract
+2015-05-29  3.0         Photowall               Graphic           Visual
+2015-05-28  2.0         Västtrafik Business     Graphic           Visual
+2015-05-28  1.0         Västtrafik Business     Concept           Abstract
+2015-05-28  4.0         Photowall               Concept           Abstract
+2015-05-27  2.0         Västtrafik Business     Graphic           Visual
+2015-05-27  3.0         Photowall               Graphic           Visual
+2015-05-26  6.0         Photowall               Graphic           Visual
+2015-05-25  3.0         Photowall               Graphic           Visual
+2015-05-20  1.0         Västtrafik Calculator   Graphic           Visual
+2015-05-19  4.0         Västtrafik Calculator   Concept           Abstract
+2015-05-18  1.0         Västtrafik Calculator   Concept           Abstract
+2015-05-17  1.0         Västtrafik Calculator   Concept           Abstract
+2015-05-12  2.0         Västtrafik SDN          Concept           Abstract
+2015-05-12  6.0         Västtrafik Business     Graphic           Visual
+2015-05-11  6.0         Västtrafik SDN          Concept           Abstract
+2015-05-08  2.0         Photowall               Graphic           Visual
+2015-05-07  1.0         Västtrafik SDN          Research          Abstract
+2015-05-06  1.0         Västtrafik Business     Graphic           Visual
+2015-05-06  4.0         Västtrafik SDN          Concept           Abstract
+2015-05-05  6.0         Västtrafik Business     Graphic           Visual
+2015-05-05  2.0         Västtrafik SDN          Concept           Abstract
+2015-05-04  4.0         Västtrafik SDN          Concept           Abstract
+2015-05-03  2.0         Västtrafik SDN          Research          Abstract
+2015-04-30  7.0         Photowall               Graphic           Visual
+2015-04-30  2.0         Photowall               Graphic           Visual
+2015-04-29  1.0         Photowall               Graphic           Visual
+2015-04-29  5.0         Västtrafik SDN          Research          Abstract       User journeys
+2015-04-21  1.0         Västtrafik Business     Graphic           Visual
+2015-04-15  1.0         Photowall               Graphic           Visual
+2015-04-14  3.0         Axkid                   Research          Abstract
+2015-04-10  1.0         Photowall               Graphic           Visual
+2015-04-10  1.0         Träningspartner         Graphic           Visual
+2015-04-09  3.0         Träningspartner         Concept           Abstract
+2015-04-08  3.0         Träningspartner         Graphic           Visual
+2015-04-07  1.0         Photowall               Graphic           Visual
+2015-04-07  3.0         Träningspartner         Concept           Abstract
+2015-04-01  3.0         Lysman                  Graphic           Visual
+2015-04-01  1.0         Photowall               Graphic           Visual
+2015-03-31  4.0         Photowall               Graphic           Visual
+2015-03-31  2.0         Lysman                  Graphic           Visual
+2015-03-30  5.0         Photowall               Graphic           Visual
+2015-03-19  2.0         Photowall               Graphic           Visual
+2015-03-12  3.0         Photowall               Graphic           Visual
+2015-03-10  3.0         Västtrafik Business     Graphic           Visual
+2015-03-10  2.0         Photowall               Graphic           Visual
+2015-03-09  3.0         Västtrafik Business     Graphic           Visual
+2015-03-09  1.0         Photowall               Graphic           Visual
+2015-03-06  1.0         Träningspartner         Research          Abstract       Impact mapping
+2015-03-06  1.0         Västtrafik Calculator   Graphic           Visual
+2015-03-06  1.0         Photowall               Graphic           Visual
+2015-03-05  2.0         New Media               Concept           Abstract
+2015-03-05  4.0         Träningspartner         Concept           Abstract
+2015-03-04  2.0         Västtrafik Business     Graphic           Visual
+2015-03-03  1.0         Träningspartner         Research          Abstract       Impact mapping
+2015-03-03  7.0         Västtrafik Business     Graphic           Visual
+2015-03-03  2.0         Photowall               Graphic           Visual
+2015-03-03  3.0         Träningspartner         Research          Abstract       Impact mapping
+2015-02-27  9.0         Västtrafik Business     Graphic           Visual
+2015-02-27  2.0         Photowall               Graphic           Visual
+2015-02-26  1.0         Västtrafik Business     Concept           Abstract
+2015-02-26  8.0         Photowall               Graphic           Visual
+2015-02-25  6.0         Photowall               Graphic           Visual
+2015-02-24  1.0         Västtrafik Business     Graphic           Visual
+2015-02-22  3.0         Lysman                  Graphic           Visual
+2015-02-21  7.0         Lysman                  Graphic           Visual
+2015-02-20  1.0         Västtrafik Business     Graphic           Visual
+2015-02-20  5.0         Lysman                  Graphic           Visual
+2015-02-19  4.0         Västtrafik Business     Graphic           Visual
+2015-02-18  2.0         Västtrafik Calculator   Graphic           Visual
+2015-02-17  5.0         Västtrafik Business     Graphic           Visual
+2015-02-16  1.0         Coopers                 Graphic           Visual
+2015-02-16  1.0         Västtrafik Business     Graphic           Visual
+2015-02-16  7.0         Photowall               Graphic           Visual
+2015-02-12  3.0         Coopers                 Graphic           Visual
+2015-02-11  4.0         Coopers                 Graphic           Visual
+2015-02-09  0           France                  Travel            Personal       Travel to Paris
+2015-02-06  2.0         Coopers                 Graphic           Visual
+2015-02-06  4.0         Lysman                  Concept           Abstract
+2015-02-06  1.0         Photowall               Graphic           Visual
+2015-02-04  3.0         Photowall               Graphic           Visual
+2015-02-04  3.0         Västtrafik Business     Graphic           Visual
+2015-02-04  1.0         Västtrafik Calculator   Graphic           Visual
+2015-02-03  2.0         Coopers                 Graphic           Visual
+2015-02-02  5.0         Västtrafik Business     Graphic           Visual
+2015-02-02  6.0         Photowall               Graphic           Visual
+2015-01-31  9.0         Photowall               Graphic           Visual
+2015-01-30  4.0         Photowall               Graphic           Visual
+2015-01-29  6.0         Photowall               Graphic           Visual
+2015-01-28  3.0         Coopers                 Graphic           Visual
+2015-01-28  2.0         Västtrafik Calculator   Concept           Abstract
+2015-01-27  4.0         Coopers                 Graphic           Visual
+2015-01-27  3.0         Lysman                  Concept           Abstract
+2015-01-27  6.0         Västtrafik Business     Graphic           Visual
+2015-01-26  3.0         Coopers                 Graphic           Visual
+2015-01-26  5.0         Västtrafik Business     Graphic           Visual
+2015-01-22  5.0         Västtrafik Business     Graphic           Visual
+2015-01-21  3.0         Västtrafik Business     Concept           Abstract
+2015-01-20  5.0         Västtrafik Business     Research          Abstract
+2015-01-19  1.0         Lysman                  Graphic           Visual
+2015-01-19  4.0         Västtrafik Business     Graphic           Visual
+2015-01-19  2.0         Västtrafik Calculator   Graphic           Visual
+2015-01-16  4.0         Västtrafik Calculator   Graphic           Visual
+2015-01-15  5.0         Västtrafik Calculator   Graphic           Visual
+2015-01-14  2.0         Lysman                  Concept           Abstract
+2015-01-13  2.0         Lysman                  Concept           Abstract
+2015-01-13  1.0         Lysman                  Graphic           Visual
+2015-01-12  2.0         Västtrafik Business     Graphic           Visual
+2015-01-12  2.0         Västtrafik Calculator   Graphic           Visual
+2015-01-11  5.0         Västtrafik Calculator   Graphic           Visual
+2015-01-09  1.0         Västtrafik Calculator   Graphic           Visual
+2015-01-08  4.0         Västtrafik Calculator   Graphic           Visual
+2015-01-05  1.0         Västtrafik Business     Graphic           Visual
+2015-01-03  3.0         Västtrafik Business     Graphic           Visual
+2014-12-27  1.0         Lysman                  Graphic           Visual
+2014-12-26  2.0         Lysman                  Graphic           Visual
+2014-12-21  1.0         Lysman                  Concept           Abstract
+2014-12-19  5.0         Photowall               Graphic           Visual
+2014-12-18  5.0         Västtrafik Business     Graphic           Visual
+2014-12-18  2.0         Lysman                  Concept           Abstract
+2014-12-17  7.0         Photowall               Graphic           Visual
+2014-12-17  2.0         Lysman                  Graphic           Visual
+2014-12-16  8.0         Västtrafik Calculator   Graphic           Visual
+2014-12-16  2.0         Lysman                  Graphic           Visual
+2014-12-14  1.0         Angner                  Graphic           Visual
+2014-12-13  1.0         Angner                  Graphic           Visual
+2014-12-13  1.0         Lysman                  Concept           Abstract
+2014-12-11  2.0         Västtrafik Business     Graphic           Visual
+2014-12-11  1.0         Västtrafik Business     Graphic           Visual
+2014-12-11  1.0         Photowall               Graphic           Visual
+2014-12-10  1.0         Photowall               Graphic           Visual
+2014-12-10  4.0         Västtrafik Business     Graphic           Visual
+2014-12-10  1.0         Angner                  Graphic           Visual
+2014-12-09  4.0         Angner                  Concept           Abstract
+2014-12-06  3.0         Västtrafik Business     Graphic           Visual
+2014-12-05  1.0         Photowall               Graphic           Visual
+2014-12-04  3.0         Photowall               Graphic           Visual
+2014-12-03  1.0         Västtrafik Business     Graphic           Visual
+2014-12-02  5.0         Photowall               Graphic           Visual
+2014-12-01  2.0         Photowall               Graphic           Visual
+2014-12-01  1.0         Västtrafik Business     Graphic           Visual
+2014-11-30  1.0         Västtrafik Business     Graphic           Visual
+2014-11-28  3.0         Västtrafik Business     Research          Abstract
+2014-11-27  5.0         Photowall               Graphic           Visual
+2014-11-26  5.0         Photowall               Graphic           Visual
+2014-11-26  2.0         Västtrafik Business     Graphic           Visual
+2014-11-25  1.0         Västtrafik Business     Graphic           Visual
+2014-11-25  5.0         Photowall               Graphic           Visual
+2014-11-24  7.0         Västtrafik Business     Graphic           Visual
+2014-11-21  2.0         Västtrafik Business     Concept           Abstract
+2014-11-20  9.0         Västtrafik Business     Graphic           Visual
+2014-11-19  6.0         Västtrafik Business     Graphic           Visual
+2014-11-18  1.0         Västtrafik Business     Graphic           Visual
+2014-11-18  2.0         Angner                  Graphic           Visual
+2014-11-17  3.0         Angner                  Graphic           Visual
+2014-11-17  1.0         Västtrafik Business     Graphic           Visual
+2014-11-16  6.0         Angner                  Graphic           Visual
+2014-11-15  8.0         Angner                  Graphic           Visual
+2014-11-14  5.0         Angner                  Graphic           Visual
+2014-11-13  5.0         Angner                  Graphic           Visual
+2014-11-12  2.0         Angner                  Graphic           Visual
+2014-11-12  1.0         Västtrafik Business     Graphic           Visual
+2014-11-10  1.0         Photowall               Graphic           Visual
+2014-11-10  5.0         Västtrafik Business     Graphic           Visual
+2014-11-09  2.0         Angner                  Concept           Abstract
+2014-11-07  3.0         Västtrafik Business     Graphic           Visual
+2014-11-06  1.0         Västtrafik Business     Graphic           Visual
+2014-11-03  5.0         Treated                 Graphic           Visual
+2014-11-02  3.0         Treated                 Graphic           Visual
+2014-10-31  6.0         Västtrafik Business     Graphic           Visual
+2014-10-31  7.0         Angner                  Graphic           Visual
+2014-10-30  5.0         Västtrafik Business     Graphic           Visual
+2014-10-29  3.0         Västtrafik Business     Graphic           Visual
+2014-10-29  4.0         Photowall               Graphic           Visual
+2014-10-28  3.0         Photowall               Graphic           Visual
+2014-10-27  2.0         Treated                 Graphic           Visual
+2014-10-27  1.0         Västtrafik Business     Research          Abstract
+2014-10-26  3.0         Treated                 Graphic           Visual
+2014-10-23  6.0         Photowall               Graphic           Visual
+2014-10-23  2.0         Photowall               Graphic           Visual
+2014-10-22  9.0         Photowall               Graphic           Visual
+2014-10-21  1.0         Treated                 Graphic           Visual
+2014-10-21  4.0         Photowall               Graphic           Visual
+2014-10-20  2.0         Treated                 Graphic           Visual
+2014-10-17  4.0         Angner                  Graphic           Visual
+2014-10-16  2.0         Treated                 Graphic           Visual
+2014-10-15  1.0         Angner                  Graphic           Visual
+2014-10-15  2.0         Angner                  Graphic           Visual
+2014-10-15  4.0         Treated                 Graphic           Visual
+2014-10-14  4.0         Treated                 Graphic           Visual
+2014-10-13  3.0         Angner                  Graphic           Visual
+2014-10-10  1.0         Angner                  Research          Abstract
+2014-10-09  4.0         Treated                 Graphic           Visual
+2014-10-08  4.0         Treated                 Graphic           Visual
+2014-10-07  5.0         Treated                 Graphic           Visual
+2014-10-06  3.0         Photowall               Graphic           Visual
+2014-10-03  4.0         Photowall               Graphic           Visual
+2014-10-03  2.0         Treated                 Research          Abstract
+2014-10-02  5.0         Treated                 Graphic           Visual
+2014-10-01  6.0         Treated                 Graphic           Visual
+2014-09-30  4.0         Photowall               Graphic           Visual
+2014-09-29  2.0         Photowall               Graphic           Visual
+2014-09-28  7.0         Angner                  Graphic           Visual
+2014-09-27  6.0         Photowall               Graphic           Visual
+2014-09-26  1.0         Treated                 Graphic           Visual
+2014-09-25  1.0         Photowall               Graphic           Visual
+2014-09-25  8.0         Treated                 Graphic           Visual
+2014-09-24  4.0         Photowall               Graphic           Visual
+2014-09-23  8.0         Treated                 Graphic           Visual
+2014-09-23  2.0         Photowall               Graphic           Visual
+2014-09-22  3.0         Photowall               Graphic           Visual
+2014-09-22  2.0         Treated                 Graphic           Visual
+2014-09-19  4.0         Treated                 Graphic           Visual
+2014-09-18  4.0         Treated                 Graphic           Visual
+2014-09-17  2.0         Treated                 Graphic           Visual
+2014-09-16  4.0         Treated                 Graphic           Visual
+2014-09-15  4.0         Treated                 Graphic           Visual
+2014-09-15  1.0         Photowall               Graphic           Visual
+2014-09-14  6.0         Treated                 Graphic           Visual
+2014-09-13  5.0         Treated                 Graphic           Visual
+2014-09-11  1.0         Angner                  Graphic           Visual
+2014-09-09  2.0         Treated                 Graphic           Visual
+2014-09-08  1.0         Angner                  Research          Abstract
+2014-09-05  1.0         Angner                  Concept           Abstract
+2014-09-05  4.0         Treated                 Graphic           Visual
+2014-09-04  1.0         Angner                  Research          Abstract
+2014-09-04  3.0         Treated                 Graphic           Visual
+2014-09-03  6.0         Angner                  Graphic           Visual
+2014-09-02  5.0         Angner                  Concept           Abstract
+2014-09-02  6.0         Treated                 Graphic           Visual
+2014-08-29  2.0         Treated                 Graphic           Visual
+2014-08-28  1.0         Treated                 Graphic           Visual
+2014-08-27  9.0         Treated                 Graphic           Visual
+2014-08-26  9.0         Angner                  Graphic           Visual
+2014-08-26  1.0         Ojega                   Graphic           Visual
+2014-08-25  3.0         Photowall               Graphic           Visual
+2014-08-24  4.0         Angner                  Graphic           Visual
+2014-08-23  5.0         Angner                  Graphic           Visual
+2014-08-22  8.0         Angner                  Graphic           Visual
+2014-08-21  2.0         Angner                  Graphic           Visual
+2014-08-20  6.0         Angner                  Graphic           Visual
+2014-08-19  3.0         Angner                  Concept           Abstract
+2014-08-18  5.0         Angner                  Graphic           Visual
+2014-08-17  6.0         Angner                  Graphic           Visual
+2014-08-16  8.0         Angner                  Concept           Abstract
+2014-08-15  9.0         Angner                  Concept           Abstract
+2014-08-13  3.0         Angner                  Research          Abstract
+2014-08-12  2.0         Angner                  Graphic           Visual
+2014-08-11  3.0         Angner                  Concept           Abstract
+2014-08-10  3.0         Treated                 Graphic           Visual
+2014-08-09  4.0         Treated                 Graphic           Visual
+2014-08-07  2.0         Treated                 Graphic           Visual
+2014-08-06  3.0         Treated                 Graphic           Visual
+2014-08-04  8.0         Treated                 Graphic           Visual
+2014-08-03  2.0         Treated                 Graphic           Visual
+2014-08-02  4.0         Treated                 Graphic           Visual
+2014-08-01  1.0         Treated                 Graphic           Visual
+2014-07-31  3.0         Treated                 Graphic           Visual
+2014-07-30  7.0         Treated                 Graphic           Visual
+2014-07-28  7.0         Treated                 Graphic           Visual
+2014-07-25  3.0         Treated                 Graphic           Visual
+2014-07-23  3.0         Treated                 Graphic           Visual
+2014-07-22  2.0         Treated                 Graphic           Visual
+2014-07-20  3.0         Treated                 Graphic           Visual
+2014-07-18  2.0         Ojega                   Graphic           Visual
+2014-07-15  2.0         Ojega                   Graphic           Visual
+2014-07-14  3.0         Treated                 Graphic           Visual
+2014-07-13  7.0         Ojega                   Graphic           Visual
+2014-07-12  3.0         Ojega                   Graphic           Visual
+2014-07-11  2.0         Ojega                   Graphic           Visual
+2014-07-10  2.0         Treated                 Graphic           Visual
+2014-07-09  2.0         Treated                 Graphic           Visual
+2014-07-08  3.0         Treated                 Graphic           Visual
+2014-07-07  6.0         Treated                 Graphic           Visual
+2014-07-06  2.0         Treated                 Graphic           Visual
+2014-07-03  3.0         Treated                 Graphic           Visual
+2014-06-30  4.0         Ojega                   Graphic           Visual
+2014-06-29  5.0         Ojega                   Graphic           Visual
+2014-06-29  5.0         Treated                 Graphic           Visual
+2014-06-29  2.0         Treated                 Concept           Abstract
+2014-06-28  2.0         Ojega                   Concept           Abstract
+2014-06-28  4.0         Photowall               Graphic           Visual
+2014-06-27  4.0         Photowall               Concept           Abstract
+2014-06-26  2.0         Treated                 Concept           Abstract
+2014-06-25  4.0         Treated                 Graphic           Visual
+2014-06-19  2.0         Ojega                   Concept           Abstract
+2014-06-18  4.0         Treated                 Graphic           Visual
+2014-06-17  6.0         Photowall               Graphic           Visual
+2014-06-17  4.0         Ojega                   Graphic           Visual
+2014-06-17  2.0         Ojega                   Graphic           Visual
+2014-06-16  2.0         Treated                 Graphic           Visual
+2014-06-16  2.0         Ojega                   Graphic           Visual
+2014-06-15  2.0         Treated                 Graphic           Visual
+2014-06-15  1.0         Treated                 Graphic           Visual
+2014-06-14  2.0         Photowall               Graphic           Visual
+2014-06-14  4.0         Treated                 Graphic           Visual
+2014-06-14  1.0         Treated                 Graphic           Visual
+2014-06-11  2.0         Photowall               Graphic           Visual
+2014-06-11  2.0         Ojega                   Graphic           Visual
+2014-06-10  2.0         Photowall               Graphic           Visual
+2014-06-09  1.0         Photowall               Graphic           Visual
+2014-06-08  2.0         Treated                 Graphic           Visual
+2014-06-08  1.0         Photowall               Graphic           Visual
+2014-06-05  4.0         Photowall               Graphic           Visual
+2014-06-04  3.0         Photowall               Graphic           Visual
+2014-06-03  2.0         Photowall               Graphic           Visual
+2014-06-02  3.0         Treated                 Graphic           Visual
+2014-06-02  1.0         Ojega                   Graphic           Visual
+2014-06-01  1.0         Treated                 Graphic           Visual
+2014-05-31  2.0         Ojega                   Graphic           Visual
+2014-05-28  1.0         Treated                 Graphic           Visual
+2014-05-27  2.0         Treated                 Graphic           Visual
+2014-05-26  6.0         Photowall               Graphic           Visual
+2014-05-23  1.0         Photowall               Research          Abstract
+2014-05-22  1.0         Photowall               Graphic           Visual
+2014-05-21  3.0         Photowall               Graphic           Visual
+2014-05-20  4.0         Photowall               Graphic           Visual
+2014-05-18  3.0         Photowall               Graphic           Visual
+2014-05-17  1.0         Photowall               Graphic           Visual
+2014-05-17  2.0         Ojega                   Graphic           Visual
+2014-05-16  2.0         Photowall               Graphic           Visual
+2014-05-09  3.0         Photowall               Graphic           Visual
+2014-05-09  2.0         Treated                 Graphic           Visual
+2014-05-04  4.0         Treated                 Graphic           Visual
+2014-04-30  0           America                 Travel            Personal       Travel to Los Angeles
+2014-04-29  4.0         Treated                 Graphic           Visual
+2014-04-28  3.0         Treated                 Graphic           Visual
+2014-04-26  7.0         Treated                 Graphic           Visual
+2014-04-25  6.0         Treated                 Graphic           Visual
+2014-04-21  3.0         Ojega                   Graphic           Visual
+2014-04-17  3.0         Ojega                   Graphic           Visual
+2014-04-16  2.0         Ojega                   Graphic           Visual
+2014-04-15  2.0         Photowall               Graphic           Visual
+2014-04-14  2.0         Photowall               Graphic           Visual
+2014-04-13  4.0         Photowall               Graphic           Visual
+2014-04-11  7.0         Photowall               Graphic           Visual
+2014-04-11  3.0         Treated                 Graphic           Visual
+2014-04-10  1.0         Treated                 Graphic           Visual
+2014-04-10  1.0         Photowall               Graphic           Visual
+2014-04-09  3.0         Treated                 Graphic           Visual
+2014-04-07  6.0         Photowall               Graphic           Visual
+2014-04-03  2.0         Photowall               Graphic           Visual
+2014-04-02  3.0         Photowall               Graphic           Visual
+2014-04-01  2.0         Photowall               Graphic           Visual
+2014-03-31  4.0         Ojega                   Graphic           Visual
+2014-03-28  6.0         Photowall               Graphic           Visual
+2014-03-27  5.0         Photowall               Graphic           Visual
+2014-03-26  8.0         Photowall               Graphic           Visual
+2014-03-25  2.0         Treated                 Graphic           Visual
+2014-03-24  6.0         Treated                 Graphic           Visual
+2014-03-24  1.0         Photowall               Graphic           Visual
+2014-03-24  2.0         Photowall               Graphic           Visual
+2014-03-21  1.0         Treated                 Concept           Abstract
+2014-03-21  1.0         Ojega                   Graphic           Visual
+2014-03-19  3.0         Treated                 Graphic           Visual
+2014-03-19  1.0         Photowall               Graphic           Visual
+2014-03-18  3.0         Photowall               Graphic           Visual
+2014-03-17  4.0         Ojega                   Graphic           Visual
+2014-03-17  3.0         Treated                 Graphic           Visual
+2014-03-17  2.0         Ojega                   Graphic           Visual
+2014-03-15  2.0         Treated                 Graphic           Visual
+2014-03-14  3.0         Treated                 Graphic           Visual
+2014-03-13  4.0         Treated                 Graphic           Visual
+2014-03-12  1.0         Treated                 Graphic           Visual
+2014-03-11  3.0         Treated                 Graphic           Visual
+2014-03-10  7.0         Photowall               Graphic           Visual
+2014-03-07  3.0         Treated                 Graphic           Visual
+2014-03-06  2.0         Treated                 Graphic           Visual
+2014-03-06  1.0         Ojega                   Graphic           Visual
+2014-03-05  2.0         Treated                 Graphic           Visual
+2014-03-04  4.0         Treated                 Graphic           Visual
+2014-03-03  5.0         Ojega                   Concept           Abstract
+2014-02-28  9.0         Treated                 Graphic           Visual
+2014-02-27  2.0         Treated                 Graphic           Visual
+2014-02-26  2.0         Treated                 Graphic           Visual
+2014-02-25  6.0         Treated                 Graphic           Visual
+2014-02-24  4.0         Treated                 Graphic           Visual
+2014-02-22  2.0         Photowall               Graphic           Visual
+2014-02-22  1.0         Treated                 Graphic           Visual
+2014-02-22  1.0         Ojega                   Graphic           Visual
+2014-02-21  1.0         Photowall               Graphic           Visual
+2014-02-21  1.0         Ojega                   Graphic           Visual
+2014-02-20  2.0         Photowall               Graphic           Visual
+2014-02-20  1.0         Ojega                   Graphic           Visual
+2014-02-19  2.0         Photowall               Graphic           Visual
+2014-02-19  1.0         Ojega                   Graphic           Visual
+2014-02-18  4.0         Photowall               Graphic           Visual
+2014-02-17  2.0         Photowall               Graphic           Visual
+2014-02-14  1.0         Photowall               Graphic           Visual
+2014-02-12  4.0         Photowall               Graphic           Visual
+2014-02-12  2.0         Treated                 Graphic           Visual
+2014-02-12  1.0         Treated                 Graphic           Visual
+2014-02-11  2.0         Photowall               Graphic           Visual
+2014-02-08  3.0         Treated                 Graphic           Visual
+2014-02-07  1.0         Photowall               Graphic           Visual
+2014-02-06  3.0         Treated                 Graphic           Visual
+2014-02-05  3.0         Treated                 Graphic           Visual
+2014-02-05  3.0         Photowall               Graphic           Visual
+2014-02-04  7.0         Treated                 Graphic           Visual
+2014-02-04  3.0         Photowall               Graphic           Visual
+2014-02-04  1.0         Photowall               Graphic           Visual
+2014-02-03  5.0         Treated                 Graphic           Visual
+2014-02-03  3.0         Photowall               Graphic           Visual
+2014-02-02  6.0         Treated                 Graphic           Visual
+2014-02-01  8.0         Treated                 Graphic           Visual
+2014-01-31  8.0         Photowall               Graphic           Visual
+2014-01-30  5.0         Photowall               Graphic           Visual
+2014-01-30  5.0         Treated                 Graphic           Visual
+2014-01-29  6.0         Photowall               Graphic           Visual
+2014-01-28  9.0         Photowall               Graphic           Visual
+2014-01-27  3.0         Photowall               Graphic           Visual
+2014-01-26  5.0         Whiteport               Graphic           Visual
+2014-01-25  1.0         Whiteport               Graphic           Visual
+2014-01-24  1.0         Ojega                   Graphic           Visual
+2014-01-23  6.0         Ojega                   Graphic           Visual
+2014-01-22  8.0         Ojega                   Graphic           Visual
+2014-01-21  7.0         Ojega                   Graphic           Visual
+2014-01-20  2.0         Whiteport               Graphic           Visual
+2014-01-19  1.0         Treated                 Graphic           Visual
+2014-01-17  3.0         Ojega                   Graphic           Visual
+2014-01-15  3.0         Ojega                   Concept           Abstract
+2014-01-14  1.0         Ojega                   Concept           Abstract
+2014-01-13  2.0         Ojega                   Concept           Abstract
+2014-01-12  3.0         Whiteport               Graphic           Visual
+2014-01-11  5.0         Whiteport               Graphic           Visual
+2014-01-10  3.0         Whiteport               Graphic           Visual
+2014-01-09  1.0         Photowall               Graphic           Visual
+2014-01-08  2.0         Photowall               Graphic           Visual
+2014-01-06  1.0         Ojega                   Graphic           Visual
+2014-01-06  4.0         Photowall               Graphic           Visual
+2014-01-04  2.0         Ojega                   Graphic           Visual
+2014-01-04  2.0         Photowall               Graphic           Visual
+2014-01-02  1.0         Ojega                   Graphic           Visual
+2014-01-02  2.0         Photowall               Graphic           Visual
+2013-12-24  4.0         Photowall               Graphic           Visual
+2013-12-23  1.0         Photowall               Graphic           Visual
+2013-12-22  3.0         Photowall               Graphic           Visual
+2013-12-20  4.0         Photowall               Graphic           Visual
+2013-12-19  4.0         Photowall               Graphic           Visual
+2013-12-18  2.0         Photowall               Graphic           Visual
+2013-12-17  6.0         Photowall               Graphic           Visual
+2013-12-17  1.0         Ojega                   Graphic           Visual
+2013-12-16  3.0         Photowall               Graphic           Visual
+2013-12-16  1.0         Ojega                   Graphic           Visual
+2013-12-15  4.0         Photowall               Graphic           Visual
+2013-12-15  2.0         Ojega                   Graphic           Visual
+2013-12-14  4.0         Photowall               Graphic           Visual
+2013-12-14  3.0         Ojega                   Graphic           Visual
+2013-12-13  3.0         Photowall               Graphic           Visual
+2013-12-12  3.0         Photowall               Graphic           Visual
+2013-12-11  4.0         Photowall               Graphic           Visual
+2013-12-11  2.0         Ojega                   Graphic           Visual
+2013-12-08  1.0         Photowall               Graphic           Visual
+2013-12-07  2.0         Photowall               Graphic           Visual
+2013-12-06  4.0         Photowall               Graphic           Visual
+2013-12-05  3.0         Photowall               Graphic           Visual
+2013-12-04  3.0         Photowall               Graphic           Visual
+2013-12-03  7.0         Photowall               Graphic           Visual
+2013-12-02  7.0         Photowall               Graphic           Visual
+2013-11-29  4.0         Photowall               Graphic           Visual
+2013-11-28  6.0         Whiteport               Graphic           Visual
+2013-11-25  7.0         Photowall               Graphic           Visual
+2013-11-24  3.0         Photowall               Graphic           Visual
+2013-11-21  4.0         Photowall               Graphic           Visual
+2013-11-20  4.0         Photowall               Graphic           Visual
+2013-11-19  4.0         SBF                     Graphic           Visual
+2013-11-18  6.0         Photowall               Graphic           Visual
+2013-11-15  1.0         Photowall               Graphic           Visual
+2013-11-14  9.0         Photowall               Graphic           Visual
+2013-11-13  6.0         Photowall               Graphic           Visual
+2013-11-12  5.0         Photowall               Graphic           Visual
+2013-11-11  6.0         Photowall               Graphic           Visual
+2013-11-10  9.0         Photowall               Graphic           Visual
+2013-11-08  4.0         Photowall               Graphic           Visual
+2013-11-07  8.0         Photowall               Graphic           Visual
+2013-11-06  4.0         Photowall               Graphic           Visual
+2013-11-05  2.0         SBF                     Graphic           Visual
+2013-11-03  2.0         SBF                     Graphic           Visual
+2013-11-02  1.0         SBF                     Design            Abstract
+2013-11-01  2.0         SBF                     Design            Abstract
+2013-10-31  5.0         SBF                     Graphic           Visual
+2013-10-30  5.0         SBF                     Research          Abstract
+2013-10-29  4.0         SBF                     Graphic           Visual
+2013-10-28  6.0         SBF                     Graphic           Visual
+2013-10-25  4.0         SBF                     Graphic           Visual
+2013-10-24  7.0         SBF                     Graphic           Visual
+2013-10-23  2.0         SBF                     Graphic           Visual
+2013-10-22  2.0         Ojega                   Graphic           Visual
+2013-10-21  6.0         SBF                     Graphic           Visual
+2013-10-19  1.0         Ojega                   Graphic           Visual
+2013-10-18  2.0         SBF                     Graphic           Visual
+2013-10-17  7.0         SBF                     Graphic           Visual
+2013-10-16  6.0         SBF                     Graphic           Visual
+2013-10-15  4.0         SBF                     Graphic           Visual
+2013-10-14  3.0         SBF                     Graphic           Visual
+2013-10-13  3.0         Ojega                   Graphic           Visual
+2013-10-11  5.0         Ojega                   Graphic           Visual
+2013-10-10  3.0         Ojega                   Graphic           Visual
+2013-10-08  3.0         Ojega                   Concept           Abstract
+2013-10-05  2.0         Ojega                   Graphic           Visual
+2013-10-04  2.0         Ojega                   Graphic           Visual
+2013-10-03  2.0         Ojega                   Graphic           Visual
+2013-10-01  4.0         Ojega                   Graphic           Visual
+2013-09-30  4.0         Ojega                   Graphic           Visual
+2013-09-04  2.0         Klarna                  Development       Code
+2013-09-03  6.0         Klarna                  Development       Code
+2013-09-02  5.0         Klarna                  Development       Code
+2013-08-30  6.0         Klarna                  Development       Code
+2013-08-28  2.0         Klarna                  Development       Code
+2013-08-27  2.0         Klarna                  Development       Code
+2013-08-26  6.0         Klarna                  Development       Code
+2013-08-23  4.0         Klarna                  Development       Code
+2013-08-22  3.0         Klarna                  Development       Code
+2013-08-20  2.0         Klarna                  Development       Code
+2013-08-19  5.0         Klarna                  Graphic           Visual
+2013-08-16  6.0         Klarna                  Development       Code
+2013-08-14  4.0         Klarna                  Development       Code
+2013-08-08  8.0         Klarna                  Development       Code
+2013-08-07  1.0         Klarna                  Development       Code
+2013-08-06  3.0         Klarna                  Development       Code
+2013-08-05  4.0         Klarna                  Development       Code
+2013-07-29  6.0         Klarna                  Development       Code
+2013-07-26  4.0         Klarna                  Development       Code
+2013-07-24  3.0         Klarna                  Graphic           Visual
+2013-07-23  3.0         Ojega                   Graphic           Visual
+2013-07-19  2.0         Ojega                   Graphic           Visual
+2013-07-18  3.0         Ojega                   Graphic           Visual
+2013-07-16  4.0         SBF                     Graphic           Visual
+2013-07-15  5.0         Ojega                   Graphic           Visual
+2013-07-10  6.0         Ojega                   Graphic           Visual
+2013-07-09  1.0         SBF                     Development       Code
+2013-07-07  4.0         Klarna                  Development       Code
+2013-07-04  3.0         Klarna                  Graphic           Visual
+2013-07-03  1.0         Klarna                  Design            Abstract
+2013-07-02  6.0         SBF                     Graphic           Visual
+2013-07-01  4.0         SBF                     Graphic           Visual
+2013-06-28  2.0         SBF                     Graphic           Visual
+2013-06-27  2.0         SBF                     Graphic           Visual
+2013-06-26  4.0         Klarna                  Development       Code
+2013-06-25  7.0         Klarna                  Development       Code
+2013-06-21  3.0         Klarna                  Graphic           Visual
+2013-06-20  3.0         Klarna                  Graphic           Visual
+2013-06-19  3.0         Klarna                  Graphic           Visual
+2013-06-18  3.0         Klarna                  Graphic           Visual
+2013-06-17  3.0         Klarna                  Graphic           Visual
+2013-06-14  1.0         Klarna                  Graphic           Visual
+2013-06-12  0           Work                    Event             Personal           Started working at Whiteport.
+2013-06-12  2.0         Klarna                  Graphic           Visual
+2013-06-11  1.0         Klarna                  Graphic           Visual
+2013-06-10  1.0         Klarna                  Development       Code
+2013-01-06  2.0         Salus Ansvar            Concept           Abstract
+2013-01-05  3.0         Salus Ansvar            Concept           Abstract
+2012-12-21  1.0         Salus Ansvar            Graphic           Visual
+2012-12-13  4.0         Salus Ansvar            Concept           Abstract
+2012-12-10  1.0         Salus Ansvar            Research          Abstract
+`

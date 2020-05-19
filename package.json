@@ -1,0 +1,39 @@
+{
+  "name": "patrikarvidsson.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node sitemap-generator.js && next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "text": "node sitemap-generator.js && yarn build && yarn export",
+    "now": "node sitemap-generator.js && now --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/patrikarvidsson/horizon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrikarvidsson/horizon/issues"
+  },
+  "homepage": "https://github.com/patrikarvidsson/horizon#readme",
+  "dependencies": {
+    "@mdx-js/loader": "^1.6.1",
+    "@next/mdx": "^9.4.1",
+    "babel-plugin-import-glob-array": "^0.2.0",
+    "globby": "^11.0.0",
+    "gray-matter": "^4.0.2",
+    "lodash": "^4.17.15",
+    "next": "^9.4.1",
+    "next-mdx-enhanced": "^3.0.0",
+    "prettier": "^2.0.5",
+    "raw-loader": "^4.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
