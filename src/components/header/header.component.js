@@ -8,7 +8,6 @@ export default function Header({ color, width }) {
           stroke={color}
           width={width}
           strokeWidth="20"
-          strokeLinecap="round"
           strokeLinejoin="round"
           viewBox="30 30 270 220"
         >

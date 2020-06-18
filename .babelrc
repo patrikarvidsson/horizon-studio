@@ -10,5 +10,5 @@
       }
     ]
   ],
-  "plugins": ["import-glob-array"]
+  "plugins": ["import-glob-array", "inline-react-svg"]
 }

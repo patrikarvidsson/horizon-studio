@@ -10,7 +10,7 @@ export default (frontMatter) => {
     return (
       <>
         <Layout meta={frontMatter}>
-          <Header color="#fff" width={32} />
+          <Header color="#fff" width={42} />
           <Main>{content}</Main>
           <Footer />
         </Layout>
