@@ -72,3 +72,7 @@ export default Home
 ```
 
 Furthermore, CSS-in-JS is awesome. [CSS in JS: Benefits, Drawbacks, and Tooling](https://objectpartners.com/2017/11/03/css-in-js-benefits-drawbacks-and-tooling/)
+
+## License
+
+MIT
