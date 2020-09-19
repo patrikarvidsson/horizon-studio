@@ -20,8 +20,10 @@ In addition to nextjs, the codebase utilizes several packages:
 
 Clone project
 
-`git clone https://github.com/patrikarvidsson/horizon-studio`
-`cd horizon-studio`
+```
+git clone https://github.com/patrikarvidsson/horizon-studio
+cd horizon-studio
+```
 
 Install packages
 
