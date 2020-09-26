@@ -10,18 +10,27 @@ export default (frontMatter) => {
     return (
       <>
         <Layout meta={frontMatter}>
-          <Header color="#fff" width={42} />
           <Main>{content}</Main>
           <Footer />
         </Layout>
         <style global jsx>{`
-          main,
-          footer {
-            text-align: center;
+          body {
+            max-width: 600px;
           }
 
           ul {
-            list-style-type: none;
+            margin-top: 1rem;
+          }
+          h1 {
+            color: #fff;
+          }
+          h1 span {
+            color: #bbb;
+            font-weight: 300;
+          }
+          h1,
+          h2 {
+            font-size: 1.16rem;
           }
         `}</style>
       </>

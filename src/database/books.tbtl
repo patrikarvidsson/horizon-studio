@@ -1,0 +1,24 @@
+export const books = `
+DATE        SIN         TYPE  TITLE                                   AUTHOR                                 RATING
+2020-09-03  0307279189  A     Born To Run                             Christopher McDougall                  4.0
+2020-08-23  B0752XRB5F  A     Why We Sleep                            Matthew Walker                         4.5
+2020-08-14  0735211299  A     Atomic Habits                           James Clear                            4.0
+2020-08-12  B003BLGD06  A     Rework                                  Jason Fried                            2.5
+2020-08-02  0525536515  A     Digital Minmalism                       Cal Newport                            3.0
+2020-07-08  1455586692  A     Deep Work                               Cal Newport                            4.5
+2020-06-29  B0009JKV9W  A     The Hitchhiker's Guide to the Galaxy    Douglas Adams                          4.0
+2020-02-08  1937557103        Just Enough Research                    Erica Hall                             4.0
+2020-01-12  8763001764        Effektstyrning av IT                    Ingrid Ottersten                       3.0
+2019-05-22  0062888439        Everything is F*cked                    Mark Manson                            4.0
+2019-03-14  B010MH1DAQ        Sprint                                  Jake Knapp                             3.0
+2018-10-17  B00FOR2BDI        This Is Water                           David Foster Wallace                   0.0
+2018-02-07  B000OI0G1Q        The Road                                Cormac McCarthy                        4.0
+2016-11-03  B019MMUA8S        The Subtle Art of Not Giving a F*ck     Mark Manson                            4.0
+2016-03-25  B00HELB6XI        Essentialism                            Greg McKeown                           3.0
+2015-09-15  B0029ZA3H4        Crush It!                               Gary Vaynerchuk                        4.0
+2015-08-09  B00G1SRB6Q        Lying                                   Sam Harris                             4.0
+2015-07-20  B00D3J2QKW        The One Thing                           Gary Keller                            4.0
+2015-07-16  0374535906        Holy Cow                                David Duchovny                         2.5
+2015-07-09  B088153425        Of Mice and Men                         John Steinbeck                         4.5
+2015-02-02  B01LPRS1K2        The Old Man and the Sea                 Ernest Hemmingway                      4.5
+`

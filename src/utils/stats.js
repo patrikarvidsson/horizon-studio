@@ -4,12 +4,14 @@ import { tablatal } from "./tablatal";
 import { indental } from "./indental";
 
 import { raw } from "../database/log.tbtl";
+import { books } from "../database/books.tbtl";
 
 /* ---------------------------------- */
 /* Importing raw data
 /* ---------------------------------- */
 
 export const entries = tablatal(raw);
+export const bookEntries = tablatal(books);
 
 /* ---------------------------------- */
 /* Manipulate raw data
@@ -18,7 +20,7 @@ export const entries = tablatal(raw);
 var today = new Date();
 var yearAgo = today.setMonth(today.getMonth() - 12);
 
-export const entries2 = entries.filter(date => new Date(yearAgo) < new Date(date.date));
+export const entries2 = entries.filter((date) => new Date(yearAgo) < new Date(date.date));
 
 /* ---------------------------------- */
 /* Parse projects in log.tbtl
@@ -26,7 +28,7 @@ export const entries2 = entries.filter(date => new Date(yearAgo) < new Date(date
 
 export const projectDict = {};
 
-const parseProjects = projectDict => {
+const parseProjects = (projectDict) => {
   for (const i in entries) {
     let key = entries[i].project;
     let hour = entries[i].time;
@@ -47,7 +49,7 @@ const parseProjects = projectDict => {
 
 parseProjects(projectDict);
 
-const totalProjectHours = projectDict => {
+const totalProjectHours = (projectDict) => {
   let count = 0;
 
   for (const i in projectDict) {
@@ -61,7 +63,7 @@ totalProjectHours(projectDict);
 
 export const projectDictYear = {};
 
-const parseProjectsYear = projectDictYear => {
+const parseProjectsYear = (projectDictYear) => {
   for (const i in entries2) {
     let key = entries2[i].project;
     let hour = entries2[i].time;
@@ -79,7 +81,7 @@ const parseProjectsYear = projectDictYear => {
 
 parseProjectsYear(projectDictYear);
 
-const totalProjectHoursLastYear = projectDictYear => {
+const totalProjectHoursLastYear = (projectDictYear) => {
   let count = 0;
 
   for (const i in projectDictYear) {
@@ -96,7 +98,7 @@ export const projectStats = {
   allProjects: Object.keys(projectDict),
   size: entries.length,
   totalHours: Math.round(totalProjectHours(projectDict)),
-  totalTopics: Object.keys(projectDict).length
+  totalTopics: Object.keys(projectDict).length,
 };
 
 export const overallStats = {
@@ -105,7 +107,7 @@ export const overallStats = {
   totalHoursYear: Math.round(totalProjectHoursLastYear(projectDictYear)),
   totalTopics: Object.keys(projectDict).length,
   oldestEntry: entries[entries.length - 1],
-  newestEntry: entries[0]
+  newestEntry: entries[0],
 };
 
 /* ---------------------------------- */
@@ -113,10 +115,9 @@ export const overallStats = {
 /* ---------------------------------- */
 
 import { frontMatter as wikiPages } from "../{pages,unpublished}/**/*.md";
-
 export const wikiEntries = {};
 
-const parseEntries = wikiEntries => {
+const parseEntries = (wikiEntries) => {
   for (const i in wikiPages) {
     let key = wikiPages[i].title;
     if (key in wikiEntries) {

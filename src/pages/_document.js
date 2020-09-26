@@ -16,8 +16,8 @@ class CustomHead extends Head {
             ...node.props,
             children: Array.isArray(node.props.children)
               ? node.props.children.map(transform)
-              : transform(node.props.children)
-          }
+              : transform(node.props.children),
+          },
         };
       }
       if (Array.isArray(node)) {

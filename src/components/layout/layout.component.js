@@ -16,76 +16,91 @@ export default function Layout(props) {
       {props.children}
 
       <style global jsx>{`
-        :root {
-          --w-100: rgba(255, 255, 255, 0.1);
-          --w-200: rgba(255, 255, 255, 0.2);
-          --w-600: rgba(255, 255, 255, 0.6);
-          --w-700: rgba(255, 255, 255, 0.7);
-          --w-800: rgba(255, 255, 255, 0.8);
-          --w-full: rgba(255, 255, 255, 1);
-          --b-full: #000;
-          --a: #4bd9b4;
+        @font-face {
+          font-family: "Iosevka";
+          font-style: regular;
+          font-weight: 400;
+          font-display: block;
+          src: url("../../static/fonts/iosevka-regular.woff2") format("woff2"),
+            url("../../static/fonts/iosevka-regular.woff") format("woff");
         }
-
         * {
           margin: 0;
           padding: 0;
           box-sizing: border-box;
-          transition: 0.2s color;
+          transition: 0.2s all;
+        }
+
+        html,
+        body,
+        #__next {
+          height: 100%;
         }
 
         body {
-          background: var(--b-full);
-          color: var(--w-600);
-          font: 14px/1.6 -apple-system, BlinkMacSystemFont, sans-serif;
-          padding: 1.62rem;
-          max-width: 560px;
-          margin: 0 auto;
-          display: flex;
+          background: #000;
+          color: #ccc;
+          font: 18px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+          font-weight: 300;
           height: 100vh;
-          align-items: center;
         }
 
-        main {
-          font-size: 18px;
+        #__next {
+          padding: 3.33rem 4.77rem;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
           animation: 0.6s intro;
         }
 
-        main > *,
-        main p {
+        nav {
+          font-size: 15px;
+          text-transform: uppercase;
+        }
+
+        nav h1 {
+          display: inline-block;
+          font-size: 15px;
+          font-weight: 400;
+        }
+
+        ul {
+          list-style-type: none;
+        }
+
+        main > * {
           margin: 0 0 1.27rem;
         }
 
-        main a {
-          border-bottom: 2px var(--w-200) dotted;
-        }
-
-        header,
         footer {
-          font-family: "Hack", monospace;
-          text-align: center;
-          margin: 0 0 1.27rem;
-          white-space: normal;
-          animation: 0.6s intro;
+          padding: 1.27rem 0 1.62rem;
         }
 
         a {
-          color: var(--w-full);
+          color: #fff;
           text-decoration: none;
+          font-weight: 400;
         }
 
         a:hover {
-          color: var(--a);
+          color: #4bd9b4;
         }
 
         h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-          line-height: 1.5;
-          color: var(--w-600);
+        h2 {
+          font-size: 1.42rem;
+          line-height: 1.45;
           font-weight: 400;
+        }
+        h3,
+        h4 {
+          font-weight: 400;
+        }
+
+        @media (max-width: 600px) {
+          #__next {
+            padding: 2.06rem;
+          }
         }
 
         @keyframes intro {

@@ -1,74 +1,272 @@
 export const raw = `
 DATE        TIME  PICT  PROJECT                 TASK              DIVISION       DETAILS
+2020-09-25  0.5         Grace                   Graphics          Visual         Finalizing Branding 2.0 @figma
+2020-09-25  1.0         Cidien                  Development       Code           Responsive design @gatsby
+2020-09-24  1.5         ProtonMail              Graphics          Visual         Dark mode exploration @figma
+2020-09-23  5.5         Grace                   Graphics          Visual         Branding 2.0 @figma
+2020-09-22  1.0         Cidien                  Development       Code           SEO, GA, minor changes @gatsby
+2020-09-22  0.5         Cidien                  Development       Code           Adding Disqus to website @gatsby
+2020-09-22  3.0         Grace                   Graphics          Visual         Branding 2.0 @figma
+2020-09-21  1.5         Grace                   Graphics          Visual         Branding 2.0 @figma
+2020-09-21  1.0         Grace                   Graphics          Visual         Adjusting savings app design @figma
+2020-09-21  1.0         Grace                   Development       Code           Building website @next
+2020-09-20  4.0         Cidien                  Development       Code           Building website on Statamic 3 @gatsby
+2020-09-19  3.5         Cidien                  Development       Code           Building website on Statamic 3 @gatsby
+2020-09-19  2.0         Studio                  Development       Code           Building website @next
+2020-09-18  1.5         Studio                  Development       Code           Building website @next
+2020-09-18  2.5         Grace                   Development       Code           Building savings website @next
+2020-09-17  5.0         Grace                   Development       Code           Building savings website @next
+2020-09-16  5.0         Grace                   Development       Code           Building savings website @next
+2020-09-15  1.5         Studio                  Development       Code           Building website @next
+2020-09-15  6.0         Grace                   Development       Code           Building savings website @next
+2020-09-14  6.0         Grace                   Development       Code           Building savings website @next
+2020-09-13  5.5         Studio                  Development       Code           Initiating and building website @next
+2020-09-12  5.5         Selected Eco            Development       Code           Building website @wordpress
+2020-09-12  3.0         Selected Eco            Development       Code           Building hotels page @wordpress
+2020-09-11  4.0         Grace                   Graphics          Visual         Company branding.
+2020-09-11  2.0         Grace                   Animations        Visual         Lottery draw animation.
+2020-09-10  2.0         Grace                   Animations        Visual         Lottery draw animation.
+2020-09-10  4.0         Grace                   Graphics          Visual         Backoffice design system adjustments.
+2020-09-09  4.0         Grace                   Animations        Visual         Lottery draw animation.
+2020-09-09  1.5         Grace                   Graphics          Visual         Savings module.
+2020-09-08  8.0         Grace                   Graphics          Visual         Savings module.
+2020-09-04  2.0         Grace                   Graphics          Visual         Savings module.
+2020-09-03  4.5         Grace                   Graphics          Visaul         Savings module.
+2020-09-02  2.5         Grace                   Graphics          Visual         Savings module.
+2020-09-02  2.5         Grace                   Graphics          Visual         Design backoffice.
+2020-09-01  6.0         Grace                   Graphics          Visual         Design backoffice.
+2020-08-31  1.0         Grace                   Graphics          Visual         Bugfixes for backoffice.
+2020-08-29  2.0         Selected Eco            Development       Code           Building ACF blocks.
+2020-08-28  4.0         Selected Eco            Development       Code           Header, footer, gateway blocks, cpt structure.
+2020-08-27  5.5         Selected Eco            Development       Code           Gateway blocks, navigation and hero.
+2020-08-26  1.5         Javascript              Research          Code
+2020-08-24  1.5         Selected Eco            Graphics          Visual         Design start and listing pages.
+2020-08-24  0.5         BeautyRelax             Maintenance       Abstract       Fixes for front page images.
+2020-08-24  0.5         Elin Kero               Development       Code           Final fixes on old-style blog layout.
+2020-08-20  1.0         Elin Kero               Development       Code
+2020-08-19  3.0         Selected Eco            Graphics          Visual         Designing hotels page.
+2020-08-14  5.0         Grace                   Graphics          Visual         Backend design.
+2020-08-13  5.0         Grace                   Graphics          Visual         Backend design.
+2020-08-13  1.5         Selected Eco            Graphics          Visual         Designing hotels page.
+2020-08-12  4.0         Grace                   Graphics          Visual         Backend design.
+2020-08-11  4.0         Grace                   Graphics          Visual         Backend design.
+2020-08-10  5.0         Grace                   Graphics          Visual         Backend design.
+2020-08-09  3.0         Grace                   Graphics          Visual         Backend design.
+2020-08-06  1.5         Horizon                 Development       Code           Updating typography on site.
+2020-08-04  1.0         Klash                   Design            Abstract       Meeting with Benjamin, Fredrik and Alexander.
+2020-08-04  2.0         Grace                   Graphics          Visual         Backend design.
+2020-08-03  1.5         Health                  None              Personal       Outdoor walk.
+2020-08-03  1.5         Selected Eco            Concept           Visual         Initial conceptual design.
+2020-08-03  0.5         Klash                   Design            Abstract       Meeting with Benjamin and Alexander.
+2020-08-03  3.0         Grace                   Graphic           Visual         Insights 2.0.
+2020-08-02  0.5         Health                  None              Personal       Outdoor walk.
+2020-08-02  2.0         Grace                   Graphic           Visual         Initial design for Yotta clone.
+2020-08-02  1.0         Grace                   Concept           Visual         Sketches for Yotta clone.
+2020-08-01  1.0         Health                  None              Personal       Outdoor walk.
+2020-07-31  0.5         Health                  None              Personal       Outdoor walk.
+2020-07-31  1.5         Selected Eco            Design            Abstract       Start up meeting.
+2020-07-27  2.5         Grace                   Graphic           Visual         Insights 2.0.
+2020-07-23  1.0         Grace                   Graphic           Visual         Insights 2.0.
+2020-07-22  5.5         Grace                   Graphic           Visual         Insights 2.0.
+2020-07-21  0.5         Grace                   Graphic           Visual         Registered trademark update.
+2020-07-21  1.5         Grace                   Graphic           Visual         Icons on service screens.
+2020-07-21  2.0         Staycay                 Development       Code           Building site.
+2020-07-20  1.5         Staycay                 Design            Code           Setting up environment.
+2020-07-18  0.5         Health                  None              Personal       Outdoor walk.
+2020-07-17  1.5         Health                  Nonn              Personal       Outdoor walk.
+2020-07-17  1.5         Grace                   Graphic           Visual         Swiping isnights.
+2020-07-16  0.5         Health                  None              Personal       Strength training.
+2020-07-15  3.5         Grace                   Graphic           Visual         Swiping insights, field validation, profile.
+2020-07-14  1.0         Grace                   Graphic           Visual         Advanced income.
+2020-07-13  3.0         Tinker                  Research          Code           11ty.
+2020-07-13  1.0         Health                  None              Personal       Outdoor walk.
+2020-07-13  1.0         Horizon                 Development       Code
+2020-07-13  0.5         Grace                   Graphic           Visual
+2020-07-12  2.0         Horizon                 Development       Code
+2020-07-11  0.16        Meditation              None              Personal
+2020-07-22  1.0         Health                  None              Personal       Gym.
+2020-07-11  1.0         Rust                    Research          Code
+2020-07-10  3.5         Grace                   Graphic           Visual         Profile screens.
+2020-07-09  0.16        Meditation              None              Personal
+2020-07-09  1.0         Health                  None              Personal       Gym.
+2020-07-09  2.5         Grace                   Graphic           Visual         Profile screens.
+2020-07-08  0.16        Meditation              None              Personal
+2020-07-08  0.5         Health                  None              Personal       Gym.
+2020-07-08  1.0         Grace                   Graphic
+2020-07-08  2.0         Horizon                 Maintenance       Abstract       Wiki entry correcftions.
+2020-07-07  0.5         Health                  None              Personal       Gym.
+2020-07-07  0.16        Meditation              None              Personal
+2020-07-07  1.0         Cidien                  Maintenance       Code           Relocting site to GCP.
+2020-07-06  3.0         Grace                   Graphic           Visual         New LTS screens.
+2020-07-06  0.16        Meditation              None              Personal
+2020-07-06  1.0         Health                  None              Personal       Gym.
+2020-07-06  1.5         Grace                   Graphic           Visual         New savings screen.
+2020-07-05  0.5         Routine                 Writing           Abstract       Routine draft.
+2020-07-04  1.0         Health                  None              Personal       Gym.
+2020-07-04  2.5         Nybörjarspararen        Development       Code           Launching basic site.
+2020-07-04  1.5         Design Thinking         Writing           Abstract       Writing initial article.
+2020-07-04  1.0         Design Systems          Writing           Abstract       Writing initial article.
+2020-07-04  0.6         Minimalism              Writing           Abstract       Writing initial article.
+2020-07-03  0.5         Health                  None              Personal       Gym.
+2020-07-03  2.6         Grace                   Graphic           Visual         Onboarding and profile screens.
+2020-07-02  1.0         Grace                   Development       Code           Pricing section.
+2020-07-02  1.0         Health                  None              Personal       Gym.
+2020-07-02  3.0         Grace                   Graphic           Visual         Onboarding screens.
+2020-07-01  1.0         Grace                   Development       Code           Pricing section.
+2020-07-01  1.0         Health                  None              Personal       Outdoor walk.
+2020-07-01  1.5         Grace                   Maintenance       Abstract       Configuring Intercom.
+2020-06-30  0.5         Health                  None              Personal       Gym.
+2020-06-30  1.5         Grace                   Development       Code           Pricing section.
+2020-06-29  0.5         Grace                   Development       Code           Activating download buttons on site.
+2020-06-29  1.5         Health                  None              Personal       Outdoor walk.
+2020-06-29  1.0         Health                  None              Personal       Gym.
+2020-06-26  1.0         Health                  None              Personal       Outdoor walk.
+2020-06-25  0.5         Health                  None              Personal       Outdoor walk.
+2020-06-24  1.5         Elin Kero               Maintenance       Abstract       Maintenance work on new website.
+2020-06-24  1.0         Grace                   Graphic           Visual         Onboarding mockup.
+2020-06-23  3.5         Grace                   Graphic           Visual         Onboarding screens.
+2020-06-23  1.0         Health                  None              Personal       Gym.
+2020-06-22  1.0         Health                  None              Personal       Gym.
+2020-06-21  2.0         Health                  None              Personal       Outdoor walk.
+2020-06-21  1.5         Horizon                 Development       Code           React-static experimentation.
+2020-06-21  0.5         Grace                   Maintenance       Visual         Updating app store images.
+2020-06-20  2.5         Horizon                 Development       Code           React-static experimentation
+2020-06-20  1.5         Health                  None              Personal       Walk
+2020-06-20  3.0         Grace                   Development       Code           Translating application.
+2020-06-20  1.0         Grace                   Graphic           Visual         Work on App Store graphics.
+2020-06-19  1.5         Health                  None              Personal       Walk
+2020-06-19  1.0         Javascript              Research          Code          
+2020-06-19  1.5         Horizon                 Development       Code           React-static experimentation
+2020-06-18  2.5         Horizon                 Development       Code           Adding journal to site.
+2020-06-18  5.0         Grace                   Development       Code           Website backlog.
+2020-06-17  2.0         Elin Kero               Maintenance       Abstract       External media storage.
+2020-06-17  2.0         Grace                   Development       Code           Website backlog.
+2020-06-16  2.0         Elin Kero               Maintenance       Abstract       External media storage.
+2002-06-15  1.0         Health                  None              Personal       Walk
+2020-06-15  1.5         Grace                   Development       Code           Website backlog.
+2020-06-14  0.5         Health                  None              Personal       Walk
+2020-06-13  1.5         Grace                   Development       Code           App backlog.
+2020-06-13  1.5         Health                  None              Personal       Walk
+2020-06-12  5.0         Grace                   Writing           Abstract       Soft-launch questionnaire.
+2020-06-12  1.0         Grace                   Graphic           Visual         App store images.
+2020-06-11  4.5         Eve Adam                Graphic           Visual         Product pages.
+2020-06-10  4.5         Grace                   Graphic           Visual         App store images.
+2020-06-10  1.0         Health                  None              Personal       Walk
+2020-06-09  2.0         Eve Adam                Graphic           Visual         Mobile product pages.
+2020-06-09  0.5         Health                  None              Personal       Walk
+2020-06-09  1.5         Grace                   Development       Code           App, profile changes.
+2020-06-08  3.0         Grace                   Development       Code           Website backlog.
+2020-06-08  2.0         Eve Adam                Graphic           Visual         Mobile product pages.
+2020-06-08  1.0         Health                  None              Personal       Walk
+2020-06-07  1.5         Health                  None              Personal       Walk
+2020-06-04  1.0         Framer                  Research          Abstract       Introduction to Framer.
+2020-06-04  0.5         Chelsea Unfiltered      Design            Abstract       Start up meeting for website.
+2020-06-04  3.0         Eve Adam                Graphic           Visual         Product pages.
+2020-06-03  0.5         Framer                  Research          Abstract       Introduction to Framer.
+2020-06-03  3.5         Eve Adam                Graphic           Visual         Product pages.
+2020-06-03  1.5         Health                  None              Personal       Walk
+2020-06-02  0.5         Health                  None              Personal       Walk
+2020-06-02  3.5         Grace                   Development       Code           Code refactoring for website.
+2020-06-02  2.5         Framer                  Research          Abstract       Introduction to Framer.
+2020-06-02  0.5         Eve Adam                Graphic           Visual         Product pages.
+2020-06-02  2.5         Eve Adam                Concept           Abstract       Product pages.
+2020-06-01  1.0         Health                  None              Personal       Walk
+2020-06-01  2.0         Horizon                 Development       Code           Layout finalizations.
+2020-06-01  3.0         Eve Adam                Graphic           Visual         Final adjustment to onboarding.
+2020-05-31  1.0         Eve Adam                Graphic           Visual         Adjustments to desktop.
+2020-05-30  4.5         Eve Adam                Graphic           Visual         Mobile design, fixes for desktop.
+2020-05-29  2.0         Grace                   Graphic           Visual         Account view of transactions, Sendgrid templates.
+2020-05-29  6.0         Eve Adam                Graphic           Visual         Onboarding screens.
+2020-05-28  3.5         Eve Adam                Graphic           Visual         Onboarding screens.
+2020-05-28  2.0         Grace                   Graphic           Visual         Uncategorized transaction screens.
+2020-05-27  4.0         Grace                   Development       Code           Backlog tasks for website.
+2020-05-26  1.0         Grace                   Graphic           Visual         New app mockups.
+2020-05-26  2.0         Eve Adam                Graphic           Visual         Onboarding screens.
+2020-05-26  2.5         Grace                   Development       Code
+2020-05-25  4.0         Eve Adam                Graphic           Visual         Choose condition and treatment screens.
+2020-05-25  6.0         Grace                   Development       Code
+2020-05-24  1.5         Horizon                 Research          Abstract       Researching fibonacci sequence in web.
+2020-05-24  1.5         Horizon                 Development       Code           Layout changes.
+2020-05-23  1.0         Eve Adam                Graphic           Visual
+2020-05-23  1.0         Elin Kero               Design            Abstract       Setting up new website for client.
+2020-05-22  4.0         Eve Adam                Graphic           Visual         Redesign of Adrian's concepts.
+2020-05-22  1.0         Grace                   Development       Code           Fixes for internal release.
+2020-05-21  1.0         Horizon                 Development       Code           Work on bright theme.
+2020-05-21  1.5         Grace                   Development       Code           Fixes for internal release.
+2020-05-20  0.5         Eve Adam                Design            Abstract       Brief for product pages.
+2020-05-20  6.0         Grace                   Development       Code           Fixes for internal release.
+2020-05-20  3.0         Horizon                 Development       Code           Bright theme redesign and refactoring reading list.
+2020-05-19  1.0         Horizon                 Development       Code           Adding icons to front page.
+2020-05-19  2.0         Horizon                 Maintenance       Code           Separating portfolio and wiki.
 2020-05-19  0.5         Elin Kero               Design            Abstract       Planning consolidation of services under new umbrella.
 2020-05-18  2.0         Grace                   Graphic           Visual         Design for app and marketing campaigns.
 2020-05-18  3.0         Grace                   Development       Code           Fixes for app.
 2020-05-18  1.0         Eve Adam                Design            Abstract       Estimating job.
 2020-05-16  4.0         Grace                   Development       Code           Getting started with app development.
-2020-05-15  1.5         Sports                  Health            Personal       Walk
+2020-05-15  1.5         Health                  None              Personal       Walk
 2020-05-15  6.0         Grace                   Development       Code           Website.
 2020-05-15  0.5         Eve Adam                Design            Abstract       Brief changes to Adrian's work.
 2020-05-14  4.0         Grace                   Development       Code           Website.
 2020-05-12  6.0         Grace                   Development       Code           Website.
-2020-05-12  1.0         Sports                  Health            Personal       Walk
+2020-05-12  1.0         Health                  None              Personal       Walk
 2020-05-11  3.0         Grace                   Design            Abstract       Planning.
 2020-05-11  4.0         Grace                   Development       Code           Website.
 2020-05-09  2.0         Grace                   Development       Code           Website.
 2020-05-09  2.0         Grace                   Concept           Abstract
-2020-05-09  2.5         Sports                  Health            Personal       Walk
+2020-05-09  2.5         Health                  None              Personal       Walk
 2020-05-08  4.0         Grace                   Development       Code           Website.
 2020-05-07  6.0         Grace                   Development       Code           Website.
 2020-05-06  2.5         Grace                   Development       Code           Fixes to header, footer and responsive design.
 2020-05-06  1.5         Grace                   Design            Abstract       Website project planning.
 2020-05-05  1.5         Grace                   Design            Abstract       Website project planning.
-2020-05-05  1.0         Sports                  Health            Personal       Outdoor walking.
-2020-04-29  0.5         Sports                  Health            Personal       Outdoor walking.
+2020-05-05  1.0         Health                  None              Personal       Outdoor walking.
+2020-04-29  0.5         Health                  None              Personal       Outdoor walking.
 2020-04-29  4.5         Grace                   Development       Code           Refactor website.
 2020-04-28  2.0         Charlotte Beijer        Development       Code           Refactor website to Timber.
 2020-04-28  1.5         PHP                     Research          Code           Researching frameworks for Wordpress.
 2020-04-28  1.5         React                   Research          Code           Researching front end design for Wordpress sites.
 2020-04-27  2.0         Grace                   Graphic           Visual         Insight design.
-2020-04-27  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-27  1.0         Health                  None              Personal       Outdoor walking.
 2020-04-27  4.5         Grace                   Development       Code           Refactor website.
 2020-04-26  2.0         Photography             Maintenance       Personal       Organization of photos.
 2020-04-26  1.0         Photography             Research          Abstract       Organization principles.
 2020-04-26  1.0         Felicia                 Photography       Visual         Photo session.
-2020-04-24  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-24  1.0         Health                  None              Personal       Outdoor walking.
 2020-04-24  1.5         Grace                   Design            Abstract       Feedback document.
 2020-04-24  2.5         Grace                   Graphic           Visual         States for terminating account.
 2020-04-23  3.0         Grace                   Design            Abstract       Preparing feedback document.
-2020-04-22  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-22  1.0         Health                  None              Personal       Outdoor walking.
 2020-04-22  2.5         Grace                   Design            Code           Refactoring code before repo upload.
 2020-04-21  2.0         Elcenter i Skövde       Graphic           Visual         Adjusting design concept.
-2020-04-21  0.5         Sports                  Health            Personal       Outdoor walking.
+2020-04-21  0.5         Health                  None              Personal       Outdoor walking.
 2020-04-21  1.0         Grace                   Graphic           Visual         More intuitive onboarding flow.
 2020-04-20  6.0         Grace                   Development       Code           Refactor website.
 2020-04-20  1.0         Grace                   Design            Abstract       Strategy website and marketing funnel.
 2020-04-19  8.5         Grace                   Development       Code           Refactor website.
-2020-04-18  0.5         Sports                  Health            Personal       Outdoor walking.
+2020-04-18  0.5         Health                  None              Personal       Outdoor walking.
 2020-04-18  5.5         Grace                   Development       Code           Refactoring website.
-2020-04-17  3.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-17  3.0         Health                  None              Personal       Outdoor walking.
 2020-04-17  4.5         Grace                   Development       Code           Adding blog.
 2020-04-17  0.5         Grace                   Reserach          Abstract       Meeting regarding Zlantar.
 2020-04-16  1.0         Grace                   Graphic           Visual         Marketing graphics.
 2020-04-16  6.0         Grace                   Development       Code           Refactoring website.
-2020-04-15  1.5         Sports                  Health            Personal       Outdoor walking.
+2020-04-15  1.5         Health                  None              Personal       Outdoor walking.
 2020-04-15  1.0         Fiction                 Reading           Abstract       1984, George Orwell
 2020-04-15  2.0         Javascript              Research          Code
-2020-04-14  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-14  1.0         Health                  None              Personal       Outdoor walking.
 2020-04-14  1.5         Grace                   Graphic           Visual         Marketing material and app screens.
 2020-04-14  2.0         Grace                   Design            Abstract       Planning.
 2020-04-13  1.0         Fiction                 Reading           Abstract       1984, George Orwell
-2020-04-13  1.5         Sports                  Health            Personal       Outdoor walking.
+2020-04-13  1.5         Health                  None              Personal       Outdoor walking.
 2020-04-13  1.0         Grace                   Design            Abstract       Mapping out missing screens.
 2020-04-13  2.0         Grace                   Graphic           Visual         Creating marketing material.
 2020-04-13  2.5         Horizon                 Development       Code           Refactoring journal row script.
-2020-04-12  1.0         Sports                  Health            Personal       Outdoor walking.
+2020-04-12  1.0         Health                  None              Personal       Outdoor walking.
 2020-04-12  0.5         Workstation             Writing           Abstract       Writing details.
 2020-04-12  1.0         Horizon                 Maintenance       Abstract       Reorganizing log file.
 2020-04-11  0.5         Jotex                   Writing           Abstract       Rewriting entry.
 2020-04-11  2.5         Horizon                 Development       Code           Refactor to minimal site.
-2020-04-10  1.0         Sports                  Healt             Personal       Outdoor walking.
+2020-04-10  1.0         Health                  Healt             Personal       Outdoor walking.
 2020-04-10  1.0         Elcenter i Skövde       Design            Abstract       Project planning with Alexander.
 2020-04-10  1.5         Horizon                 Writing           Abstract       Updating entry texts.
 2020-04-10  4.0         Horizon                 Development       Code           Refactor to minimal site.
@@ -76,7 +274,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-04-09  4.0         Grace                   Graphic           Visual         Design of missing screens.
 2020-04-08  2.5         Horizon                 Development       Code           Refactor to minimal site.
 2020-04-08  2.5         Caroline Jonasen        Development       Code           Creating support for collections on website.
-2020-04-07  0.5         Sports                  Health            Personal       Walk
+2020-04-07  0.5         Health                  None              Personal       Walk
 2020-04-07  1.0         Grace                   Graphic           Visual         Design of missing screens.
 2020-04-07  2.0         Aktieutdelningar        Design            Abstract       Planning architecture of application.
 2020-04-06  1.0         Grace                   Graphic           Visual         Design of missing screens.
@@ -84,57 +282,57 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-04-06  1.5         Aktieutdelningar        Writing           Abstract       Adding content to FAQ, Privacy Policy and Support.
 2020-04-06  4.0         Aktieutdelningar        Development       Code           Refactor Overview and Stocks. Adding additional screens.
 2020-04-05  1.0         Charlotte Beijer        Research          Abstract       Investingating blog posts to Contentful.
-2020-04-05  1.0         Sports                  Research          Personal       Outdoor walking.
+2020-04-05  1.0         Health                  Research          Personal       Outdoor walking.
 2020-04-05  5.0         Aktieutdelningar        Development       Code           Refactor stock overview and stocks page.
-2020-04-04  2.0         Sports                  Research          Personal       Outdoor walking.
+2020-04-04  2.0         Health                  Research          Personal       Outdoor walking.
 2020-04-04  7.5         Aktieutdelningar        Development       Code           Building stock overview and stocks page, adding Recharts.
-2020-04-03  0.5         Sports                  Research          Personal       Outdoor walking.
+2020-04-03  0.5         Health                  Research          Personal       Outdoor walking.
 2020-04-03  2.5         Grace                   Development       Code           Refactor website code.
 2020-04-03  1.5         Aktieutdelningar        Development       Code           Building basic structure.
 2020-04-03  1.5         Aktieutdelningar        Graphic           Visual         Designing basic structure.
 2020-04-02  2.0         Aktieutdelningar        Design            Abstract       Initializing NextJS project.
-2020-04-02  0.5         Sports                  Research          Personal       Outdoor walking.
+2020-04-02  0.5         Health                  Research          Personal       Outdoor walking.
 2020-04-02  1.0         Grace                   Concept           Abstract       Design of updated transaction detail screens.
 2020-04-02  4.0         Grace                   Development       Code           Adding tailwind again.
 2020-04-02  3.5         React                   Research          Code           React
 2020-04-01  3.0         Grace                   Development       Code           Refactor website code.
 2020-04-01  1.5         Grace                   Design            Abstract       Meetings.
 2020-04-01  1.0         HealthWorks             Design            Abstract       Meeting regarding company shutdown.
-2020-04-01  1.0         Sports                  Research          Personal       Outdoor walking.
+2020-04-01  1.0         Health                  Research          Personal       Outdoor walking.
 2020-04-01  6.0         React                   Research          Code           React
-2020-03-31  0.5         Sports                  Research          Personal       Outdoor walking.
+2020-03-31  0.5         Health                  Research          Personal       Outdoor walking.
 2020-03-31  3.0         Grace                   Development       Code           Refactor website code.
 2020-03-31  4.0         React                   Research          Code           React
 2020-03-31  2.0         Mixup Match             Development       Code           Further development on site.
 2020-03-30  1.5         User Research           Research          Abstract       Learning about User Research methodology.
 2020-03-30  5.0         Grace                   Development       Code           Creating new next.js site.
 2020-03-30  1.0         Grace                   Graphic           Visual         Creating marketing campaign.
-2020-03-30  0.5         Sports                  Research          Personal       Outdoor walking.
-2020-03-29  0.5         Sports                  Research          Personal       Outdoor walking.
+2020-03-30  0.5         Health                  Research          Personal       Outdoor walking.
+2020-03-29  0.5         Health                  Research          Personal       Outdoor walking.
 2020-03-29  1.5         Grace                   Graphic           Visual         Design of withdrawal.
 2020-03-29  2.0         Budgeting               Research          Abstract       Researching budgeting with YNAB.
 2020-03-28  2.5         Grace                   Graphic           Visual         Design of withdrawal.
-2020-03-28  1.0         Sports                  Research          Personal       Outdoor walking.
-2020-03-27  2.0         Sports                  Research          Personal       Outdoor walking.
+2020-03-28  1.0         Health                  Research          Personal       Outdoor walking.
+2020-03-27  2.0         Health                  Research          Personal       Outdoor walking.
 2020-03-27  3.5         Grace                   Graphic           Visual         Design of withdrawal.
 2020-03-27  1.5         Grace                   Design            Abstract       Meeting with Birkir regarding withdrawal.
 2020-03-27  1.5         Remente                 Design            Abstract       Meeting with Andreas regarding Remente 2020.
-2020-03-27  1.5         Sports                  Research          Personal       Outdoor walking.
-2020-03-26  1.0         Sports                  Research          Personal       Outdoor walking.
+2020-03-27  1.5         Health                  Research          Personal       Outdoor walking.
+2020-03-26  1.0         Health                  Research          Personal       Outdoor walking.
 2020-03-26  4.5         Grace                   Graphic           Visual         Design of saving and onboarding.
 2020-03-26  3.0         Remente                 Graphic           Visual         Design of Remente 2020.
 2020-03-25  3.0         Grace                   Graphic           Visual         Design of profile.
 2020-03-25  0.5         Grace                   Design            Abstract       Scrum meeting.
-2020-03-24  2.0         Sports                  Research          Personal       Outdoor walking.
+2020-03-24  2.0         Health                  Research          Personal       Outdoor walking.
 2020-03-24  5.5         Grace                   Graphic           Visual         Design of PFM.
 2020-03-23  4.0         Grace                   Graphic           Visual         Design of PFM.
 2020-03-23  1.0         Remente                 Design            Abstract       Meeting with Andreas.
 2020-03-23  0.5         Grace                   Design            Abstract       Project planning.
 2020-03-23  1.0         SSRS                    Design            Abstract       Project planning.
-2020-03-23  0.5         Health                  Health            Personal       Outdoor walking.
+2020-03-23  0.5         Health                  None              Personal       Outdoor walking.
 2020-03-22  1.5         Horizon                 Development       Code           Adding function to log daily average.
 2020-03-22  0.5         User Research           Research          Abstract       Learning about User Research.
-2020-03-22  1.0         Sports                  Research          Personal       Outdoor walking.
+2020-03-22  1.0         Health                  Research          Personal       Outdoor walking.
 2020-03-22  6.5         Grace                   Graphic           Visual         Design of PFM and profile.
 2020-03-20  3.5         Horizon                 Development       Code           Refactor wiki engine to mdx.
 2020-03-20  4.0         Grace                   Graphic           Visual         Design of PFM.
@@ -171,7 +369,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-02-27  3.0         Grace                   Graphic           Visual         -
 2020-02-26  3.0         Grace                   Graphic           Visual         Designing withdrawal service interface.
 2020-02-25  4.0         Grace                   Graphic           Visual         Designing app interface.
-2020-02-25  1.0         Health                  Health            Personal       Kickboxing and stretching.
+2020-02-25  1.0         Health                  None              Personal       Kickboxing and stretching.
 2020-02-24  5.0         Grace                   Graphic           Visual         Designing app interface.
 2020-02-22  4.0         Grace                   Graphic           Visual         Designing PFM interface.
 2020-02-21  3.0         Grace                   Concept           Abstract       Creating concepts for beta app.
@@ -220,7 +418,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-01-31  2.0         Grace                   Research          Abstract       Preparing interviews.
 2020-01-30  2.0         Grace                   Research          Abstract       Preparing interviews.
 2020-01-29  3.0         Grace                   Research          Abstract       Preparing interviews.
-2020-01-28  0.5         Health                  Health            Personal       Indoor running.
+2020-01-28  0.5         Health                  None              Personal       Indoor running.
 2020-01-28  5.0         Grace                   Research          Abstract       Preparing interviews.
 2020-01-28  1.0         User Research           Research          Abstract       Learning about User Research.
 2020-01-27  2.0         Grace                   Research          Abstract       Preparing interviews.
@@ -234,7 +432,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-01-21  1.0         User Research           Research          Abstract       Learning about User Research.
 2020-01-20  2.0         Grace                   Research          Abstract       Preparing interviews.
 2020-01-20  2.0         Horizon                 Maintenance       Personal       Adding hours from Toggl.
-2020-01-19  1.5         Health                  Health            Personal       Outdoor walking.
+2020-01-19  1.5         Health                  None              Personal       Outdoor walking.
 2020-01-19  2.0         Horizon                 Development       Code           Adding graph to stats page.
 2020-01-19  1.0         BeautyRelax             Writing           Abstract       Reviewing content for website.
 2020-01-19  1.0         Horizon                 Development       Code           Meeting new stats page.
@@ -245,18 +443,18 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-01-16  2.5         User Experience         Research          Abstract       User Experience
 2020-01-16  0.5         Grace                   Design            Abstract       Planning for 2020.
 2020-01-15  1.5         User Experience         Research          Abstract       User Experience
-2020-01-15  0.17        Meditation              Health            Personal       Waking up.
-2020-01-15  1.0         Health                  Health            Personal       Workout legs at gym.
+2020-01-15  0.17        Meditation              None              Personal       Waking up.
+2020-01-15  1.0         Health                  None              Personal       Workout legs at gym.
 2020-01-15  3.0         Horizon                 Development       Code           Meeting new stats page.
 2020-01-15  1.0         Horizon                 Maintenance       Personal       Updating content.
 2020-01-14  2.0         Horizon                 Development       Code           Refactoring stats page.
 2020-01-13  3.0         Rust                    Research          Code           Rust
-2020-01-13  1.0         Health                  Health            Personal       Workout chest at gym.
+2020-01-13  1.0         Health                  None              Personal       Workout chest at gym.
 2020-01-13  1.0         Horizon                 Maintenance       Personal       Updating content.
 2020-01-12  1.0         Horizon                 Development       Code           Refactoring stats page.
 2020-01-12  1.0         Horizon                 Maintenance       Code
 2020-01-11  2.0         React                   Research          Code           React
-2020-01-10  1.0         Health                  Health            Personal       Workout back at gym.
+2020-01-10  1.0         Health                  None              Personal       Workout back at gym.
 2020-01-10  1.0         Horizon                 Maintenance       Personal
 2020-01-10  1.0         Aktieutdelningar        Maintenance       Personal       Updating stocklist.
 2020-01-10  4.0         React                   Research          Code           React
@@ -268,8 +466,8 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-01-07  2.0         Aktieutdelningar        Maintenance       Code
 2020-01-07  1.0         New Media               Maintenance       Code
 2020-01-07  1.0         BeautyRelax             Maintenance       Code
-2020-01-03  0           About                   Event             Personal       Moved to Stockholm, Sweden
-2020-01-01  0           Felicia                 Event             Personal       Had a baby.
+2020-01-03  0     101   Sweden                  Event             Personal       Moved to Stockholm
+2020-01-01  0     100   Patrik Arvidsson        Event             Personal       Felicia was born
 2019-12-30  8.0         Eve Adam                Graphic           Visual
 2019-12-29  5.0         Eve Adam                Graphic           Visual
 2019-12-29  0.5         Aktieutdelningar        Maintenance       Code
@@ -322,7 +520,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2019-11-21  1.0         Eve Adam                Graphic           Abstract       Designing new startpage.
 2019-11-20  2.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
 2019-11-19  5.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
-2019-11-19  1.0         Health                  Health            Personal       Kickboxing at gym.
+2019-11-19  1.0         Health                  None              Personal       Kickboxing at gym.
 2019-11-18  3.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
 2019-11-17  9.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
 2019-11-16  6.0         Eve Adam                Graphic           Visual         Designing medical questionnaire and onboarding.
@@ -345,7 +543,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2019-10-27  3.0         Elin Kero               Development       Code           Refactor code from meeting 2019-10-19.
 2019-10-27  3.0         Elin Kero               Development       Code           Refactor shop pages.
 2019-10-25  1.0         Grace                   Graphic           Visual
-2019-10-23  1.0         Health                  Health            Personal       Kickboxing at gym.
+2019-10-23  1.0         Health                  None              Personal       Kickboxing at gym.
 2019-10-20  1.0         Javascript              Research          Code           Javascript
 2019-10-20  1.0         Grace                   Graphic           Visual
 2019-10-15  3.0         Horizon                 Development       Code
@@ -509,7 +707,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2018-10-28  4.0         New Media               Development       Code
 2018-10-22  2.0         HealthWorks             Design            Abstract
 2018-10-19  3.0         HealthWorks             Design            Abstract
-2018-10-13  6.0         Scuba                   Health            Personal       Diving in Cape Town, South Africa
+2018-10-13  6.0         Scuba                   None              Personal       Diving in Cape Town, South Africa
 2018-10-12  0           South Africa            Travel            Personal       Travel to Cape Town
 2018-10-11  1.0         Bit.Shop                Graphic           Visual
 2018-10-10  1.0         Bit.Shop                Graphic           Visual
@@ -523,11 +721,11 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2018-09-26  3.0         Bit.Shop                Graphic           Visual
 2018-09-25  1.0         Bit.Shop                Graphic           Visual
 2018-09-21  0           Scuba                   Event             Personal       Advanced Open Water certification.
-2018-09-21  6.0         Scuba                   Health            Personal       Diving in Malta
-2018-09-20  6.0         Scuba                   Health            Personal       Diving in Malta
-2018-09-19  6.0         Scuba                   Health            Personal       Diving in Malta
-2018-09-18  6.0         Scuba                   Health            Personal       Diving in Malta
-2018-09-17  6.0         Scuba                   Health            Personal       Diving in Malta
+2018-09-21  6.0         Scuba                   None              Personal       Diving in Malta
+2018-09-20  6.0         Scuba                   None              Personal       Diving in Malta
+2018-09-19  6.0         Scuba                   None              Personal       Diving in Malta
+2018-09-18  6.0         Scuba                   None              Personal       Diving in Malta
+2018-09-17  6.0         Scuba                   None              Personal       Diving in Malta
 2018-09-15  0           Malta                   Travel            Personal       Travel to Malta
 2018-08-30  0           Work                    Event             Personal       Started working at Benify
 2018-08-12  1.0         Jotex                   Writing           Abstract       Updating campaign generator.
@@ -542,9 +740,9 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2018-07-20  1.0         New Media               Development       Code
 2018-07-15  4.0         BeautyRelax             Development       Code
 2018-06-14  0           Scuba                   Event             Personal       Open Water certification.
-2018-06-14  7.0         Scuba                   Health            Personal       Diving in Skopelos, Greece
-2018-06-12  6.0         Scuba                   Health            Personal       Diving in Skopelos, Greece
-2018-06-11  6.0         Scuba                   Health            Personal       Diving in Skopelos, Greece
+2018-06-14  7.0         Scuba                   None              Personal       Diving in Skopelos, Greece
+2018-06-12  6.0         Scuba                   None              Personal       Diving in Skopelos, Greece
+2018-06-11  6.0         Scuba                   None              Personal       Diving in Skopelos, Greece
 2018-06-10  0           Greece                  Travel            Personal       Travel to Skopelos
 2018-06-08  1.0         Indoor Energy           Graphic           Visual
 2018-06-05  0           Greece                  Travel            Personal       Travel to Meteora
