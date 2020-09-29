@@ -1,5 +1,9 @@
 export const raw = `
 DATE        TIME  PICT  PROJECT                 TASK              DIVISION       DETAILS
+2020-09-28  1.5         Nybörjarspararen        Development       Code           Responsive design @gatsby
+2020-09-28  1.0         Charlotte Beijer        Development       Code           Setting up Gatsby and Wordpress @gatsby
+2020-09-27  3.0         Nybörjarspararen        Development       Code           Updating design @gatsby
+2020-09-26  3.5         Nybörjarspararen        Development       Code           Updating design @gatsby
 2020-09-25  0.5         Grace                   Graphics          Visual         Finalizing Branding 2.0 @figma
 2020-09-25  1.0         Cidien                  Development       Code           Responsive design @gatsby
 2020-09-24  1.5         ProtonMail              Graphics          Visual         Dark mode exploration @figma
