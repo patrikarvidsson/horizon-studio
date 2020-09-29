@@ -1,0 +1,17 @@
+{
+  "name": "horizon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.sr.ht:~patrik/horizon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

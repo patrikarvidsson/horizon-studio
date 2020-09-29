@@ -1,0 +1,206 @@
+@ INDEX
+  bref : bref
+  body
+    & [+Patrik Arvidsson|author+]
+    & Designer and developer based in Stockholm. Creative Director at Grace, previously product designer at Benify.
+    & Check out the [+now+] page to see what is being working on right now or visit the [+studio|https://studio.patrikarvidsson.com+] for details around commercial projects.
+    & Read the [+open invite+] if you wish to get in touch with me.
+
+@ INDEX.ABOUT
+  bref : About this wiki
+  body
+    & This website is a wiki and personal logging system.
+    & Its purpose is to keep records of all productive time spent across different projects and to manage a repository of information about things such as design and usability.
+
+@ ABOUT.META
+  bref : The meta portal
+  body
+    & The meta portal lists a collection of notes on the wiki itself.
+
+ABOUT.AUTHOR
+  bref : Patrik Arvidsson
+  body
+    & I am a stockholm-based multidisciplinary designer.
+    & I design and build purpose driven experiences based on qualitative research data, with a devotion to process and transparency. I'm passionate about the journey from an idea, to its creation all the way to its implementation.
+    & Currently working at grace, a fintech company distrupting the consumer credit market and helping people improve their financial health. This environment allows me to pursue another passion - sharing the knowledge i have gained over the years with as many people as possible.
+    & See my [+open invite+] if you would like to get in touch with me.
+
+AUTHOR.OPEN INVITE
+  bref : Get in touch with me
+  body
+    & I believe communication and sharing knowledge between people plays a key part in the growth of new ideas and perspectives.
+    & Following the road taken by many others, you are welcome to contact me about anything. While I am most passionate about the user experience and design field, I am open to talking about a myriad of things with you.
+    & If you are a designer and you are stuck on a project or anything else I will glady help you as best I can.
+    & I look forward to hearing from you.
+    & <i>patrik@patrikarvidsson.com</i>
+
+META.NOW
+  bref : Current happenings
+  body
+    % now | @dvandijk - Unsplash
+    & This is a [+now page|https://nownownow.com/about+] on which I share what I am working on at this moment.
+    2 Professional
+    & Currently laying down the corner stones of what I believe will help people improve their financial life by giving people an alternative way of financing sudden expenses instead of turning to high-interest loans.
+    & Read more about [+grace+] and what we stand for.
+    2 Personal
+    & January this year I became a father to a little girl.
+    & Digging deeper into learning Javascript, React and Rust in order to have better understanding of the designs I create; challenging excessiveness and focusing on minimalism as I go along.
+    & Building [+aktieutdelningar+] with my brother.
+    & Improving workout habits.
+
+META.TRACKER
+  bref : Recent changes and updates
+  body
+    & The tracker shows recent changes to the articles in this wiki.
+    & For a list of what I am working on at the moment, visit the [+now+] page.
+
+META.STATISTICS
+  bref : Accumulated statistics
+  body
+    & I am currently documenting how I spend my time in an an effort to increase productivity long term.
+    & Log entries are stored in a human-readable database format called [+Tablatal|https://wiki.xxiivv.com/site/tablatal.html+]. More information regarding the design can be read [+here|horizon+]
+    & The database consists of <strong>2043 entries</strong>, with a total of <strong>5822 hours</strong> across <strong>99 topics</strong>. An avverage of <strong>7.07</strong> hours per day was logged in the last 6 months.
+
+AUTHOR.SCUBA
+  bref : Dive log
+  body
+    & The dive log is a journal of past scuba dives at various destinations across the world.
+    & Dive logs are recorded in descending chronological order based on the first dive in each country. The data was gathered using a dive computer.
+    2 South Africa - Cape Town
+    & The water in was around 13 degrees celsius and we had the opportunity to dive with Seals. I was diving with Into the Blue.
+    2 Malta
+    & Got my Advanced Open Water certificate with OK Diving Malta. First time seeing an octopus up close.
+    2 Greece – Skopelos
+    & Got my Open Water certification from Skopelos Dive Center.
+
+@ INDEX.RESEARCH
+  bref : Research portal
+  body
+    & The research portal stores a collection of curated notes from different topics in an effort to improve personal recall and to ensure it is not forgotten with time.
+
+@ RESEARCH.SOFTWARE
+  bref : A collection of software projects
+  body
+    & This page hosts a selected amount of projects ranging from different sizes, listed in alphabetical order.
+
+SOFTWARE.AKTIEUTDELNINGAR
+  bref : Keep track of stock dividends
+  body
+    & Aktieutdelningar is an application intended to help users keep track of their annual stock dividends.
+    & Originally developed by Dick Törnfeldt but was shut down at at the end of August 2019 due to lack of time from the author.
+    & I am currently building the next version of this application as a side project together with a developer. It will allow better scalability and a myriad of additional features to improve user experience. It is scheduled for public release late 2020.
+
+SOFTWARE.COOKIE TEMPURA
+  bref : Review food and restaurants across the globe
+  body
+    & A service where well-regarded people can review restaurant dishes in key cities across the globe.
+    & The project has been in the planning stage since late 2019, but is currently on hiatus due to lack of time from all involved parties.
+
+SOFTWARE.HORIZON
+  bref : Personal wiki engine
+  body
+    & Horizon is the codebase running the website you are currently browsing.
+    & The purpose of Horizon is to keep track of the time spent researching different topics and how much time is invested on each individual project.
+    & It summarises logged data and provides key insights into productivity and balance across different sectors.
+    2 Design
+    & Horizon parses [+markdown|https://en.wikipedia.org/wiki/Markdown+] files for its wiki entries, and [+flat-file|https://en.wikipedia.org/wiki/Flat-file_database+] databases for all recorded logs. The records are stored in [+Tablatal|https://wiki.xxiivv.com/site/tablatal.html+], a human-readable database format.
+    & Each row represents a time entry rounded to nearest thirty minutes, and has a sector which categorizes the row and task which documents what was done.
+    & Data is accumlated and processed to visualize productivity on each project. Some of this data can be seen at the [+statistics+] page.
+    2 Aesthetics
+    & Horizon is an experiement in trying to find a balance between minimalism and good user experience.
+    & It promotes readability for the repository of information it hosts, which will prove more challenging with time as more information is added continuously.
+    2 Building
+    & This revision of horizon is built with NodeJS. A lot of inspiration has been gathered from [+Josh Avanier|https://avanier.now.sh+] which eventually pushed me away from React to something more lightweight. HTML and CSS are kept to a minimum to ensure that the website remain simple and fast. It is currently hosted at [+Vercel|https://vercel.com/+]
+    2 Further reading
+    & For more information on the concepts of personal assistants and time management, visit [+XXIIVV|https://wiki.xxiivv.com+] or [+Victor Ivanov|https://v-os.ca/+]
+
+SOFTWARE.JOTEX
+  bref : Marketing automation
+  body
+    % jotex | Jotex
+    & <em>Jotex is one of Swedens largest e-commerce websites for household linen and interior design. The company was founded 1963 and is now a part of the larger Ellos Group organization.</em>
+    & A service where well-regarded people can review restaurant dishes in key cities across the globe.
+    & The project has been in the planning stage since late 2019, but is currently on hiatus due to lack of time from all involved parties.
+    & When working for Jotex, one of my tasks was to help the team create marketing e-mails on a weekly basis. A large chunk of the process from idea to finalized mail required manual work, and to speed this process up I created an application that would automate the majority of that work for me and my co-workers.
+    2 Issue
+    & Jotex had its product catalog translated to several different markets. This meant that when an employee created a campaign for all those markets, they had to go to each website and copy the product names, prices and labels and paste that data into Photoshop to create a mockup.
+    & The mockup was then printed out and presented to the marketing director for approval. Upon approval, the employee would move on to create the actual e-mail (following the mockup design) in the marketing application.
+    & Depending on how large the campaign was (which often correlated with the number of products), it was fairly common that it took the employee atleast 8 hours to to have a mockup for presentation.
+    2 Automation
+    & By utilizing the product SKUs we were able to crawl the website in all different languages, automatically fetch the necessary data and present them in an interface where the employee could copy and paste to the marketing application with the click of a button.
+    & Product images were stitched together with the appropriate labels in all languages and thumbnails with correct size were generated and named following the internal naming conventions for download so that they quickly could be uploaded to the marketing application.
+    & The employee was automatically notified when a product ran out of stock and needed to be switched out. When that happened, one could enter a new product SKU and the application would crawl the data again and generate the appropriate data.
+    & A lot of the redundant work the employees did was no longer needed, which allowed for creation of marketing mails to be more effective.
+
+SOFTWARE.MIXUP MATCH
+  bref : Charity battle royale
+  body
+    % mixupmatch | Mixup Match
+    & Mixup match was a semi-regular event hosting a Team Fortress 2 playground where celebrities kill eachother repeatedly for charity.
+    & The game matches included game developers, online celebrities, competitive players and randomly picked players from the fan community.
+    & Since its creation, the organization was able to gradually include more well-known players in the matches and increased its publicity with each event. The fourth event had one million views and raised approximately 14,500 USD for charity, starring players like Notch, Yogscast, Freddie Wong, and developers from Valve Corporation and Bethesda Game Studios. Donations were given unshortened to a charity at each event.
+    & The organization is no longer active but previous events are still available online for archival purposes.
+    & [+Visit website|https://www.tf2mixup.com/+]
+
+SOFTWARE.STUDIO
+  bref : Commercial portfolio
+  body
+    & Studio is a complement to this website which lists commercial projects, in a portfolio setting.
+    & It is a lightweight website built with NextJS and a few additional packages, hosted on Vercel. This project is still under development and is subject to change.
+    & You can see the website in action [+here|https://studio.patrikarvidsson.com/+] or review the code at [+github|https://github.com/patrikarvidsson/horizon-studio+]. The source code is licensed under MIT.
+
+@ RESEARCH.DESIGN
+  bref : Design portal
+  body
+    & A collection of curated notes about design and usability.
+
+DESIGN.DESIGN SYSTEMS
+  bref : bref
+  body
+    & A Design System is a single source of truth which groups all elements that will allow the teams to design, realize and develop a product efficiently.
+    & A set of deliverables intended to keep evolving with the product, the tools and the new technologies.
+    & At the most simple level, it is a collection of components with a set of rules and standards which guides the user. It is made of tangible elements such as colors and font, as well as intangible ones like best practices or unique brand values.
+    & This collection is scalable, consistent, efficient and promotes productivity within and across teams.
+    & At a more complex level, it is also an entity which details all design guidelines and processes within a product or across multiple products within a company. It empowers developers, strengthens the collaboration across teams and centralizes knowledge. It answers questions such as how and why, and provides a solid foundation to fall back on when needed.
+    " When a technology matures, design moves to the foreground because the underlying machinery has been commoditized. | John Maeda | Design in Tech Report
+    & Creating a Design System is easy once you have decided to get started, but maintainting one and establishing it as the single source of truth is difficult. This process, however, is essential for any company that intends on succeeding.
+
+DESIGN.DESIGN THINKING
+  bref : bref
+  body
+    & Design Thinking promotes problem-solving by giving us a hands-on, user-centric mindset that leads to innovation.
+    & It is not a new way of thinking; as designers have applied human-centered creative processes in order of building meaningful and effective solutions for ages.
+    & Even though this is the reality, design has for a long time been an afterthought in the business landscape. The current, and historical, application of design and design processes have resulted in products which fail to meet customers' real needs.
+    & The design thinking framework helps us understand, explore and materialize our users needs by dividing the process into 6 phases — empathize, define, ideate, prototype, test and implement.
+    & These phases can be iterated, and it is encouraged to do so. It is recommended to do the same exercise multiple times with different team members in order to reach something that is tangible. The outcome of each phase should be sound enough to serve as a guiding principle throughout the rest of the process and to ensure that you never stray too far from your focus.
+    2 Empathize
+    & During the empathize phase we conduct research in order to develop knowledge about what users are saying, doing and feeling. We talk to actual real life users, to observe what they do and how they feel, to find out what motivates or discourages them.
+    & We need to build a solid foundation in order to empathize with our users and be able to understand their perspective.
+    2 Define
+    & When we define where our users problems and pain points exist we can also discover opportunities for innovation. Where do current user stories fail with in terms of the business goals? Is it possible to group certain users into common personas.
+    2 Ideate
+    & Address the users needs which were identified in the define phase. Explore crazy ideas and sketch out user stories.
+    & Invite co-workers from other departments, especially non-designers, to participate in the ideation process. Diversity is key, and everyone should be encouraged to propose ideas without feeling left out or become ridiculed.
+    & It is also important to not work in isolation. Share, learn, discuss and iterate the ideas as a group as a subset of the ideas should be brought in to the prototyping phase.
+    2 Prototype
+    & In the prototype phase, the impact is weighted against the feasibility of the project. The goal here is to understand which components work, and which do not.
+    & The ideas should be transformed into real and tactile representations. Create wireframes and interactable prototypes to gain feedback internally. Then change it, review it, and gather additional feedback internally. There is no limit to what tools are used here, as long as it the iterations are quick. If you can best visualize this phase with code, then you should write code.
+    2 Implement
+    & The implementation phase is the most important phase which materializes the prototyped solution. Without it, we don't have a working end product and the whole process is made irrelevant.
+    " We need more design doing. | Don Norman | NN/g
+    & Design thinking does not free you from actual design doing, and as impactful it can be for an organization it only leads to true innovation if and when the vision is successfully executed. The success for design thinking thus lies within its ability to transform the targeted aspect of the end user's life.
+
+@ RESEARCH.COOKING
+  bref : Cooking portal
+  body
+    & A collection of curated notes on cooking.
+
+@ COOKING.RECIPES
+  bref : Recipe portal
+  body
+    & A collection of recipes.
+
+@ COOKING.INGREDIENTS
+  bref : Ingredients portal
+  body
+    & A collection of notes on ingredients.
