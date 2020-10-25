@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node ./src/index.js",
+    "dev": "rm -rf public; mkdir public; cp -Rv [m]* public/; nodemon -e js,mjs,jsx,json,tbtl,ndtl src/index.js",
+    "stage": "rm -rf public; mkdir public; node src/index.js; cp -Rv [m]* public/; now",
+    "build": "rm -rf public; mkdir public; node src/index.js; cp -Rv [m]* public/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,5 +15,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csso": "^4.0.3"
+  }
 }

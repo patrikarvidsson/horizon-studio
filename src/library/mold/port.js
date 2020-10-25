@@ -1,11 +1,11 @@
 const Base = require("./base");
-const { cap, url } = require("../lib/utils");
+const { cap, url, titleCase } = require("../lib/utils");
 
 module.exports = function (opts, db) {
   Base.call(this, opts);
 
   function list({ term, alt }) {
-    return `<li><a href="${url(term)}.html">${alt || cap(term)}</a>`;
+    return `<li><a href="${url(term)}.html">${alt || titleCase(term)}</a>`;
   }
 
   function index(t) {
@@ -17,12 +17,10 @@ module.exports = function (opts, db) {
       const child = children[i];
       if (child.fini) items += list(child);
     }
-    return `<ol class="c">${items}</ol>`;
+    return `<p><small>—</small></p><nav><ol>${items}</ol></nav>`;
   }
 
   this.core = function () {
-    return `${this.header()}<main id="mm">${this.content}${index(
-      this.term
-    )}</main>`;
+    return `${this.header()}<main>${this.content}${index(this.term)}</main>`;
   };
 };

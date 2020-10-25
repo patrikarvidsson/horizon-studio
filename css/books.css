@@ -1,0 +1,26 @@
+section {
+  max-width: calc(100vw - 15px);
+  margin-top: 1.27rem;
+  width: 750px;
+  font-size: 16px;
+  display: grid;
+  grid-column-gap: 0.78rem;
+  grid-row-gap: 8px;
+  grid-template-columns: 1fr 0.75fr min-content 62px;
+}
+
+section:last-of-type {
+  margin-bottom: 1.62rem;
+}
+
+section > div,
+section > time {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+section a {
+  font-weight: 400;
+  text-decoration: underline;
+}

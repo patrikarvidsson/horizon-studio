@@ -1,5 +1,6 @@
 :root {
-    --c-primary: #35c1c8;
+    --c-primary: #4D89BF;
+    --c-white: rgba(255,255,255,1);
     --c-black: rgba(0,0,0,1);
     --c-gray: rgba(0,0,0,0.6);
 }
@@ -16,9 +17,9 @@ html {
 }
 
 body {
-    font: 17px/1.6 sans-serif;
+    font: 16px/1.6 sans-serif;
     font-weight: 400;
-    padding: 1.62rem 2.27rem;
+    padding: 1.27rem 1.62rem;
     color: var(--c-black);
 }
 
@@ -38,9 +39,6 @@ a {
     color: var(--c-black);
     font-weight: 600;
     text-decoration: none;
-    white-space: nowrap;
-    transition: color 0.2s;
-    border-bottom: 2px rgba(0,0,0,0.2) dotted;
 }
 
 a.external:after {
@@ -52,6 +50,7 @@ a:hover {
 }
 
 h1, h2, h3 {
+    margin-top: 1.62rem;
     line-height: 1.5;
     font-weight: 600;
 }
@@ -64,10 +63,14 @@ h2 {
     font-size: 1.3em;
 }
 
-ul, ol {
-    list-style: circle;
-    list-style-type: circle;
+nav ol {
+    list-style-type: none;
     padding: 0;
+}
+
+small,
+span {
+    color: var(--c-gray);
 }
 
 figure {
@@ -83,6 +86,30 @@ figcaption {
     font-size: 90%;
 }
 
+table {
+    background: var(--c-black);
+    color: var(--c-white);
+    width: 100%;
+    font-size: 14px;
+    padding: 0.3rem 0.5rem;
+    margin-bottom: 2.27rem;
+}
+
+table tr:first-of-type td {
+    font-weight: 600;
+}
+
+table a {
+    color: var(--c-white);
+}
+
 footer {
-    margin-top: 3.33rem;
+    margin-top: 1.62rem;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    font-weight: 400;
+    color: var(--c-black);
 }

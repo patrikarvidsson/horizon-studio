@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "handle": "filesystem" },
+    {"src": "/(?<page>[^/]+)", "dest": "/$page.html", "continue": true}
+  ]
+}
+

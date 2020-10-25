@@ -1,0 +1,10 @@
+figure {
+    margin-top: 1.63rem;
+    margin-bottom: 2.27rem;
+}
+
+figcaption {
+    font-size: 16px;
+    color: var(--c-black);
+    margin-top: 10px;
+}

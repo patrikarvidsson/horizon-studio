@@ -1,5 +1,13 @@
 const fs = require("fs");
 const { apostrophise, isExternalLink, deWidow, url } = require("./utils");
+const Cal = require("./cal");
+
+const { parseLogs, totalHours, averageHours, latestLogs } = require("../horizon");
+
+const Log = require("../log");
+const { get } = require("http");
+const logs = new Log(`./database/log.tbtl`);
+const readingList = new Log(`./database/books.tbtl`);
 
 const ISO_LANGS = [
   "ab",
@@ -204,6 +212,86 @@ module.exports = function (raw) {
     "=": { tag: "li", wrp: "ul" },
     "*": { fn: (x) => `<h2 id="${url(x)}">${markup(x)}</h2>` },
 
+    λ: {
+      tag: "div",
+      fn: (content) => {
+        switch (content) {
+          case "totalStats":
+            const te = logs.length;
+            const th = totalHours();
+            const tt = Object.keys(parseLogs(logs)).length;
+            const ah = (averageHours(logs) / 182).toFixed(2);
+            const totalStats = `This wiki consists of <dfn title="Log entries in Horizon">${te} entries</dfn>, with a total of <dfn title="Accumulated hours logged so far">${th} hours</dfn> across <dfn title="Amount of topics in the wiki">${tt} topics</dfn>. An average of <dfn title="Average hours logged in the last specified period">${ah} hours</dfn> per day was logged in the last 6 months.`;
+
+            return totalStats;
+
+            break;
+
+          case "latestChanges":
+            const list = latestLogs().map(item => {
+              const ds = item.date.split("-");
+
+              return `
+                <span>${item.date} · <a href="${url(item.project)}.html">${item.project}</a> · ${item.task}</span><br />
+              `;
+            }).join('');
+            return `<p>${list}</p>`
+            break;
+
+          case "latestJournal":
+            const journalList = logs.map(item => {
+              if (item.pict !== '') {
+                sd = new Date(item.date);
+                td = new Cal(sd).display();
+
+                return `
+                    <figure>
+                      <img src="./m/d/${item.pict}.jpg" alt="${item.details}" />
+                      <figcaption>${td} — ${item.details}</figcaption>
+                    </figure>
+                ` 
+              }
+            }).join('');
+
+            return `${journalList}` 
+
+          case "readingList":
+            const rl = readingList;
+            const years = ['2020', '2019', '2018', '2016', '2015'];
+            var array = [];
+            
+            for (let i = 0; i < years.length; i++) {
+              const header = `<h2>${years[i]}</h2>`;
+
+              const books = rl.map((book) => {
+                const d = new Date(book.date);
+                const y = d.getFullYear();
+
+                if (years[i] == y) {
+                  return `
+                    <div><a href="https:/amazon.com/dp/${book.sin}">${book.title}</a></div>
+                    <div>${book.author}</div>
+                    <div>${book.date}</div>
+                    <div>${"⭑".repeat(book.rating)}</div>
+                  `;
+                }
+              }).join('');
+
+              array.push(`${header}<section>${books}</section>`);
+            };
+
+            return array.join('');
+
+
+          default:
+            return `${content} is an unknown function`;
+            break;
+        }
+      },
+    },
+
+    "|": { tag: "tr", wrp: "table", fn: makeTable },
+
     "@": {
       tag: "blockquote",
       fn: (content) => {
@@ -270,7 +358,7 @@ module.exports = function (raw) {
       if (content.includes("|")) [name, target] = content.split("|");
       if (isExternalLink(target)) {
         return `<a${
-          target.includes("https://") ? ' class="external"' : ''
+          target.includes("https://") ? ' class="external"' : ""
         } href="${target}" target="_blank">${name}</a>`;
       }
 
@@ -397,6 +485,10 @@ module.exports = function (raw) {
     const fig = `<figure><img${klass} ${src} ${imgAlt} loading="lazy">${cap}</figure>`;
 
     return cw ? `<details><summary>${cw}</summary>${fig}</details>` : fig;
+  }
+
+  function makeTable(content) {
+    return `<tr><td>${content.trim().replace(/ \| /g, "</td><td>")}</td></tr>`;
   }
 
   return raw

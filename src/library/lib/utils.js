@@ -1,10 +1,9 @@
 module.exports = {
-
-  apostrophise (text) {
-    return text.replace(/([A-Za-z])\'/g, '$1&rsquo;');
+  apostrophise(text) {
+    return text.replace(/([A-Za-z])\'/g, "$1&rsquo;");
   },
 
-  avg (values = []) {
+  avg(values = []) {
     const l = values.length;
     if (l === 0) return 0;
     let sum = 0;
@@ -19,8 +18,17 @@ module.exports = {
    * @param {string} str
    * @return {string}
    */
-  cap (str) {
+  cap(str) {
     return str[0].toUpperCase() + str.slice(1).toLowerCase();
+  },
+
+  titleCase(str) {
+    var splitStr = str.toLowerCase().split(" ");
+    for (var i = 0; i < splitStr.length; i++) {
+      splitStr[i] =
+        splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+    }
+    return splitStr.join(" ");
   },
 
   /**
@@ -28,12 +36,12 @@ module.exports = {
    * @param {string}
    * @return {string}
    */
-  deWidow (text) {
-    const words = text.split(' ');
+  deWidow(text) {
+    const words = text.split(" ");
     if (words.length === 1) return text;
     const last = words.pop();
     words[words.length - 1] += `&nbsp;${last}`;
-    return words.join(' ');
+    return words.join(" ");
   },
 
   /**
@@ -42,8 +50,8 @@ module.exports = {
    * @param {number} end
    * @return {number} Duration
    */
-  duration (start, end) {
-    return end === undefined ? 0 : (+end - +start) / 36E5;
+  duration(start, end) {
+    return end === undefined ? 0 : (+end - +start) / 36e5;
   },
 
   /**
@@ -53,7 +61,7 @@ module.exports = {
    * @param {*} content
    * @return {array}
    */
-  genArray (size, content) {
+  genArray(size, content) {
     const arr = [];
     for (let i = 0; i < size; i++) {
       arr[i] = content;
@@ -66,10 +74,10 @@ module.exports = {
    * @param {string} str
    * @return {boolean}
    */
-  isExternalLink (str) {
-    return str.includes('https:')
-      || str.includes('http:')
-      || str.includes('dat:');
+  isExternalLink(str) {
+    return (
+      str.includes("https:") || str.includes("http:") || str.includes("dat:")
+    );
   },
 
   /**
@@ -77,7 +85,7 @@ module.exports = {
    * @param {array} values
    * @return {number} Max
    */
-  max (values = []) {
+  max(values = []) {
     let l = values.length;
     if (l === 0) return 0;
     let m = 0;
@@ -92,7 +100,7 @@ module.exports = {
    * @param {number} num
    * @return {string} Padded number
    */
-  pad (num) {
+  pad(num) {
     return `0${num}`.substr(-2);
   },
 
@@ -101,7 +109,7 @@ module.exports = {
    * @param {array} values
    * @return {number} Sum
    */
-  sum (values = []) {
+  sum(values = []) {
     const l = values.length;
     if (l === 0) return 0;
     let x = 0;
@@ -117,7 +125,7 @@ module.exports = {
    * @param {string} str
    * @return {string} URL-friendly string
    */
-  url (str) {
-    return str.replace(/ /g, '_').replace(/\W/g, '').trim().toLowerCase();
+  url(str) {
+    return str.replace(/ /g, "_").replace(/\W/g, "").trim().toLowerCase();
   },
 };

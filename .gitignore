@@ -1,6 +1,6 @@
-// Trash files
-
+// Files
 .DS_Store
+.vercel
 
 // Generated pages
 /wiki

@@ -1,18 +1,59 @@
-export const raw = `
 DATE        TIME  PICT  PROJECT                 TASK              DIVISION       DETAILS
+2020-10-21  3.15        Findity                 Graphic           Visual         Marketplace and AMEX mockup @figma
+2020-10-20  1.86        Findity                 Graphic           Visual         AMEX admin mockup @figma
+2020-10-19  1.93        Findity                 Graphic           Visual         AMEX admin mockup @figma
+2020-10-19  3.40        Horizon                 Graphic           Visual         PDF portfolio @figma
+2020-10-19  1.08        User flows              Research          Abstract       User flows research 
+2020-10-19  1.18        Process                 Research          Abstract       Lean UX processes
+2020-10-18  4.31        By Lang                 Development       Code           Site infrastructure @wordpress
+2020-10-17  1.12        By Lang                 Development       Code           Site infrastructure @wordpress
+2020-10-16  5.30        Findity                 Graphic           Visual         Organizational statistics and design system @figma
+2020-10-15  2.68        Findity                 Graphic           Visual         Organizational statistics @figma
+2020-10-15  0.48        Findity                 Graphic           Visual         Statistics fixes @figma
+2020-10-15  2.71        Process                 Research          Abstract       Lean UX processes
+2020-10-14  1.25        Wealth                  Research          Abstract       Naval chapters on Wealth
+2020-10-14  1.28        Findity                 Graphic           Visual         Admin statistics view @figma
+2020-10-13  1.47        Wealth                  Research          Abstract       Naval chapters on Wealth
+2020-10-13  1.30        Findity                 Graphic           Visual         Generating mockups for sales @figma
+2020-10-13  0.62        Process                 Research          Abstract       Lean UX processes
+2020-10-12  1.92        Findity                 Graphic           Visual         Visual and design system adjustments @figima
+2020-10-12  1.40        Findity                 Concept           Visual         Statistics view @figna
+2020-10-10  0.72        Usability               Writing           Abstract       Summarizing article 
+2020-10-09  2.72        Findity                 Graphic           Visual         Adjustments to end user flow @figma
+2020-10-08  1.70        Usability               Research          Abstract       Banking UX studies
+2020-10-07  1.02        Usability               Research          Abstract       Banking UX studies
+2020-10-07  1.29        Findity                 Graphic           Visual         Final fixes transaction and expense @figma
+2020-10-06  1.00        Usability               Research          Abstract       Banking UX studies
+2020-10-06  0.95        Horizon                 Development       Code           Implementing journal pages @javascript
+2020-10-06  3.33        Findity                 Graphic           Visual         Transaction, Expenses, Profile screens @figma  
+2020-10-05  1.42        Usability               Research          Abstract       Banking UX studies
+2020-10-05  3.35        Findity                 Graphic           Visual         Transaction and expense screens @figma                  
+2020-10-05  1.0         Horizon                 Development       Code           Extending functions @javascript
+2020-10-05  1.0         Horizon                 Writing           Abstract       Changing various entries of the wiki
+2020-10-04  2.0         Horizon                 Development       Code           Statistics functions @javascript
+2020-10-04  1.5         Findity                 Graphic           Visual         Transaction and Expense screen @figma
+2020-10-04  0.5         Findity                 Design            Abstract       Defining user flows.
+2020-10-04  2.0         Findity                 Design            Abstract       Exploring design inspiration 
+2020-10-03  2.0         Javascript              Development       Research       Learning Javascript @javascript
+2020-10-03  1.5         Horizon                 Development       Code           Experimentation with statistics @javascript
+2020-10-02  2.0         Horizon                 Development       Code           Creating functions for statistics @javascript
+2020-10-01  1.0         Findity                 Design            Abstract       Initial meeting for applications design
+2020-10-01  4.5         Horizon                 Development       Code           Rebuilding site with node @javascript
+2020-09-30  4.0         Horizon                 Development       Code           Rebuilding site with node @javascript
+2020-09-29  4.0         Horizon                 Development       Code           Rebuilding site with node @javascript
 2020-09-28  1.5         Nybörjarspararen        Development       Code           Responsive design @gatsby
 2020-09-28  1.0         Charlotte Beijer        Development       Code           Setting up Gatsby and Wordpress @gatsby
 2020-09-27  3.0         Nybörjarspararen        Development       Code           Updating design @gatsby
 2020-09-26  3.5         Nybörjarspararen        Development       Code           Updating design @gatsby
-2020-09-25  0.5         Grace                   Graphics          Visual         Finalizing Branding 2.0 @figma
+2020-09-25  0.5         Grace                   Graphic           Visual         Finalizing Branding 2.0 @figma
 2020-09-25  1.0         Cidien                  Development       Code           Responsive design @gatsby
-2020-09-24  1.5         ProtonMail              Graphics          Visual         Dark mode exploration @figma
-2020-09-23  5.5         Grace                   Graphics          Visual         Branding 2.0 @figma
+2020-09-24  1.5         ProtonMail              Graphic           Visual         Dark mode exploration @figma
+2020-09-23  5.5         Grace                   Graphic           Visual         Branding 2.0 @figma
 2020-09-22  1.0         Cidien                  Development       Code           SEO, GA, minor changes @gatsby
 2020-09-22  0.5         Cidien                  Development       Code           Adding Disqus to website @gatsby
-2020-09-22  3.0         Grace                   Graphics          Visual         Branding 2.0 @figma
-2020-09-21  1.5         Grace                   Graphics          Visual         Branding 2.0 @figma
-2020-09-21  1.0         Grace                   Graphics          Visual         Adjusting savings app design @figma
+2020-09-22  3.0         Grace                   Graphic           Visual         Branding 2.0 @figma
+2020-09-21  1.5         Grace                   Graphic           Visual         Branding 2.0 @figma
+2020-09-21  1.0         Grace                   Graphic           Visual         Adjusting savings app design @figma
 2020-09-21  1.0         Grace                   Development       Code           Building website @next
 2020-09-20  4.0         Cidien                  Development       Code           Building website on Statamic 3 @gatsby
 2020-09-19  3.5         Cidien                  Development       Code           Building website on Statamic 3 @gatsby
@@ -27,35 +68,35 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-09-13  5.5         Studio                  Development       Code           Initiating and building website @next
 2020-09-12  5.5         Selected Eco            Development       Code           Building website @wordpress
 2020-09-12  3.0         Selected Eco            Development       Code           Building hotels page @wordpress
-2020-09-11  4.0         Grace                   Graphics          Visual         Company branding.
+2020-09-11  4.0         Grace                   Graphic           Visual         Company branding.
 2020-09-11  2.0         Grace                   Animations        Visual         Lottery draw animation.
 2020-09-10  2.0         Grace                   Animations        Visual         Lottery draw animation.
-2020-09-10  4.0         Grace                   Graphics          Visual         Backoffice design system adjustments.
+2020-09-10  4.0         Grace                   Graphic           Visual         Backoffice design system adjustments.
 2020-09-09  4.0         Grace                   Animations        Visual         Lottery draw animation.
-2020-09-09  1.5         Grace                   Graphics          Visual         Savings module.
-2020-09-08  8.0         Grace                   Graphics          Visual         Savings module.
-2020-09-04  2.0         Grace                   Graphics          Visual         Savings module.
-2020-09-03  4.5         Grace                   Graphics          Visaul         Savings module.
-2020-09-02  2.5         Grace                   Graphics          Visual         Savings module.
-2020-09-02  2.5         Grace                   Graphics          Visual         Design backoffice.
-2020-09-01  6.0         Grace                   Graphics          Visual         Design backoffice.
-2020-08-31  1.0         Grace                   Graphics          Visual         Bugfixes for backoffice.
+2020-09-09  1.5         Grace                   Graphic           Visual         Savings module.
+2020-09-08  8.0         Grace                   Graphic           Visual         Savings module.
+2020-09-04  2.0         Grace                   Graphic           Visual         Savings module.
+2020-09-03  4.5         Grace                   Graphic           Visaul         Savings module.
+2020-09-02  2.5         Grace                   Graphic           Visual         Savings module.
+2020-09-02  2.5         Grace                   Graphic           Visual         Design backoffice.
+2020-09-01  6.0         Grace                   Graphic           Visual         Design backoffice.
+2020-08-31  1.0         Grace                   Graphic           Visual         Bugfixes for backoffice.
 2020-08-29  2.0         Selected Eco            Development       Code           Building ACF blocks.
 2020-08-28  4.0         Selected Eco            Development       Code           Header, footer, gateway blocks, cpt structure.
 2020-08-27  5.5         Selected Eco            Development       Code           Gateway blocks, navigation and hero.
 2020-08-26  1.5         Javascript              Research          Code
-2020-08-24  1.5         Selected Eco            Graphics          Visual         Design start and listing pages.
+2020-08-24  1.5         Selected Eco            Graphic           Visual         Design start and listing pages.
 2020-08-24  0.5         BeautyRelax             Maintenance       Abstract       Fixes for front page images.
 2020-08-24  0.5         Elin Kero               Development       Code           Final fixes on old-style blog layout.
 2020-08-20  1.0         Elin Kero               Development       Code
-2020-08-19  3.0         Selected Eco            Graphics          Visual         Designing hotels page.
-2020-08-14  5.0         Grace                   Graphics          Visual         Backend design.
-2020-08-13  5.0         Grace                   Graphics          Visual         Backend design.
-2020-08-13  1.5         Selected Eco            Graphics          Visual         Designing hotels page.
-2020-08-12  4.0         Grace                   Graphics          Visual         Backend design.
-2020-08-11  4.0         Grace                   Graphics          Visual         Backend design.
-2020-08-10  5.0         Grace                   Graphics          Visual         Backend design.
-2020-08-09  3.0         Grace                   Graphics          Visual         Backend design.
+2020-08-19  3.0         Selected Eco            Graphic           Visual         Designing hotels page.
+2020-08-14  5.0         Grace                   Graphic           Visual         Backend design.
+2020-08-13  5.0         Grace                   Graphic           Visual         Backend design.
+2020-08-13  1.5         Selected Eco            Graphic           Visual         Designing hotels page.
+2020-08-12  4.0         Grace                   Graphic           Visual         Backend design.
+2020-08-11  4.0         Grace                   Graphic           Visual         Backend design.
+2020-08-10  5.0         Grace                   Graphic           Visual         Backend design.
+2020-08-09  3.0         Grace                   Graphic           Visual         Backend design.
 2020-08-06  1.5         Horizon                 Development       Code           Updating typography on site.
 2020-08-04  1.0         Klash                   Design            Abstract       Meeting with Benjamin, Fredrik and Alexander.
 2020-08-04  2.0         Grace                   Graphics          Visual         Backend design.
@@ -251,7 +292,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-04-18  5.5         Grace                   Development       Code           Refactoring website.
 2020-04-17  3.0         Health                  None              Personal       Outdoor walking.
 2020-04-17  4.5         Grace                   Development       Code           Adding blog.
-2020-04-17  0.5         Grace                   Reserach          Abstract       Meeting regarding Zlantar.
+2020-04-17  0.5         Grace                   Research          Abstract       Meeting regarding Zlantar.
 2020-04-16  1.0         Grace                   Graphic           Visual         Marketing graphics.
 2020-04-16  6.0         Grace                   Development       Code           Refactoring website.
 2020-04-15  1.5         Health                  None              Personal       Outdoor walking.
@@ -444,9 +485,9 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-01-18  1.0         Horizon                 Research          Code           Exploring static HTML with Gatsby.
 2020-01-17  2.5         User Research           Research          Abstract       User Research
 2020-01-16  0.5         User Research           Research          Abstract       User Research
-2020-01-16  2.5         User Experience         Research          Abstract       User Experience
+2020-01-16  2.5         Usability               Research          Abstract       User Experience
 2020-01-16  0.5         Grace                   Design            Abstract       Planning for 2020.
-2020-01-15  1.5         User Experience         Research          Abstract       User Experience
+2020-01-15  1.5         Usability               Research          Abstract       User Experience
 2020-01-15  0.17        Meditation              None              Personal       Waking up.
 2020-01-15  1.0         Health                  None              Personal       Workout legs at gym.
 2020-01-15  3.0         Horizon                 Development       Code           Meeting new stats page.
@@ -471,7 +512,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2020-01-07  1.0         New Media               Maintenance       Code
 2020-01-07  1.0         BeautyRelax             Maintenance       Code
 2020-01-03  0     101   Sweden                  Event             Personal       Moved to Stockholm
-2020-01-01  0     100   Patrik Arvidsson        Event             Personal       Felicia was born
+2020-01-01  0     100   Felicia                 Event             Personal       Daughter was born
 2019-12-30  8.0         Eve Adam                Graphic           Visual
 2019-12-29  5.0         Eve Adam                Graphic           Visual
 2019-12-29  0.5         Aktieutdelningar        Maintenance       Code
@@ -561,11 +602,11 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2019-10-11  2.0         Grace                   Graphic           Visual
 2019-10-10  1.0         Grace                   Graphic           Visual
 2019-10-09  3.0         Grace                   Graphic           Visual
-2019-10-08  4.0         User Experience         Research          Abstract       User Experience
+2019-10-08  4.0         Usability               Research          Abstract       User Experience
 2019-10-07  2.0         Grace                   Graphic           Visual
 2019-10-07  2.0         Elin Kero               Development       Code
 2019-10-07  1.0         Horizon                 Writing           Abstract
-2019-10-07  4.0         User Experience         Research          Abstract       User Experience
+2019-10-07  4.0         Usability               Research          Abstract       User Experience
 2019-10-06  2.0         Elin Kero               Development       Code
 2019-10-06  1.0         Horizon                 Development       Code           Implementing Tailwind.
 2019-10-06  1.0         Horizon                 Writing           Abstract
@@ -651,7 +692,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2019-05-06  3.0         Eve Adam                Graphic           Visual         Eden
 2019-05-05  8.0         Eve Adam                Graphic           Visual
 2019-05-04  6.0         Eve Adam                Graphic           Visual
-2019-05-03  8.0         User Experience         Event             Personal       From Business to Buttons
+2019-05-03  8.0         Usability               Event             Personal       From Business to Buttons
 2019-05-02  1.0         Eve Adam                Graphic           Visual         Eden
 2019-05-01  3.0         By Lang                 Design            Abstract
 2019-04-30  4.0         Mixup Match             Development       Code
@@ -899,7 +940,7 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2017-10-12  3.0         Indoor Energy           Graphic           Visual
 2017-10-11  3.0         Indoor Energy           Graphic           Visual
 2017-09-25  3.0         Ubermeds                Graphic           Abstract
-2017-09-21  0           About                   Event             Personal       Moved to Gothenburg, Sweden
+2017-09-21  0           Sweden                  Event             Personal       Moved to Gothenburg
 2017-09-19  1.0         MoveM                   Graphic           Visual
 2017-09-18  1.0         MoveM                   Graphic           Visual
 2017-09-17  2.0         MoveM                   Graphic           Visual
@@ -2043,4 +2084,3 @@ DATE        TIME  PICT  PROJECT                 TASK              DIVISION      
 2012-12-21  1.0         Salus Ansvar            Graphic           Visual
 2012-12-13  4.0         Salus Ansvar            Concept           Abstract
 2012-12-10  1.0         Salus Ansvar            Research          Abstract
-`
