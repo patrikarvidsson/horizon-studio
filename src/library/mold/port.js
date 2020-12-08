@@ -17,7 +17,7 @@ module.exports = function (opts, db) {
       const child = children[i];
       if (child.fini) items += list(child);
     }
-    return `<p><small>—</small></p><nav><ol>${items}</ol></nav>`;
+    return `<nav><ol>${items}</ol></nav>`;
   }
 
   this.core = function () {

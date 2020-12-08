@@ -1,0 +1,407 @@
+INDEX
+  BREF : Welcome to the wiki of Patrik Arvidsson
+  BODY
+    & <strong>Patrik Arvidsson</strong> — Designer and developer from Sweden.
+
+@ INDEX.ABOUT
+  BREF : About this wiki
+  BODY
+    & This website is a wiki and personal logging system.
+    & Its purpose is to keep records of all productive time spent across different projects and to manage a repository of information about things such as design and usability.
+    & Read more about this website on the [+horizon+] page.
+
+@ ABOUT.META
+  BREF : The meta portal
+  BODY
+    & The meta portal lists a collection of notes on the wiki itself.
+
+@ ABOUT.AUTHOR
+  BREF : Patrik Arvidsson
+  BODY
+    & I am a Stockholm-based multidisciplinary designer.
+    & I design and build purpose driven experiences based on qualitative research data, with a devotion to process and transparency. I'm passionate about the journey from an idea, to its creation all the way to its implementation.
+    & Currently working at grace, a fintech company aiming to disrupt the consumer credit market and helping people improve their financial health 
+
+AUTHOR.OPEN INVITE
+  BREF : Get in touch
+  BODY
+    & I believe communication and sharing knowledge between people plays a key part in the growth of new ideas and perspectives.
+    & Following the road taken by many others, you are welcome to contact me about anything. While I am most passionate about the user experience and design field, I am open to talking about a myriad of things with you.
+    & If you are a designer and you are stuck on a project or anything else I will glady help you as best I can.
+    & I look forward to hearing from you.
+    & <i>patrik@patrikarvidsson.com</i>
+
+META.NOW
+  BREF : At this moment
+  BODY
+    % now | @dvandijk - Unsplash
+    & This is a [+now page|https://nownownow.com/about+] on which I share what's going on in my life right now.
+    2 Statistics
+    λ totalStats
+    & Read more about [+horizon+] here.
+    2 Work
+    & I'm currently, together with a team of people, building an application intended to improve peoples financial life. By giving the users an alternative way of handling unexpected expenses instead of relying on high-interest loans, we give the users a way to withdraw a slice of their future income interest-free. 
+    & Read more about [+Grace|https://studio.patrikarvidsson.com/portfolio/grace+] here.
+    2 Personal
+    & I became a father in January.
+    & Learning Javascript and React in order to have better understanding of implementing the design I create. Also learning Rust because it seems pretty nice.
+    & Trying to focus minimalism in order to reduce noise and excessiveness.
+    & Building next revision of [+Aktieutdelningar+] together with my brother.
+
+META.TRACKER
+  BREF : Latest changes
+  BODY
+    & The tracker shows latest changes to the articles in this wiki together with the date of change.
+    & To see what is going on at the moment, visit the [+now+] page.
+    λ latestChanges
+
+META.JOURNAL
+  BREF : Journal updates
+  STYLE : journal
+  BODY
+    & To see a static view of what is going on at the moment, visit the [+now+] page.
+    λ latestJournal 
+
+AUTHOR.SCUBA
+  BREF : Dive log
+  BODY
+    & The dive log is a journal of past scuba dives at various destinations across the world.
+    & Dive logs are recorded in descending chronological order based on the first dive in each country. The data was gathered using a dive computer.
+    2 South Africa - Cape Town
+    & The water in was around 13 degrees celsius and we had the opportunity to dive with Seals. I was diving with Into the Blue.
+    | Date        | Location         | Weights   | Bottom   | Depth    | Tank
+    | 2018-10-13  | Justin's Cave    | 7.5 kg    | 41 min   | 13.1 m   | 10 ltr
+    | 2018-10-13  | Strawberry Rock  | 8.0 kg    | 43 min   | 10.3 m   | 10 ltr
+    2 Malta
+    & Got my Advanced Open Water certificate with OK Diving Malta. First time seeing an octopus up close.
+    | Date        | Location         | Weights   | Bottom   | Depth    | Tank
+    | 2018-09-21  | Ghar Lapsi       | 4 kg      | 60 min   | -        | 10 ltr
+    | 2018-09-21  | Ghar Lapsi       | 4 kg      | 77 min   | -        | 12 ltr
+    | 2018-09-20  | P-31             | 4 kg      | -        | 19.4 m   | 12 ltr
+    | 2018-09-20  | St. Maria Caves  | 4 kg      | -        | 12.8 m   | 12 ltr
+    | 2018-09-19  | Cirkewwa (N)     | 4 kg      | -        | 17.5 m   | 12 ltr
+    | 2018-09-19  | Um El Faroud     | 4 kg      | 52 min   | 25.9 m   | 12 ltr
+    | 2018-09-19  | Um El Faroud     | 4 kg      | 42 min   | 30.3 m   | 12 ltr
+    | 2018-09-18  | Shore (N)        | 4 kg      | 55 min   | 6.5 m    | 12 ltr
+    | 2018-09-18  | P29              | 4 kg      | 37 min   | 30 m     | 12 ltr
+    | 2018-09-18  | Rosi             | 4 kg      | 41 min   | 30 m     | 12 ltr
+    | 2018-09-17  | St. Paul's Bay   | 4 kg      | -        | 7 m      | 12 ltr
+    | 2018-09-17  | St. Paul's Bay   | 5 kg      | 50 min   | 6.8 m    | 10 ltr
+    2 Greece – Skopelos
+    & Got my Open Water certification from Skopelos Dive Center.
+    | Date        | Location         | Weights   | Bottom   | Depth    | Tank
+    | 2018-06-14  | Small Canyon     | 7 kg      | 42 min   | 18 m     | 12 ltr
+    | 2018-06-14  | Lift             | 7 kg      | 42 min   | 18 m     | 12 ltr
+    | 2018-06-12  | Limnonari        | 7 kg      | 40 min   | 6 m      | 10 ltr
+    | 2018-06-11  | Glifoneri        | 9 kg      | 50 min   | 6 m      | 10 ltr
+
+AUTHOR.READING
+  BREF : Readings
+  STYLE : books
+  BODY
+    & A collection of books I've read throughout the years.
+    & To see a a list of what I am currently reading, or have on deck to read, visit my profile on [+Goodreads|https://www.goodreads.com/user/show/27636690-patrik-arvidsson+].
+    λ readingList
+
+@ INDEX.RESEARCH
+  bref : Research
+  body
+    & The research portal stores a collection of curated notes from different topics in an effort to improve personal recall.
+
+@ AUTHOR.PROJECTS
+  bref : A collection of software projects
+  body
+    & This page hosts a selected amount of projects ranging from different sizes, listed in alphabetical order.
+
+PROJECTS.AKTIEUTDELNINGAR
+  BREF : Stock dividends tracker
+  BODY
+    & Aktieutdelningar is an application intended to help users keep track of their annual stock dividends.
+    & It was originally developed by Dick Törnfeldt but was shut down at at the end of 2019 due to lack of time from the creator.
+    & It is currently being rebuilt from the ground up. The goal is for it to better support scalability and to add a myriad of features and UX improvements regularly requested by its users.
+    & Exact ETA is unknown, but it is scheduled to be released at some point in late 2020. Before that, there will be a beta period.
+    & [+Visit website|https://aktieutdelningar.now.sh+]
+
+PROJECTS.COOKIE TEMPURA
+  bref : Food and restaurant review site
+  body
+    & A service where well-regarded people can review restaurant dishes in key cities across the globe.
+    & The project has been in the planning stage since late 2019, but is currently on hiatus due to lack of time from all involved parties.
+
+PROJECTS.HORIZON
+  bref : A personal wiki
+  body
+    & Horizon is the codebase running the website you are currently browsing.
+    & The purpose of horizon is to keep track of the time spent researching different topics and how much time is invested on each individual project.
+    & It summarises logged data and provides key insights into productivity and balance across different sectors.
+    2 Data
+    & Horizon parses [+ndtl|https://wiki.xxiivv.com/site/indental.html+]/[+tbtl|https://wiki.xxiivv.com/site/tablatal.html+] human-readable flat-file databases for all wiki entries and recorded logs.
+    & Data is summarized and processed to visualize productivity on each project. Some of this data can be seen at the [+statistics+] page.
+    2 Design
+    & Horizon is an experiement in trying to find a balance between minimalism and good user experience. It tries to promote readability for the repository of information it hosts.
+    2 Building
+    & The current iteration of horizon is built with Node and its pages are generated with javascript. A lot of the codebase is inspired by [+ara|https://gitlab.com/avanier/arachne+], a wiki project created by [+Josh Avanier|https://avanier.now.sh+].
+    & The HTML and CSS are kept to a minimum to ensure a simple and fast website. The pages are hosted at [+Vercel|https://vercel.com/+].
+    2 Further reading
+    & For more information on the concepts of personal assistants and time management, visit [+XXIIVV|https://wiki.xxiivv.com+] or [+Victor Ivanov|https://v-os.ca/+].
+
+PROJECTS.JOTEX
+  BREF : Marketing campaign automation
+  BODY
+    % jotex | Jotex Marketing Application | Design exploration of the marketing application
+    & <em>Jotex is one of Swedens largest e-commerce websites for household linen and interior design. The company was founded 1963 and is now a part of the larger Ellos Group organization.</em>
+    & A service where well-regarded people can review restaurant dishes in key cities across the globe.
+    & The project has been in the planning stage since late 2019, but is currently on hiatus due to lack of time from all involved parties.
+    & When working for Jotex, one of my tasks was to help the team create marketing e-mails on a weekly basis. A large chunk of the process from idea to finalized mail required manual work, and to speed this process up I created an application that would automate the majority of that work for me and my co-workers.
+    2 Issue
+    & Jotex had its product catalog translated to several different markets. This meant that when an employee created a campaign for all those markets, they had to go to each website and copy the product names, prices and labels and paste that data into Photoshop to create a mockup.
+    & The mockup was then printed out and presented to the marketing director for approval. Upon approval, the employee would move on to create the actual e-mail (following the mockup design) in the marketing application.
+    & Depending on how large the campaign was (which often correlated with the number of products), it was fairly common that it took the employee atleast 8 hours to to have a mockup for presentation.
+    2 Automation
+    & By utilizing the product SKUs we were able to crawl the website in all different languages, automatically fetch the necessary data and present them in an interface where the employee could copy and paste to the marketing application with the click of a button.
+    & Product images were stitched together with the appropriate labels in all languages and thumbnails with correct size were generated and named following the internal naming conventions for download so that they quickly could be uploaded to the marketing application.
+    & The employee was automatically notified when a product ran out of stock and needed to be switched out. When that happened, one could enter a new product SKU and the application would crawl the data again and generate the appropriate data.
+    & A lot of the redundant work the employees did was no longer needed, which allowed for creation of marketing mails to be more effective.
+
+PROJECTS.MIXUP MATCH
+  bref : Charity battle royale
+  body
+    % mixupmatch | Mixup Match
+    & Mixup match was a semi-regular event hosting a Team Fortress 2 playground where celebrities kill eachother repeatedly for charity.
+    & The game matches included game developers, online celebrities, competitive players and randomly picked players from the fan community.
+    & Since its creation, the organization was able to gradually include more well-known players in the matches and increased its publicity with each event. The fourth event had one million views and raised approximately 14,500 USD for charity, starring players like Notch, Yogscast, Freddie Wong, and developers from Valve Corporation and Bethesda Game Studios. Donations were given unshortened to a charity at each event.
+    & The organization is no longer active but previous events are still available online for archival purposes.
+    & [+Visit website|https://www.tf2mixup.com/+]
+
+PROJECTS.STUDIO
+  bref : Commercial portfolio
+  body
+    & Studio is a complement to this website which lists commercial projects, in a portfolio setting.
+    & It is a lightweight website built with NextJS and a few additional packages, hosted on Vercel. This project is still under development and is subject to change.
+    & You can see the website in action [+here|https://studio.patrikarvidsson.com/+] or review the code at [+github|https://github.com/patrikarvidsson/horizon-studio+]. The source code is licensed under MIT.
+
+@ RESEARCH.DESIGN
+  BREF : Primer on good design
+  BODY
+    & A collection of curated notes about design and usability. Dieter Rams design motto <em>"Less, but better"</em> influences the work done by some of the most well-recognized designers today.
+    2 Principles
+    = Good design makes a product useful.
+    = Good design makes a product understandable.
+    = Good design is unobtrusive.
+    = Good design is honest.
+    = Good design is long-lasting.
+    = Good design is thorough down to the last detail.
+    = Good design is environmentally friendly.
+    = Good design is as little design as possible.
+
+@ DESIGN.METHODS
+  BREF : Notes on design methodologies
+  BODY
+    & Different methodologies, or buzzwords, used in todays landscape in order to solve systematic issues at scale.
+
+METHODS.DESIGN SYSTEMS
+  BREF : A unified source of truth
+  BODY
+    & A Design System is a single source of truth which groups all elements that will allow the teams to design, realize and develop a product efficiently.
+    & A set of deliverables intended to keep evolving with the product, the tools and the new technologies.
+    & At the most simple level, it is a collection of components with a set of rules and standards which guides the user. It is made of tangible elements such as colors and font, as well as intangible ones like best practices or unique brand values.
+    & This collection is scalable, consistent, efficient and promotes productivity within and across teams.
+    & At a more complex level, it is also an entity which details all design guidelines and processes within a product or across multiple products within a company. It empowers developers, strengthens the collaboration across teams and centralizes knowledge. It answers questions such as how and why, and provides a solid foundation to fall back on when needed.
+    @ When a technology matures, design moves to the foreground because the underlying machinery has been commoditized. | John Maeda | Design in Tech Report
+    & Creating a Design System is easy once you have decided to get started, but maintainting one and establishing it as the single source of truth is difficult. This process, however, is essential for any company that intends on succeeding.
+
+DESIGN.PROCESS
+  BREF : Notes on the design process
+  BODY
+    % process | Lean UX process
+    & Everything that is being worked on is an experiement. One of the key principles of lean thinking is that the aim is to alwaus move from doubt to certainty.
+    & Between us and the end state of perfection (which isn't attainable) there is a fog and we are only able to see two or three steps into that fog.
+    & To mitigate the risk of running in the wrong direction we take small steps, which equals small risks. We test our hypotheses by running experiments and if the results from such experiements come back and confirm our hypotheses, we continue in that direction. If they don't, we roll back or we pick a different direction.
+    2 Lean and design thinking
+    & [+Design thinking+] is the <em>learn</em> part of <em>build - measure - learn</em> loop of lean thinking. When we attempt to make it collaborate nicely with agile we run a high risk of [+frankensteining|https://uxdesign.cc/agile-and-design-the-mystery-continues-f363d6b36248+] our product.
+    @ Design thinking is a human-centered approach to innovation that draws from the designer's toolbox to integrate the needs of the people, the possibilities of technology, and the requirements for business success | Tim Brown | IDEO
+    & Instead, look at the principles behind each process in order to make them work in unison and effectively complement eachother.
+    2 Principles
+    3 Customer value equals business value
+    & If you make the customer successul, respect their time and create delightful experiences they will reward you. Gain a user-centered perspective by listening to the users.
+    3 Work in short cycles
+    & When we ask our team to predict the future, we ask them to make their best guess in terms of cost, result and outcome. This is a risky way to manage our product. We want to make fact-based decisions, because they overrule the heirarchy. If the evidence disagrees with my opinion, it should overrule it. At each decision point, ask yourself what the next important thing we need to learn is. After that has been identified, ask yourself what the least amount of work we need to do to learn that thing. 
+    3 Hold regular retrospectives.
+    & At the end of every cycle, pause and reflect. What worked and didn't work with the product and the process. This promotes agility.
+    3 Go and see.
+    & Walk around the teams and find the patterns, the techniques, the tools that are working. Then amplify those patterns, regardless if they are lean, agile or design thinking. 
+    3 Test your high risk hypotheses.
+    & Hypotheses forces us to tell ourselves stories that we believe before we actually tell our customers. Hypotheses that have a high perceived value and is also high risk should be tested first. These are MVPs and experiments.
+    3 Do less, more often
+    & This doesn't mean we don't do all the things we want to do, but rather that we take smaller cycles and we do them more frequently. We ask ourselves what is the fastest way we can learn the most important thing, and then we do that specific thing. 
+    3 Work as a balanced team.
+    & Gather people from different departments and create small dedicated self-sufficient teams that are empowered to make decisions based on short cycles, to reduce the risk ad test things. If we're wrong it hurts less, but if we're right we make monumental progress.
+    3 Radical transparency.
+    & Transparency builds trust, alignment and vision, shared understanding which is needed to move forward. Standups or demo days are fantastic methods of driving transparency within teams. Proactive e-mails or access to customers is another way. Customers will tell you what aspects of your product is viable, and they keep you from doing stupid things. Everyone should be able to have access to analytics data.
+    3 Make learning a first class citizen of your backlog
+    & Only have one backlog and make sure everything is handled by all involved people. 
+    2 Team structure
+    & Create small teams. If you can't feed your team with two pizzas, the team is too big. Six to eight people, where you know who every body is and you know who to go to in case you need something. This provides amazing accountability.
+    & Co-locate these people. Put them together so that they are sitting next to eachother, so that they can talk to eachother and can reduce the feedback loop from each other as quickly as possible. 
+    & Make sure everyone is working on one project specifically. Keep context switching to a minimum.
+    & The team should be able to do whatever it needs to do. If code needs to be written, they should be able to do that. Design? That too. Research? Equally important. The competency to assist in these fields needs to be present within the team so that the team can act quickly on incoming feedback. 
+    3 How to task your team
+    & Give them a problem to solve, not a solution to implement. Give the team some structure and let them figure out how to achieve the outcome.
+    3 Process anti-patterns    
+    & Avoid team structures which doesn't promote cross-functional collaboration.
+    & Do not fixiate on job titles. They are stupid and doesn't represent the knowledge of the individual. Let people contribute in whatever way that they can in the beginning of a project.
+    & Have no fear of failure. Let's fail early and adapt.
+
+DESIGN.USABILITY
+  BREF : Notes on usability
+  BODY
+    & Design products in a way where whichever tasks that is expected of a user to complete is fast and require as little input as possible. An experience where the user is guided onto the next step without being overwhelmed with information.
+    & Anything that a user considers to be a waste of time will feel as if it requires significantly more effort compared to something they feel is necessary. Every input field of interaction should therefor have a real purpose. This should have a higher priority than, for example, visual aesthetics.
+    & If a feature has very little utility in a technical sense, it could still be worthwhile to keep if it positively affect the experience for the end user.
+    & Remember that great functionality remain useless if people don't know how to use it properly.
+    3 Don't make me think
+    & Each time we ask a user to generate some kind of content, they are forced to think twice about it. A designer should always consider whether this adds long term value to the user or not. Futhermore, every choice is another decision the user has to make so it is equally important to consider how easy it is for the user to make that choice.
+    & If there is one part of your experience that is particularly frustrating or requires a lot of effort, it's likely that people will remember it even if the rest of the experience was great.
+    @ People will anticipate regret if they start to feel like the benefits of completing a process don't outweigh any potential negative reaction. This happens even if their concerns are irrational. | Peter Ramsey | Built for Mars
+    3 Continous feedback
+    & Error messages should be as specific as possible because generic ones can cause an increase in required effort by sending users round and round in circles.
+    & You should be pro-active about telling your user bad news. The quick response will be appreciated and it will help build a positive relationship with your users. What is the worst thing that can happen? We should prepare for that.
+    & Feedback from an any type of input should also be as quick as possible.
+    3 Patterns in interaction
+    & Never put opposite, or unrelated, actions in the same place on different screens. If a user associate the top right corner as an area to log out it makes little sense having the continue button there on the next screen. As humans we are very good at sub-consciously notice patterns and predicting what will happen next, and going against this causes increased friction which requires more effort from the user.
+    & Use icons, images and formatting to help people navigate our product quickly. Even simple items like drop downs require energy and attention to complete. 
+    3 Effortlessness
+    & When building a digital queue, you need to make it possible for the user to track their progress, and estimate a completion time. If in doubt, copy Disneyland. 
+    & People generally like finding stuff how the left it—and this is true for apps. Unless a significant amount of time has passed (say, a day), apps should let me start where I left off. 
+    3 Ownership
+    & Try and give your users the feeling of progress and ownership as early as possible. It will keep people more invested in your product. 
+
+METHODS.USER FLOWS
+  bref : Notes on user flows
+  body
+    & A User Flow is a visual representation of a user's path to complete tasks within a given product. It includes the origin and termination points, individual steps, decision points, interaction points and more. 
+    & They help determine how many screens that are needed, what order they should appear in and what components need to be present to complete the task.
+    & User flows are part of your final deliverables and help stakeholders undesrtand the value of the idea and understand how they affect the users though process and actions. The intention is create a foundation which you can revisit at a later point, either to change or complement as new data is accumulated.
+    & A [+user journey+] is not a user flow. User journeys are more high level, should be done in a workshop with the entire product team, and illustrate one user's journey through your product. It touches on key stages, user goals, screens, pain points, insights, and ideas. Comparatively, user flows are primarily used to illustrate new features and ideas which goes into task breakdown.
+    2 Importance of real data
+    & Solid research should be done prior to creating user flows. You need to understand the pain points you are solving or solution you are providing.
+    & Once you know this you can begin map out the user flows. Start at a high-level and then progress into a detailed ones. These will eventually lead to low fidelity wireframe and wireflows.
+    2 Questions
+    & For each user flow, the questions you need to consider is:
+    = What is the user trying to accomplish?
+    = What is important to the user and what will give them confidence to continue?
+    = What additional information will the user need to complete the task?
+    = What are the user's hesitations or barriers to accomplish the task?
+    & The answers to these questions should give an idea of how you you best help the user complete the task they are set out to achieve.
+    2 Design
+    & User flows often consists of boxes and arrows and they illustrate the steps or stages a user takes through a given set or objective.
+    3 High level user flows
+    & During the incubation of the initial idea, high-level user flows are used in order to have an easy overview of each stage of the user's process without digging too much into the details. 
+    & These generally follows the primary user story or [+red route|https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a+] and should be based on a [+user persona|personas+].
+    % user-flows | User Flow
+    & It can contain several steps, or pages, but should be kept as simple as possible to quickly give a high-level idea of the flow. The first and last steps are illustrated with a circle, and each step in between with a rectangle.
+    & Each step also lists goals and thoughts a given user might have on a given page.
+
+METHODS.SPLIT TESTING
+  bref : Notes on split testing
+  body
+    & A/B testing, as it is commonly known as, is a way of comparing two versions of a web page or application against each other in order to see which one performs better.
+    & It is an experiement where two or more variants are shown to users at random, and statistical analysis is used to determine which variation increases conversion.
+    & This type of testing takes the guesswork away from the process, and enables data-informed decisions that shifts our conversations from thinking to knowing.
+    & It is valuable in refining a working design, to find out what attracts users or helps them complete a given process.
+    2 How it works
+    & Imagine you make a copy of one of your pages, and changes the location of the primary <dfn><abbr title="Call To Action">CTA</abbr></dfn> button in one of the pages.
+    & You then present these two pages to the world, where half of your visiters see the original page (known as control) and the other half sees the modified page (the variation).
+    & Engangement with each version is then measured and analyzed to determine which provided the most positive experience in terms of established conversion goals and KPIs.
+    2 Advantages
+    & It is easy to implement in a production setting as there are third party tools which does most of the heavy lifting today. This makes it a quick way to test simple hypotheses you might have which can help you iterate quickly without taking too much of a risk.
+    & Test doesn't have to be gracefully designed, or balanced for that matter and very simple statistical tests are necessary to crown a clear winner. It is also easy to patch-test by starting small and then continuously move up to larger parts of a website or app.
+    2 Drawbacks
+    & A/B testing can take a longer time to set up compared to other forms of testing, even with third party services. Further, in order to get conclusive results these tests can take weeks or months to complete for low traffic sites.
+    & If the product you are testing had bad usability from the start, you are just iterating on the fundamental problems. This type of testing won't help much with existing user frustrations, and removing those could give a much better outcome.
+    & You can only test a limited number of elements. Testing too much at the same time might increase conversion but statistically you can know what helped the most, which makes it difficult to learn from the process.
+    & It is by design an inefficient form of data collection. When doing multiple tests back-to-back, no information from the parallell tests can be used to draw conclusines about the other variables you may want to test in the future.
+
+METHODS.CARD SORTING
+  bref : -
+  body
+    & -
+
+METHODS.THINKING ALOUD
+  bref : -
+  body
+    & -
+
+METHODS.DESIGN THINKING
+  bref : A way to understand the users
+  body
+    & Design Thinking promotes problem-solving by giving us a hands-on, user-centric mindset that leads to innovation.
+    & It is not a new way of thinking; as designers have applied human-centered creative processes in order of building meaningful and effective solutions for ages.
+    & Even though this is the reality, design has for a long time been an afterthought in the business landscape. The current, and historical, application of design and design processes have resulted in products which fail to meet customers' real needs.
+    & The design thinking framework helps us understand, explore and materialize our users needs by dividing the process into 6 phases — empathize, define, ideate, prototype, test and implement.
+    & These phases can be iterated, and it is encouraged to do so. It is recommended to do the same exercise multiple times with different team members in order to reach something that is tangible. The outcome of each phase should be sound enough to serve as a guiding principle throughout the rest of the process and to ensure that you never stray too far from your focus.
+    2 Empathize
+    & During the empathize phase we conduct research in order to develop knowledge about what users are saying, doing and feeling. We talk to actual real life users, to observe what they do and how they feel, to find out what motivates or discourages them.
+    & We need to build a solid foundation in order to empathize with our users and be able to understand their perspective.
+    2 Define
+    & When we define where our users problems and pain points exist we can also discover opportunities for innovation. Where do current user stories fail with in terms of the business goals? Is it possible to group certain users into common personas.
+    2 Ideate
+    & Address the users needs which were identified in the define phase. Explore crazy ideas and sketch out user stories.
+    & Invite co-workers from other departments, especially non-designers, to participate in the ideation process. Diversity is key, and everyone should be encouraged to propose ideas without feeling left out or become ridiculed.
+    & It is also important to not work in isolation. Share, learn, discuss and iterate the ideas as a group as a subset of the ideas should be brought in to the prototyping phase.
+    2 Prototype
+    & In the prototype phase, the impact is weighted against the feasibility of the project. The goal here is to understand which components work, and which do not.
+    & The ideas should be transformed into real and tactile representations. Create wireframes and interactable prototypes to gain feedback internally. Then change it, review it, and gather additional feedback internally. There is no limit to what tools are used here, as long as it the iterations are quick. If you can best visualize this phase with code, then you should write code.
+    2 Implement
+    & The implementation phase is the most important phase which materializes the prototyped solution. Without it, we don't have a working end product and the whole process is made irrelevant.
+    @ We need more design doing. | Don Norman | NN/g
+    & Design thinking does not free you from actual design doing, and as impactful it can be for an organization it only leads to true innovation if and when the vision is successfully executed. The success for design thinking thus lies within its ability to transform the targeted aspect of the end user's life.
+
+@ USABILITY.THEORY
+  bref : -
+  body
+    & -
+
+THEORY.INFORMATION ARCHITECTURE
+  bref : Notes on IA
+  body
+    & Information Architecture, or <dfn><abbr title="IA">IA</abbr></dfn>, is the science of organizing and structuring content in a logical and user-friendly way.
+    & The idea is rooted in library science and cognitive psychology, so in a similar fashion we are tasked with organizing our digital product and deciding what information should go where and what elements are prioritized the highest.
+    & The information architecture should accomodate different users' needs to reach their desired destination as quickly and seamlessly as possible.
+    & Users shouldn't need to think too hard, and by decreasing the friction and cognitive dissonance we can make the process easier for them.
+
+THEORY.MENTAL MODELS
+  bref : Notes on mental models
+  body
+    & Mental models are one of the core fundamental concepts in <dfn><abbr title="Human-Computer Interaction">HCI</abbr></dfn>. A mental model is <strong>what the user believes</strong> about the system at hand.
+    & It is built into a user's brain and referenced in order to make sense of a website or application. When referring to what we know about past interactions, we can navigation new interactions easier. 
+    & We should aim to decrease the friction between <strong>what the user believes</strong> and <strong>how we design a product</strong>. Users base their prediction about the system on their mental models, and if their mental model differ from that of the designer a gap is created which means bad usability for that user.
+    & If the interaction uses the same patterns and [+information architecture+] of a similar service, users are more comfortable using your service.
+    2 Designers dilemma 
+    & Designers know too much about design, and therefore form wonderful mental models of their own creations. The mental model of a user is often much more deficient in comparison and this makes it more likely for people to make mistakes or find the design to be difficult to use.
+    & In order to create design that works in the real world you have to understand the users' mental model. This is why we want to validate our hypotheses with actual user research.
+    2 Innovation
+    & Interactions that people know usually sticks, even when it's not particularly helpful. [+Jacob's law|jacobs law+] tells us that users spend most of their time on websites <em>other</em> than yours so they expect websites and applications to behave similarly.
+    & We shouldn't stay away from innovation though. We just need to be very clear that whatever innovation we introduce is vastly superior to the alternatives. One misconception could cause users to systematically misinterpret everything that happens on a website.
+    & It is important to create a reality where we can iterate and test our innovation quickly and effectively with real users. This is [+lean thinking|process+] in a nutshell.
+    2 Solving mental model issues
+    & When a user makes mistake on a website, it is often because they've formed an erroneous mental model. At this point we want to talk with our users to understand what the root cause of the friction is.
+    & The [+thinking aloud+] method is effective because it gives us insights into a user's mental model. When a user verbalizes what they think, believe, behave, and predict during user testing you can piece together much of their mental model.
+    & We can then either change our system to comply with the users' mental model by methods such as [+card sorting+] (which is handy when working with navigations), or we can improve the users' mental model to reflect our system.
+    & The latter is done by guiding the user and further explaining each step of the way in the interface. Ideally this is something you should do anyway, but at some point too much information is a bandage-solution used to solve the wrong problem.
+    & When performing a competitive analysis we know perform well, we get a lot of interesting data for free.
+
+@ ARESEARCH.COOKING
+  bref : Cooking portal
+  body
+    & A collection of curated notes on cooking.
+
+@ COOKING.RECIPES
+  bref : Recipe portal
+  body
+    & A collection of recipes.
+
+@ COOKING.INGREDIENTS
+  bref : Ingredients portal
+  body
+    & A collection of notes on ingredients.

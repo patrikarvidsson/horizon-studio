@@ -81,5 +81,5 @@ module.exports = function (opts) {
       </footer>`;
   };
 
-  this.render = () => this.head() + this.core() + this.footer();
+  this.render = () => this.head() + this.core() + this.footer() + "</body></html>";
 };
