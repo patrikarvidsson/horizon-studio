@@ -67,7 +67,7 @@ module.exports = function (opts) {
     )}</a>`;
     const skip = '<a id="sl" href="#mm">Skip to main</a>';
     return unde !== "HOME"
-      ? `<header><p>${u} / ${this.title}</p><h1>${this.bref}</h1></header>`
+      ? `<header><p>${u} / ${this.title}</p></header>`
       : "";
   };
 
@@ -77,7 +77,7 @@ module.exports = function (opts) {
     const year = `${today.getFullYear()}`.slice(-2);
     return `
       <footer>
-        <small>© 2014–${year} · <a href="https://webring.xxiivv.com/">Webring</small>
+        This site is part of a&nbsp;<a href="https://webring.xxiivv.com/">Webring</a>.
       </footer>`;
   };
 

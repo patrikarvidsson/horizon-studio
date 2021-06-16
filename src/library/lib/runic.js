@@ -207,6 +207,7 @@ module.exports = function (raw) {
     1: { tag: "h1" },
     2: { tag: "h2" },
     3: { tag: "h3" },
+    4: { tag: "h4" },
     "&": { tag: "p" },
     "-": { tag: "li", wrp: "ol" },
     "=": { tag: "li", wrp: "ul" },
@@ -269,7 +270,7 @@ module.exports = function (raw) {
 
                 if (years[i] == y) {
                   return `
-                    <div><a href="https:/amazon.com/dp/${book.sin}">${book.title}</a></div>
+                    <div><a href="https://amazon.com/dp/${book.sin}">${book.title}</a></div>
                     <div>${book.author}</div>
                     <div>${book.date}</div>
                     <div>${"⭑".repeat(book.rating)}</div>
