@@ -1,6 +1,8 @@
 // Files
 .DS_Store
 .vercel
+node_modules
 
 // Generated pages
 /wiki
+/public
