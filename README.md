@@ -15,6 +15,7 @@ In addition to nextjs, the codebase utilizes several packages:
 - <a href="https://github.com/idiotWu/react-smooth-scrollbar">reat-smooth-scrollbar</a> — Smooth scrollbar support.
 - <a href="https://github.com/hashicorp/next-mdx-remote">next-mdx-remote</a> — MDX-support for Next.
 - <a href="https://github.com/garmeeh/next-seo">next-seo</a> — SEO-support for Next.
+- <a href="https://github.com/4lejandrito/next-plausible">next-plausible</a> — Plausible for Next.
 
 ## Get started
 
